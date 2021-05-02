@@ -23,28 +23,36 @@ F 2 "htl_smd:SW_Push_5.1mm_H1.5mm" H 2700 3850 50  0001 C CNN
 F 3 "~" H 2700 3850 50  0001 C CNN
 F 4 "C318884" H 2700 3650 50  0001 C CNN "DistOrderNr"
 F 5 "LCSC" H 2700 3650 50  0001 C CNN "Distributor"
+F 6 "TS-1187A-B-A-B" H 2700 3650 50  0001 C CNN "ManPartNr"
+F 7 "XKB Connectivity" H 2700 3650 50  0001 C CNN "Manufacturer"
+F 8 " 	SPST 50mA @ 12VDC Vertical Round Button 160gf SMD Tactile Switches " H 2700 3650 50  0001 C CNN "Notes"
+F 9 "0.01" H 2700 3650 50  0001 C CNN "PriceEUR"
+F 10 "500" H 2700 3650 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Tactile-Switches_XKB-Connectivity-TS-1187A-B-A-B_C318884.html" H 2700 3650 50  0001 C CNN "Weblink"
 	1    2700 3650
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R20
+L Device:R R22
 U 1 1 60910786
 P 2700 4550
-F 0 "R20" H 2770 4596 50  0000 L CNN
+F 0 "R22" H 2770 4596 50  0000 L CNN
 F 1 "10k" H 2770 4505 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 2630 4550 50  0001 C CNN
 F 3 "~" H 2700 4550 50  0001 C CNN
+F 4 "0.01" H 2700 4550 50  0001 C CNN "PriceEUR"
 	1    2700 4550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R19
+L Device:R R21
 U 1 1 60910B4F
 P 2350 5200
-F 0 "R19" H 2420 5246 50  0000 L CNN
+F 0 "R21" H 2420 5246 50  0000 L CNN
 F 1 "10k" H 2420 5155 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 2280 5200 50  0001 C CNN
 F 3 "~" H 2350 5200 50  0001 C CNN
+F 4 "0.01" H 2350 5200 50  0001 C CNN "PriceEUR"
 	1    2350 5200
 	1    0    0    -1  
 $EndComp
@@ -74,6 +82,9 @@ F 2 "Package_TO_SOT_SMD:SOT-23" H 3500 4775 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 3300 4850 50  0001 L CNN
 F 4 "C382281" H 3300 4850 50  0001 C CNN "DistOrderNr"
 F 5 "LCSC" H 3300 4850 50  0001 C CNN "Distributor"
+F 6 "0.0097" H 3300 4850 50  0001 C CNN "PriceEUR"
+F 7 "50" H 3300 4850 50  0001 C CNN "PriceForQty"
+F 8 "https://lcsc.com/product-detail/Transistors-NPN-PNP_KEXIN-MMBT3904_C382281.html" H 3300 4850 50  0001 C CNN "Weblink"
 	1    3300 4850
 	1    0    0    -1  
 $EndComp
@@ -87,17 +98,21 @@ F 2 "Package_TO_SOT_SMD:SOT-23" H 4250 4775 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4050 4850 50  0001 L CNN
 F 4 "C382281" H 4050 4850 50  0001 C CNN "DistOrderNr"
 F 5 "LCSC" H 4050 4850 50  0001 C CNN "Distributor"
+F 6 "0.0097" H 4050 4850 50  0001 C CNN "PriceEUR"
+F 7 "50" H 4050 4850 50  0001 C CNN "PriceForQty"
+F 8 "https://lcsc.com/product-detail/Transistors-NPN-PNP_KEXIN-MMBT3904_C382281.html" H 4050 4850 50  0001 C CNN "Weblink"
 	1    4050 4850
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R R21
+L Device:R R25
 U 1 1 60918ACF
 P 3650 3400
-F 0 "R21" H 3720 3446 50  0000 L CNN
+F 0 "R25" H 3720 3446 50  0000 L CNN
 F 1 "100k" H 3720 3355 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 3580 3400 50  0001 C CNN
 F 3 "~" H 3650 3400 50  0001 C CNN
+F 4 "0.01" H 3650 3400 50  0001 C CNN "PriceEUR"
 	1    3650 3400
 	1    0    0    -1  
 $EndComp
@@ -131,14 +146,15 @@ Connection ~ 3650 3700
 Wire Wire Line
 	3650 3700 3650 3550
 $Comp
-L Device:R R22
+L Device:R R23
 U 1 1 6091D735
-P 3650 5400
-F 0 "R22" H 3720 5446 50  0000 L CNN
-F 1 "4k3" H 3720 5355 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 3580 5400 50  0001 C CNN
-F 3 "~" H 3650 5400 50  0001 C CNN
-	1    3650 5400
+P 3250 5400
+F 0 "R23" H 3320 5446 50  0000 L CNN
+F 1 "3k3" H 3320 5355 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3180 5400 50  0001 C CNN
+F 3 "~" H 3250 5400 50  0001 C CNN
+F 4 "0.01" H 3250 5400 50  0001 C CNN "PriceEUR"
+	1    3250 5400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -170,16 +186,9 @@ Wire Wire Line
 Wire Wire Line
 	3400 5050 3400 5100
 Wire Wire Line
-	3400 5100 3650 5100
-Wire Wire Line
 	3950 5100 3950 5050
 Wire Wire Line
-	3650 5100 3650 5250
-Connection ~ 3650 5100
-Wire Wire Line
-	3650 5100 3950 5100
-Wire Wire Line
-	3650 5550 3650 5650
+	3250 5550 3250 5650
 Text HLabel 1450 4250 0    50   Input ~ 0
 Selbsthaltung
 Wire Wire Line
@@ -244,13 +253,14 @@ Wire Wire Line
 Text Notes 1500 4200 0    50   ~ 0
 5V/0V
 $Comp
-L Device:R R23
+L Device:R R26
 U 1 1 6095473F
 P 4500 5300
-F 0 "R23" H 4570 5346 50  0000 L CNN
+F 0 "R26" H 4570 5346 50  0000 L CNN
 F 1 "1k" H 4570 5255 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 4430 5300 50  0001 C CNN
 F 3 "~" H 4500 5300 50  0001 C CNN
+F 4 "0.01" H 4500 5300 50  0001 C CNN "PriceEUR"
 	1    4500 5300
 	1    0    0    -1  
 $EndComp
@@ -308,10 +318,10 @@ Wire Wire Line
 Wire Wire Line
 	2000 1850 2000 1900
 $Comp
-L Device:Fuse Item1
+L Device:Fuse Item4
 U 1 1 60965E2A
 P 1700 1150
-F 0 "Item1" V 1503 1150 50  0000 C CNN
+F 0 "Item4" V 1503 1150 50  0000 C CNN
 F 1 "Sicherung, 5x20, 10A, träge" V 1594 1150 50  0000 C CNN
 F 2 "htl_virtual:Virtual-Item" V 1630 1150 50  0001 C CNN
 F 3 "~" H 1700 1150 50  0001 C CNN
@@ -368,6 +378,11 @@ F 2 "Package_TO_SOT_SMD:SOT-23" H 5200 3625 50  0001 L CIN
 F 3 "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf" H 5000 3700 50  0001 L CNN
 F 4 "C50185" H 5000 3700 50  0001 C CNN "DistOrderNr"
 F 5 "LCSC" H 5000 3700 50  0001 C CNN "Distributor"
+F 6 "ZXMP10A13FTA" H 5000 3700 50  0001 C CNN "ManPartNr"
+F 7 "Diodes" H 5000 3700 50  0001 C CNN "Manufacturer"
+F 8 "P-Channel -100V 600mA 4V @ 250uA 1Ω @ 600mA,10V 625mW SOT-23(SOT-23-3) MOSFET" H 5000 3700 50  0001 C CNN "Notes"
+F 9 "0.2191" H 5000 3700 50  0001 C CNN "PriceEUR"
+F 10 "100" H 5000 3700 50  0001 C CNN "PriceForQty"
 	1    5000 3700
 	1    0    0    1   
 $EndComp
@@ -385,6 +400,12 @@ F 2 "Package_TO_SOT_SMD:SOT-23" H 2000 5175 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 1800 5250 50  0001 L CNN
 F 4 "C181082" H 1800 5250 50  0001 C CNN "DistOrderNr"
 F 5 "LCSC" H 1800 5250 50  0001 C CNN "Distributor"
+F 6 "2N7002" H 1800 5250 50  0001 C CNN "ManPartNr"
+F 7 "Guangdong Hottech" H 1800 5250 50  0001 C CNN "Manufacturer"
+F 8 "N-Channel 60V 115mA 2.5V @ 250uA 5Ω @ 500mA,10V 225mW SOT-23(SOT-23-3) MOSFET" H 1800 5250 50  0001 C CNN "Notes"
+F 9 "0.0122" H 1800 5250 50  0001 C CNN "PriceEUR"
+F 10 "50" H 1800 5250 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/MOSFET_Guangdong-Hottech-2N7002_C181082.html" H 1800 5250 50  0001 C CNN "Weblink"
 	1    1800 5250
 	-1   0    0    -1  
 $EndComp
@@ -460,33 +481,35 @@ Wire Wire Line
 	2350 5650 2700 5650
 Connection ~ 2700 5650
 Wire Wire Line
-	2700 5650 3650 5650
-Connection ~ 3650 5650
+	2700 5650 3250 5650
+Connection ~ 3250 5650
 Wire Wire Line
-	3650 5650 4500 5650
+	3250 5650 4500 5650
 Wire Wire Line
 	9150 4500 9400 4500
 Wire Wire Line
 	7050 4500 7250 4500
 $Comp
-L Device:R R26
+L Device:R R30
 U 1 1 60A621EF
 P 7550 4500
-F 0 "R26" V 7343 4500 50  0000 C CNN
+F 0 "R30" V 7343 4500 50  0000 C CNN
 F 1 "1R" V 7434 4500 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 7480 4500 50  0001 C CNN
 F 3 "~" H 7550 4500 50  0001 C CNN
+F 4 "0.01" H 7550 4500 50  0001 C CNN "PriceEUR"
 	1    7550 4500
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R27
+L Device:R R31
 U 1 1 60A6EE4B
 P 9550 4500
-F 0 "R27" V 9343 4500 50  0000 C CNN
+F 0 "R31" V 9343 4500 50  0000 C CNN
 F 1 "1R" V 9434 4500 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 9480 4500 50  0001 C CNN
 F 3 "~" H 9550 4500 50  0001 C CNN
+F 4 "0.01" H 9550 4500 50  0001 C CNN "PriceEUR"
 	1    9550 4500
 	0    1    1    0   
 $EndComp
@@ -506,24 +529,26 @@ Connection ~ 7250 4500
 Wire Wire Line
 	7250 4500 7400 4500
 $Comp
-L Device:R R24
+L Device:R R27
 U 1 1 60A7F224
 P 5100 5400
-F 0 "R24" H 5170 5446 50  0000 L CNN
+F 0 "R27" H 5170 5446 50  0000 L CNN
 F 1 "10k" H 5170 5355 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 5030 5400 50  0001 C CNN
 F 3 "~" H 5100 5400 50  0001 C CNN
+F 4 "0.01" H 5100 5400 50  0001 C CNN "PriceEUR"
 	1    5100 5400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R25
+L Device:R R28
 U 1 1 60A7F6D0
 P 5100 5850
-F 0 "R25" H 5170 5896 50  0000 L CNN
+F 0 "R28" H 5170 5896 50  0000 L CNN
 F 1 "1k" H 5170 5805 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 5030 5850 50  0001 C CNN
 F 3 "~" H 5100 5850 50  0001 C CNN
+F 4 "0.01" H 5100 5850 50  0001 C CNN "PriceEUR"
 	1    5100 5850
 	1    0    0    -1  
 $EndComp
@@ -590,13 +615,14 @@ Text Notes 10100 5750 0    50   ~ 0
 Text Notes 4900 6700 0    50   ~ 0
 Für analoge Signale muss\nGND anstatt GNDPWR \nverwendet werden. 
 $Comp
-L Device:R R18
+L Device:R R20
 U 1 1 60AD33A8
 P 1700 4550
-F 0 "R18" H 1770 4596 50  0000 L CNN
-F 1 "4k7" H 1770 4505 50  0000 L CNN
+F 0 "R20" H 1770 4596 50  0000 L CNN
+F 1 "10k" H 1770 4505 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 1630 4550 50  0001 C CNN
 F 3 "~" H 1700 4550 50  0001 C CNN
+F 4 "0.01" H 1700 4550 50  0001 C CNN "PriceEUR"
 	1    1700 4550
 	1    0    0    -1  
 $EndComp
@@ -646,23 +672,24 @@ Wire Wire Line
 	5100 5250 5100 4500
 Connection ~ 5100 4500
 $Comp
-L Device:R R38
+L Device:R R29
 U 1 1 60B60B7F
 P 5450 4500
-F 0 "R38" V 5243 4500 50  0000 C CNN
+F 0 "R29" V 5243 4500 50  0000 C CNN
 F 1 "1R" V 5334 4500 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 5380 4500 50  0001 C CNN
 F 3 "~" H 5450 4500 50  0001 C CNN
+F 4 "0.01" H 5450 4500 50  0001 C CNN "PriceEUR"
 	1    5450 4500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5600 4500 5900 4500
 $Comp
-L Device:Fuse Item4
+L Device:Fuse Item3
 U 1 1 60B6160E
 P 1700 800
-F 0 "Item4" V 1503 800 50  0000 C CNN
+F 0 "Item3" V 1503 800 50  0000 C CNN
 F 1 "Clip 20x5" V 1594 800 50  0000 C CNN
 F 2 "htl_virtual:Virtual-Item" V 1630 800 50  0001 C CNN
 F 3 "~" H 1700 800 50  0001 C CNN
@@ -677,4 +704,29 @@ F 11 "https://lcsc.com/product-detail/Fuse-Holders_Shenzhen-lanson-Elec-LS-502_C
 	1    1700 800 
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	3400 5100 3800 5100
+$Comp
+L Device:R R24
+U 1 1 60909916
+P 3550 5400
+F 0 "R24" H 3620 5446 50  0000 L CNN
+F 1 "1k" H 3620 5355 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3480 5400 50  0001 C CNN
+F 3 "~" H 3550 5400 50  0001 C CNN
+F 4 "0.01" H 3550 5400 50  0001 C CNN "PriceEUR"
+	1    3550 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 5250 3550 5250
+Wire Wire Line
+	3800 5550 3800 5100
+Wire Wire Line
+	3550 5550 3800 5550
+Connection ~ 3800 5100
+Wire Wire Line
+	3800 5100 3950 5100
+Text Notes 3200 5900 0    50   ~ 0
+Sortenreduktion: \n4k3 = 3k3+1k
 $EndSCHEMATC

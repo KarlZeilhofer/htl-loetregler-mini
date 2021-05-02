@@ -126,20 +126,22 @@ L Device:R R11
 U 1 1 608F3901
 P 6250 3450
 F 0 "R11" H 6320 3496 50  0000 L CNN
-F 1 "33k" H 6320 3405 50  0000 L CNN
+F 1 "30k" H 6320 3405 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 6180 3450 50  0001 C CNN
 F 3 "~" H 6250 3450 50  0001 C CNN
+F 4 "0.01" H 6250 3450 50  0001 C CNN "PriceEUR"
 	1    6250 3450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?R1
+L Device:R R12
 U 1 1 608F3C13
 P 6250 3900
-F 0 "R?R1" H 6320 3946 50  0000 L CNN
+F 0 "R12" H 6320 3946 50  0000 L CNN
 F 1 "100R" H 6320 3855 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 6180 3900 50  0001 C CNN
 F 3 "~" H 6250 3900 50  0001 C CNN
+F 4 "0.01" H 6250 3900 50  0001 C CNN "PriceEUR"
 	1    6250 3900
 	1    0    0    -1  
 $EndComp
@@ -181,9 +183,10 @@ L Device:R R9
 U 1 1 608F5345
 P 3750 3000
 F 0 "R9" V 3543 3000 50  0000 C CNN
-F 1 "4k7" V 3634 3000 50  0000 C CNN
+F 1 "10k" V 3634 3000 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 3680 3000 50  0001 C CNN
 F 3 "~" H 3750 3000 50  0001 C CNN
+F 4 "0.01" H 3750 3000 50  0001 C CNN "PriceEUR"
 	1    3750 3000
 	0    1    1    0   
 $EndComp
@@ -251,24 +254,26 @@ Dioden Begrenzen die \nEingangsspannung auf +-0.7V
 Wire Wire Line
 	5300 5300 4850 5300
 $Comp
-L Device:R R12
+L Device:R R13
 U 1 1 60A2E38C
 P 6250 5750
-F 0 "R12" H 6320 5796 50  0000 L CNN
-F 1 "33k" H 6320 5705 50  0000 L CNN
+F 0 "R13" H 6320 5796 50  0000 L CNN
+F 1 "30k" H 6320 5705 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 6180 5750 50  0001 C CNN
 F 3 "~" H 6250 5750 50  0001 C CNN
+F 4 "0.01" H 6250 5750 50  0001 C CNN "PriceEUR"
 	1    6250 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?R2
+L Device:R R?R1
 U 1 1 60A2E392
 P 6250 6200
-F 0 "R?R2" H 6320 6246 50  0000 L CNN
+F 0 "R?R1" H 6320 6246 50  0000 L CNN
 F 1 "100R" H 6320 6155 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 6180 6200 50  0001 C CNN
 F 3 "~" H 6250 6200 50  0001 C CNN
+F 4 "0.01" H 6250 6200 50  0001 C CNN "PriceEUR"
 	1    6250 6200
 	1    0    0    -1  
 $EndComp
@@ -310,9 +315,10 @@ L Device:R R10
 U 1 1 60A2E3AA
 P 3800 5300
 F 0 "R10" V 3593 5300 50  0000 C CNN
-F 1 "4k7" V 3684 5300 50  0000 C CNN
+F 1 "3k3" V 3684 5300 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 3730 5300 50  0001 C CNN
 F 3 "~" H 3800 5300 50  0001 C CNN
+F 4 "0.01" H 3800 5300 50  0001 C CNN "PriceEUR"
 	1    3800 5300
 	0    1    1    0   
 $EndComp
@@ -370,6 +376,12 @@ F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 5600 5400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5600 5400 50  0001 C CNN
 F 4 "C157713" H 5600 5400 50  0001 C CNN "DistOrderNr"
 F 5 "LCSC" H 5600 5400 50  0001 C CNN "Distributor"
+F 6 "GS8332-SR" H 5600 5400 50  0001 C CNN "ManPartNr"
+F 7 "Gainsil" H 5600 5400 50  0001 C CNN "Manufacturer"
+F 8 "Zero-Drift 2 2.1V ~ 5.5V 20uA 350kHz 0.2 V/us SOP-8_150mil Precision OpAmps" H 5600 5400 50  0001 C CNN "Notes"
+F 9 "0.3016" H 5600 5400 50  0001 C CNN "PriceEUR"
+F 10 "100" H 5600 5400 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Precision-OpAmps_Gainsil-GS8332-SR_C157713.html" H 5600 5400 50  0001 C CNN "Weblink"
 	2    5600 5400
 	1    0    0    -1  
 $EndComp
@@ -383,6 +395,12 @@ F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 5600 3100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5600 3100 50  0001 C CNN
 F 4 "C157713" H 5600 3100 50  0001 C CNN "DistOrderNr"
 F 5 "LCSC" H 5600 3100 50  0001 C CNN "Distributor"
+F 6 "GS8332-SR" H 5600 3100 50  0001 C CNN "ManPartNr"
+F 7 "Gainsil" H 5600 3100 50  0001 C CNN "Manufacturer"
+F 8 "Zero-Drift 2 2.1V ~ 5.5V 20uA 350kHz 0.2 V/us SOP-8_150mil Precision OpAmps" H 5600 3100 50  0001 C CNN "Notes"
+F 9 "0.3016" H 5600 3100 50  0001 C CNN "PriceEUR"
+F 10 "100" H 5600 3100 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Precision-OpAmps_Gainsil-GS8332-SR_C157713.html" H 5600 3100 50  0001 C CNN "Weblink"
 	1    5600 3100
 	1    0    0    -1  
 $EndComp
@@ -396,6 +414,12 @@ F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 5600 3100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5600 3100 50  0001 C CNN
 F 4 "C157713" H 5600 3100 50  0001 C CNN "DistOrderNr"
 F 5 "LCSC" H 5600 3100 50  0001 C CNN "Distributor"
+F 6 "GS8332-SR" H 5600 3100 50  0001 C CNN "ManPartNr"
+F 7 "Gainsil" H 5600 3100 50  0001 C CNN "Manufacturer"
+F 8 "Zero-Drift 2 2.1V ~ 5.5V 20uA 350kHz 0.2 V/us SOP-8_150mil Precision OpAmps" H 5600 3100 50  0001 C CNN "Notes"
+F 9 "0.3016" H 5600 3100 50  0001 C CNN "PriceEUR"
+F 10 "100" H 5600 3100 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Precision-OpAmps_Gainsil-GS8332-SR_C157713.html" H 5600 3100 50  0001 C CNN "Weblink"
 	3    5600 3100
 	1    0    0    -1  
 $EndComp

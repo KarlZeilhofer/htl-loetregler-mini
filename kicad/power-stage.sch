@@ -32,18 +32,19 @@ F 10 "https://lcsc.com/product-detail/MOSFET_KIA-Semicon-Tech-KND3508A_C116513.h
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R16
+L Device:R R18
 U 1 1 609FB915
 P 5250 3900
-F 0 "R16" H 5320 3946 50  0000 L CNN
+F 0 "R18" H 5320 3946 50  0000 L CNN
 F 1 "10k" H 5320 3855 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 5180 3900 50  0001 C CNN
 F 3 "~" H 5250 3900 50  0001 C CNN
+F 4 "0.01" H 5250 3900 50  0001 C CNN "PriceEUR"
 	1    5250 3900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4150 3200 4950 3200
+	4150 3200 4600 3200
 Wire Wire Line
 	4150 3300 4500 3300
 Wire Wire Line
@@ -167,13 +168,14 @@ Wire Wire Line
 Wire Wire Line
 	3500 3200 2000 3200
 $Comp
-L Device:R R13
+L Device:R R14
 U 1 1 60A04847
 P 2000 3750
-F 0 "R13" H 2070 3796 50  0000 L CNN
+F 0 "R14" H 2070 3796 50  0000 L CNN
 F 1 "1k" H 2070 3705 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 1930 3750 50  0001 C CNN
 F 3 "~" H 2000 3750 50  0001 C CNN
+F 4 "0.01" H 2000 3750 50  0001 C CNN "PriceEUR"
 	1    2000 3750
 	1    0    0    -1  
 $EndComp
@@ -224,15 +226,19 @@ Wire Wire Line
 Text HLabel 1700 3200 0    50   Input ~ 0
 IN
 $Comp
-L htl_ics:PN7006A U6
+L htl_ics:PN7006A U5
 U 1 1 609FA816
 P 3750 3300
-F 0 "U6" H 3500 3750 50  0000 C CNN
+F 0 "U5" H 3500 3750 50  0000 C CNN
 F 1 "PN7006A" H 3400 3650 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3400 3500 50  0001 C CNN
 F 3 "" H 3400 3500 50  0001 C CNN
 F 4 "LCSC" H 3750 3300 50  0001 C CNN "Distributor"
 F 5 "C414194" H 3750 3300 50  0001 C CNN "DistOrderNr"
+F 6 "SOP-8 half bridge Driver, 300V, 450mA" H 3750 3300 50  0001 C CNN "Notes"
+F 7 "0.2188" H 3750 3300 50  0001 C CNN "PriceEUR"
+F 8 "100" H 3750 3300 50  0001 C CNN "PriceForQty"
+F 9 "https://lcsc.com/product-detail/Full-bridge-half-bridge-Driver_Wuxi-Chipown-Micro-electronics-PN7006ASEC-R1_C414194.html" H 3750 3300 50  0001 C CNN "Weblink"
 	1    3750 3300
 	1    0    0    -1  
 $EndComp
@@ -241,13 +247,14 @@ Wire Wire Line
 Wire Wire Line
 	3250 3400 3500 3400
 $Comp
-L Device:R R15
+L Device:R R16
 U 1 1 60A08CE0
 P 4250 3800
-F 0 "R15" H 4320 3846 50  0000 L CNN
+F 0 "R16" H 4320 3846 50  0000 L CNN
 F 1 "1k" H 4320 3755 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 4180 3800 50  0001 C CNN
 F 3 "~" H 4250 3800 50  0001 C CNN
+F 4 "0.01" H 4250 3800 50  0001 C CNN "PriceEUR"
 	1    4250 3800
 	1    0    0    -1  
 $EndComp
@@ -256,13 +263,14 @@ Wire Wire Line
 Wire Wire Line
 	4250 3400 4250 3650
 $Comp
-L Device:R R14
+L Device:R R15
 U 1 1 60A094FE
 P 3250 3800
-F 0 "R14" H 3320 3846 50  0000 L CNN
+F 0 "R15" H 3320 3846 50  0000 L CNN
 F 1 "1k" H 3320 3755 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 3180 3800 50  0001 C CNN
 F 3 "~" H 3250 3800 50  0001 C CNN
+F 4 "0.01" H 3250 3800 50  0001 C CNN "PriceEUR"
 	1    3250 3800
 	1    0    0    -1  
 $EndComp
@@ -293,15 +301,17 @@ $EndComp
 Wire Wire Line
 	4250 3950 4250 4150
 $Comp
-L Device:R_Shunt R17
+L Device:R_Shunt R19
 U 1 1 60A0E53F
 P 6650 4600
-F 0 "R17" H 6562 4646 50  0000 R CNN
-F 1 "1m" H 6562 4555 50  0000 R CNN
+F 0 "R19" H 6562 4646 50  0000 R CNN
+F 1 "1mR/7W/1%" H 6562 4555 50  0000 R CNN
 F 2 "htl_smd:Shunt-15.2x7.6mm" V 6580 4600 50  0001 C CNN
 F 3 "~" H 6650 4600 50  0001 C CNN
 F 4 "LCSC" H 6650 4600 50  0001 C CNN "Distributor"
 F 5 "C481499 " H 6650 4600 50  0001 C CNN "DistOrderNr"
+F 6 "0.2596" H 6650 4600 50  0001 C CNN "PriceEUR"
+F 7 "100" H 6650 4600 50  0001 C CNN "PriceForQty"
 	1    6650 4600
 	1    0    0    -1  
 $EndComp
@@ -359,4 +369,18 @@ Wire Wire Line
 	6950 4700 6950 4750
 Text Notes 1750 3150 0    50   ~ 0
 0V/5V
+$Comp
+L Device:R R17
+U 1 1 608F2DD6
+P 4750 3200
+F 0 "R17" V 4865 3200 50  0000 C CNN
+F 1 "100R" V 4956 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4680 3200 50  0001 C CNN
+F 3 "~" H 4750 3200 50  0001 C CNN
+F 4 "0.01" H 4750 3200 50  0001 C CNN "PriceEUR"
+	1    4750 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4900 3200 4950 3200
 $EndSCHEMATC

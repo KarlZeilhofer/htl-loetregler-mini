@@ -74,10 +74,13 @@ U 1 1 609B47F3
 P 1100 2100
 F 0 "J1" H 1018 2417 50  0000 C CNN
 F 1 "Power IN" H 1018 2326 50  0000 C CNN
-F 2 "TODO" H 1100 2100 50  0001 C CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 1100 2100 50  0001 C CNN
 F 3 "~" H 1100 2100 50  0001 C CNN
 F 4 "C475144" H 1100 2100 50  0001 C CNN "DistOrderNr"
 F 5 "LCSC" H 1100 2100 50  0001 C CNN "Distributor"
+F 6 "0.1172" H 1100 2100 50  0001 C CNN "PriceEUR"
+F 7 "100" H 1100 2100 50  0001 C CNN "PriceForQty"
+F 8 "2 poles, 5.08mm, 15A 250V AWG14~22 1.5mm² P=5.08mm Spring Clamp System Terminal Block" H 1100 2100 50  0001 C CNN "Notes"
 	1    1100 2100
 	-1   0    0    -1  
 $EndComp
@@ -87,10 +90,13 @@ U 1 1 609B52E2
 P 8550 1850
 F 0 "J3" H 8468 1525 50  0000 C CNN
 F 1 "Lötkolben" H 8468 1616 50  0000 C CNN
-F 2 "TODO" H 8550 1850 50  0001 C CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 8550 1850 50  0001 C CNN
 F 3 "~" H 8550 1850 50  0001 C CNN
 F 4 "C475145" H 8550 1850 50  0001 C CNN "DistOrderNr"
 F 5 "LCSC" H 8550 1850 50  0001 C CNN "Distributor"
+F 6 "0.1347" H 8550 1850 50  0001 C CNN "PriceEUR"
+F 7 "100" H 8550 1850 50  0001 C CNN "PriceForQty"
+F 8 "3 poles, 5.08mm, 15A 250V AWG14~22 1.5mm² P=5.08mm Spring Clamp System Terminal Block" H 8550 1850 50  0001 C CNN "Notes"
 	1    8550 1850
 	1    0    0    1   
 $EndComp
@@ -120,10 +126,13 @@ U 1 1 60A7601A
 P 1100 3650
 F 0 "J2" H 1018 3967 50  0000 C CNN
 F 1 "COM" H 1018 3876 50  0000 C CNN
-F 2 "TODO" H 1100 3650 50  0001 C CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 1100 3650 50  0001 C CNN
 F 3 "~" H 1100 3650 50  0001 C CNN
 F 4 "C475145" H 1100 3650 50  0001 C CNN "DistOrderNr"
 F 5 "LCSC" H 1100 3650 50  0001 C CNN "Distributor"
+F 6 "0.1347" H 1100 3650 50  0001 C CNN "PriceEUR"
+F 7 "100" H 1100 3650 50  0001 C CNN "PriceForQty"
+F 8 "3 poles, 5.08mm, 15A 250V AWG14~22 1.5mm² P=5.08mm Spring Clamp System Terminal Block" H 1100 3650 50  0001 C CNN "Notes"
 	1    1100 3650
 	-1   0    0    -1  
 $EndComp
@@ -160,6 +169,12 @@ F 2 "htl_smd:SW_Push_5.1mm_H1.5mm" H 3250 6100 50  0001 C CNN
 F 3 "~" H 3250 6100 50  0001 C CNN
 F 4 "C318884" H 3250 5900 50  0001 C CNN "DistOrderNr"
 F 5 "LCSC" H 3250 5900 50  0001 C CNN "Distributor"
+F 6 "TS-1187A-B-A-B" H 3250 5900 50  0001 C CNN "ManPartNr"
+F 7 "XKB Connectivity" H 3250 5900 50  0001 C CNN "Manufacturer"
+F 8 " 	SPST 50mA @ 12VDC Vertical Round Button 160gf SMD Tactile Switches " H 3250 5900 50  0001 C CNN "Notes"
+F 9 "0.01" H 3250 5900 50  0001 C CNN "PriceEUR"
+F 10 "500" H 3250 5900 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Tactile-Switches_XKB-Connectivity-TS-1187A-B-A-B_C318884.html" H 3250 5900 50  0001 C CNN "Weblink"
 	1    3250 5900
 	0    -1   -1   0   
 $EndComp
@@ -175,6 +190,12 @@ F 2 "htl_smd:SW_Push_5.1mm_H1.5mm" H 4050 6100 50  0001 C CNN
 F 3 "~" H 4050 6100 50  0001 C CNN
 F 4 "C318884" H 4050 5900 50  0001 C CNN "DistOrderNr"
 F 5 "LCSC" H 4050 5900 50  0001 C CNN "Distributor"
+F 6 "TS-1187A-B-A-B" H 4050 5900 50  0001 C CNN "ManPartNr"
+F 7 "XKB Connectivity" H 4050 5900 50  0001 C CNN "Manufacturer"
+F 8 " 	SPST 50mA @ 12VDC Vertical Round Button 160gf SMD Tactile Switches " H 4050 5900 50  0001 C CNN "Notes"
+F 9 "0.01" H 4050 5900 50  0001 C CNN "PriceEUR"
+F 10 "500" H 4050 5900 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Tactile-Switches_XKB-Connectivity-TS-1187A-B-A-B_C318884.html" H 4050 5900 50  0001 C CNN "Weblink"
 	1    4050 5900
 	0    -1   -1   0   
 $EndComp
@@ -185,9 +206,10 @@ P 3250 4800
 AR Path="/608DBC3C/60AB2E71" Ref="R?"  Part="1" 
 AR Path="/60AB2E71" Ref="R3"  Part="1" 
 F 0 "R3" H 3320 4846 50  0000 L CNN
-F 1 "4k7" H 3320 4755 50  0000 L CNN
+F 1 "10k" H 3320 4755 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 3180 4800 50  0001 C CNN
 F 3 "~" H 3250 4800 50  0001 C CNN
+F 4 "0.01" H 3250 4800 50  0001 C CNN "PriceEUR"
 	1    3250 4800
 	1    0    0    -1  
 $EndComp
@@ -198,9 +220,10 @@ P 4050 4800
 AR Path="/608DBC3C/60AB2E77" Ref="R?"  Part="1" 
 AR Path="/60AB2E77" Ref="R4"  Part="1" 
 F 0 "R4" H 4120 4846 50  0000 L CNN
-F 1 "4k7" H 4120 4755 50  0000 L CNN
+F 1 "10k" H 4120 4755 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 3980 4800 50  0001 C CNN
 F 3 "~" H 4050 4800 50  0001 C CNN
+F 4 "0.01" H 4050 4800 50  0001 C CNN "PriceEUR"
 	1    4050 4800
 	1    0    0    -1  
 $EndComp
@@ -284,6 +307,12 @@ F 2 "htl_smd:SW_Push_5.1mm_H1.5mm" H 1650 6100 50  0001 C CNN
 F 3 "~" H 1650 6100 50  0001 C CNN
 F 4 "C318884" H 1650 5900 50  0001 C CNN "DistOrderNr"
 F 5 "LCSC" H 1650 5900 50  0001 C CNN "Distributor"
+F 6 "TS-1187A-B-A-B" H 1650 5900 50  0001 C CNN "ManPartNr"
+F 7 "XKB Connectivity" H 1650 5900 50  0001 C CNN "Manufacturer"
+F 8 " 	SPST 50mA @ 12VDC Vertical Round Button 160gf SMD Tactile Switches " H 1650 5900 50  0001 C CNN "Notes"
+F 9 "0.01" H 1650 5900 50  0001 C CNN "PriceEUR"
+F 10 "500" H 1650 5900 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Tactile-Switches_XKB-Connectivity-TS-1187A-B-A-B_C318884.html" H 1650 5900 50  0001 C CNN "Weblink"
 	1    1650 5900
 	0    -1   -1   0   
 $EndComp
@@ -299,6 +328,12 @@ F 2 "htl_smd:SW_Push_5.1mm_H1.5mm" H 2500 6100 50  0001 C CNN
 F 3 "~" H 2500 6100 50  0001 C CNN
 F 4 "C318884" H 2500 5900 50  0001 C CNN "DistOrderNr"
 F 5 "LCSC" H 2500 5900 50  0001 C CNN "Distributor"
+F 6 "TS-1187A-B-A-B" H 2500 5900 50  0001 C CNN "ManPartNr"
+F 7 "XKB Connectivity" H 2500 5900 50  0001 C CNN "Manufacturer"
+F 8 " 	SPST 50mA @ 12VDC Vertical Round Button 160gf SMD Tactile Switches " H 2500 5900 50  0001 C CNN "Notes"
+F 9 "0.01" H 2500 5900 50  0001 C CNN "PriceEUR"
+F 10 "500" H 2500 5900 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Tactile-Switches_XKB-Connectivity-TS-1187A-B-A-B_C318884.html" H 2500 5900 50  0001 C CNN "Weblink"
 	1    2500 5900
 	0    -1   -1   0   
 $EndComp
@@ -309,9 +344,10 @@ P 1650 4800
 AR Path="/608DBC3C/60AC53EC" Ref="R?"  Part="1" 
 AR Path="/60AC53EC" Ref="R1"  Part="1" 
 F 0 "R1" H 1720 4846 50  0000 L CNN
-F 1 "4k7" H 1720 4755 50  0000 L CNN
+F 1 "10k" H 1720 4755 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 1580 4800 50  0001 C CNN
 F 3 "~" H 1650 4800 50  0001 C CNN
+F 4 "0.01" H 1650 4800 50  0001 C CNN "PriceEUR"
 	1    1650 4800
 	1    0    0    -1  
 $EndComp
@@ -322,9 +358,10 @@ P 2500 4800
 AR Path="/608DBC3C/60AC53F2" Ref="R?"  Part="1" 
 AR Path="/60AC53F2" Ref="R2"  Part="1" 
 F 0 "R2" H 2570 4846 50  0000 L CNN
-F 1 "4k7" H 2570 4755 50  0000 L CNN
+F 1 "10k" H 2570 4755 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 2430 4800 50  0001 C CNN
 F 3 "~" H 2500 4800 50  0001 C CNN
+F 4 "0.01" H 2500 4800 50  0001 C CNN "PriceEUR"
 	1    2500 4800
 	1    0    0    -1  
 $EndComp
@@ -398,6 +435,7 @@ F 0 "R5" H 6270 2196 50  0000 L CNN
 F 1 "1k" H 6270 2105 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 6130 2150 50  0001 C CNN
 F 3 "~" H 6200 2150 50  0001 C CNN
+F 4 "0.01" H 6200 2150 50  0001 C CNN "PriceEUR"
 	1    6200 2150
 	1    0    0    -1  
 $EndComp
@@ -552,7 +590,7 @@ U 1 1 60B32BFD
 P 7450 4500
 F 0 "U1" H 7450 4887 60  0000 C CNN
 F 1 "OLED-128x32-Module" H 7450 4781 60  0000 C CNN
-F 2 "TODO" H 6650 4050 60  0001 C CNN
+F 2 "htl_modules:OLED-128x32" H 6650 4050 60  0001 C CNN
 F 3 "" H 6650 4050 60  0001 C CNN
 F 4 "AliExpress, SAMIORE Store" H 7450 4500 50  0001 C CNN "Distributor"
 F 5 "1.38" H 7450 4500 50  0001 C CNN "PriceEUR"
@@ -593,30 +631,34 @@ Wire Wire Line
 Text Notes 700  7600 0    50   ~ 0
 Standardwerte:\nKondensatoren: 10%, X7R, C3216, 50V\nWiderstände: 1%, 250mW, R3216
 $Comp
-L htl_virtual:Item Item3
+L htl_virtual:Item Item2
 U 1 1 60B4CFB2
 P 9200 6400
-F 0 "Item3" H 9330 6446 50  0000 L CNN
-F 1 "PCB, 2 Layer, 35um Cu, 1.6mm, TODO size" H 9330 6355 50  0000 L CNN
+F 0 "Item2" H 9330 6446 50  0000 L CNN
+F 1 "PCB, 1 Layer, 35um Cu, 1.6mm, ca. 100x110" H 9330 6355 50  0000 L CNN
 F 2 "htl_virtual:Virtual-Item" H 9200 6330 50  0001 C CNN
 F 3 "~" V 9200 6400 50  0001 C CNN
 F 4 "Custom" H 9200 6400 50  0001 C CNN "DistOrderNr"
 F 5 "Multi-CB" H 9200 6400 50  0001 C CNN "Distributor"
 F 6 "Multi-CB" H 9200 6400 50  0001 C CNN "Manufacturer"
+F 7 "3.71" H 9200 6400 50  0001 C CNN "PriceEUR"
+F 8 "100" H 9200 6400 50  0001 C CNN "PriceForQty"
 	1    9200 6400
 	1    0    0    -1  
 $EndComp
 $Comp
-L htl_virtual:Item Item2
+L htl_virtual:Item Item1
 U 1 1 60B4D7DC
 P 9200 6200
-F 0 "Item2" H 9330 6246 50  0000 L CNN
+F 0 "Item1" H 9330 6246 50  0000 L CNN
 F 1 "Stencil, 120um, 25mm Rand, Edelstahl" H 9330 6155 50  0000 L CNN
 F 2 "htl_virtual:Virtual-Item" H 9200 6130 50  0001 C CNN
 F 3 "~" V 9200 6200 50  0001 C CNN
 F 4 "Custom" H 9200 6200 50  0001 C CNN "DistOrderNr"
 F 5 "Multi-CB" H 9200 6200 50  0001 C CNN "Distributor"
 F 6 "Multi-CB" H 9200 6200 50  0001 C CNN "Manufacturer"
+F 7 "0.1656" H 9200 6200 50  0001 C CNN "PriceEUR"
+F 8 "100" H 9200 6200 50  0001 C CNN "PriceForQty"
 	1    9200 6200
 	1    0    0    -1  
 $EndComp
@@ -633,6 +675,7 @@ F 5 "NAP" H 9950 5050 50  0001 C CNN "Distributor"
 F 6 "NAP" H 9950 5050 50  0001 C CNN "ManPartNr"
 F 7 "NAP" H 9950 5050 50  0001 C CNN "Manufacturer"
 F 8 "Not a Part" H 9950 5050 50  0001 C CNN "Notes"
+F 9 "0.00" H 9950 5050 50  0001 C CNN "PriceEUR"
 	1    9950 5050
 	1    0    0    -1  
 $EndComp
@@ -649,6 +692,7 @@ F 5 "NAP" H 9950 5250 50  0001 C CNN "Distributor"
 F 6 "NAP" H 9950 5250 50  0001 C CNN "ManPartNr"
 F 7 "NAP" H 9950 5250 50  0001 C CNN "Manufacturer"
 F 8 "Not a Part" H 9950 5250 50  0001 C CNN "Notes"
+F 9 "0.00" H 9950 5250 50  0001 C CNN "PriceEUR"
 	1    9950 5250
 	1    0    0    -1  
 $EndComp
@@ -665,6 +709,7 @@ F 5 "NAP" H 9950 5450 50  0001 C CNN "Distributor"
 F 6 "NAP" H 9950 5450 50  0001 C CNN "ManPartNr"
 F 7 "NAP" H 9950 5450 50  0001 C CNN "Manufacturer"
 F 8 "Not a Part" H 9950 5450 50  0001 C CNN "Notes"
+F 9 "0.00" H 9950 5450 50  0001 C CNN "PriceEUR"
 	1    9950 5450
 	1    0    0    -1  
 $EndComp
@@ -681,6 +726,7 @@ F 5 "NAP" H 9950 5650 50  0001 C CNN "Distributor"
 F 6 "NAP" H 9950 5650 50  0001 C CNN "ManPartNr"
 F 7 "NAP" H 9950 5650 50  0001 C CNN "Manufacturer"
 F 8 "Not a Part" H 9950 5650 50  0001 C CNN "Notes"
+F 9 "0.00" H 9950 5650 50  0001 C CNN "PriceEUR"
 	1    9950 5650
 	1    0    0    -1  
 $EndComp
@@ -694,6 +740,7 @@ F 2 "htl_mechanical:paste-fiducial" H 9950 4650 50  0001 C CNN
 F 3 "~" H 9950 4650 50  0001 C CNN
 F 4 "NAP" H 9950 4650 50  0001 C CNN "DistOrderNr"
 F 5 "Not a Part" H 9950 4650 50  0001 C CNN "Manufacturer"
+F 6 "0.00" H 9950 4650 50  0001 C CNN "PriceEUR"
 	1    9950 4650
 	1    0    0    -1  
 $EndComp
@@ -707,7 +754,10 @@ F 2 "htl_mechanical:paste-fiducial" H 9950 4450 50  0001 C CNN
 F 3 "~" H 9950 4450 50  0001 C CNN
 F 4 "NAP" H 9950 4450 50  0001 C CNN "DistOrderNr"
 F 5 "Not a Part" H 9950 4450 50  0001 C CNN "Manufacturer"
+F 6 "0.00" H 9950 4450 50  0001 C CNN "PriceEUR"
 	1    9950 4450
 	1    0    0    -1  
 $EndComp
+Text Notes 8200 3750 0    150  ~ 0
+TODOs:\n* ERC\n* Footprint Federklemmen\n* Footprint Panasonic ELKOs\n* ATmega328 statt Arduino\n
 $EndSCHEMATC
