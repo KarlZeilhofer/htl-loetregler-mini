@@ -1,0 +1,385 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L htl_ics:XL7005A U?
+U 1 1 60A5D76C
+P 5350 3550
+AR Path="/608DBC83/60A5D76C" Ref="U?"  Part="1" 
+AR Path="/608DBC83/60A447A8/60A5D76C" Ref="U?"  Part="1" 
+AR Path="/608DBC83/60A427AE/60A5D76C" Ref="U7"  Part="1" 
+F 0 "U7" H 5381 3915 50  0000 C CNN
+F 1 "XL7005A" H 5381 3824 50  0000 C CNN
+F 2 "htl_smd:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.514x3.2mm_ThermalVias" H 5400 2400 50  0001 C CNN
+F 3 "" H 4750 3450 50  0001 C CNN
+F 4 "LCSC" H 5350 3550 50  0001 C CNN "Distributor"
+F 5 "C50848" H 5350 3550 50  0001 C CNN "DistOrderNr"
+F 6 "0.204" H 5350 3550 50  0001 C CNN "PriceEUR"
+F 7 "100" H 5350 3550 50  0001 C CNN "PriceForQty"
+	1    5350 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:INDUCTOR L?
+U 1 1 60A5D777
+P 6250 3450
+AR Path="/608DBC83/60A5D777" Ref="L?"  Part="1" 
+AR Path="/608DBC83/60A447A8/60A5D777" Ref="L?"  Part="1" 
+AR Path="/608DBC83/60A427AE/60A5D777" Ref="L1"  Part="1" 
+F 0 "L1" H 6250 3665 50  0000 C CNN
+F 1 "47u/1A" H 6250 3574 50  0000 C CNN
+F 2 "Inductor_SMD:L_7.3x7.3_H4.5_TODO" H 6250 3450 50  0001 C CNN
+F 3 "~" H 6250 3450 50  0001 C CNN
+F 4 "LCSC" H 6250 3450 50  0001 C CNN "Distributor"
+F 5 "C216198" H 6250 3450 50  0001 C CNN "DistOrderNr"
+F 6 "0.085" H 6250 3450 50  0001 C CNN "PriceEUR"
+F 7 "100" H 6250 3450 50  0001 C CNN "PriceForQty"
+F 8 "https://lcsc.com/product-detail/Power-Inductors_Sunltech-Tech-SLH0704S470MTT_C216198.html" H 6250 3450 50  0001 C CNN "Weblink"
+F 9 "SLH0704S470MTT" H 6250 3450 50  0001 C CNN "ManPartNr"
+F 10 "Sunltech Tech" H 6250 3450 50  0001 C CNN "Manufacturer"
+F 11 "47uH ±20% 1A 266mΩ SMD,7.3x7.3x4.5mm" H 6250 3450 50  0001 C CNN "Notes"
+	1    6250 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 60A5D77D
+P 5900 4150
+AR Path="/608DBC83/60A5D77D" Ref="D?"  Part="1" 
+AR Path="/608DBC83/60A447A8/60A5D77D" Ref="D?"  Part="1" 
+AR Path="/608DBC83/60A427AE/60A5D77D" Ref="D6"  Part="1" 
+F 0 "D6" V 5854 4229 50  0000 L CNN
+F 1 "SS210" V 5945 4229 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 5900 4150 50  0001 C CNN
+F 3 "~" H 5900 4150 50  0001 C CNN
+F 4 "C2683692" H 5900 4150 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 5900 4150 50  0001 C CNN "Distributor"
+F 6 "SS210A-W" H 5900 4150 50  0001 C CNN "ManPartNr"
+F 7 "ZHIDE" H 5900 4150 50  0001 C CNN "Manufacturer"
+F 8 "100V 2A 850mV @ 2A SMA(DO-214AC) Schottky Barrier Diodes" H 5900 4150 50  0001 C CNN "Notes"
+F 9 "0.0155" H 5900 4150 50  0001 C CNN "PriceEUR"
+F 10 "200" H 5900 4150 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_ZHIDE-SS210A-W_C2683692.html" H 5900 4150 50  0001 C CNN "Weblink"
+	1    5900 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60A5D783
+P 6600 3650
+AR Path="/608DBC83/60A5D783" Ref="R?"  Part="1" 
+AR Path="/608DBC83/60A447A8/60A5D783" Ref="R?"  Part="1" 
+AR Path="/608DBC83/60A427AE/60A5D783" Ref="R29"  Part="1" 
+F 0 "R29" H 6670 3696 50  0000 L CNN
+F 1 "30k" H 6670 3605 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6530 3650 50  0001 C CNN
+F 3 "~" H 6600 3650 50  0001 C CNN
+	1    6600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60A5D789
+P 6600 4250
+AR Path="/608DBC83/60A5D789" Ref="R?"  Part="1" 
+AR Path="/608DBC83/60A447A8/60A5D789" Ref="R?"  Part="1" 
+AR Path="/608DBC83/60A427AE/60A5D789" Ref="R30"  Part="1" 
+F 0 "R30" H 6670 4296 50  0000 L CNN
+F 1 "3k3" H 6670 4205 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6530 4250 50  0001 C CNN
+F 3 "~" H 6600 4250 50  0001 C CNN
+	1    6600 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 3450 5900 3450
+Wire Wire Line
+	6600 3450 6600 3500
+Wire Wire Line
+	6500 3450 6600 3450
+Wire Wire Line
+	6600 3800 6600 3850
+Wire Wire Line
+	6600 4400 6600 4600
+$Comp
+L Device:C C?
+U 1 1 60A5D794
+P 6950 3650
+AR Path="/608DBC83/60A5D794" Ref="C?"  Part="1" 
+AR Path="/608DBC83/60A447A8/60A5D794" Ref="C?"  Part="1" 
+AR Path="/608DBC83/60A427AE/60A5D794" Ref="C16"  Part="1" 
+F 0 "C16" H 7065 3696 50  0000 L CNN
+F 1 "33n" H 7065 3605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6988 3500 50  0001 C CNN
+F 3 "~" H 6950 3650 50  0001 C CNN
+F 4 "C309052" H 6950 3650 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 6950 3650 50  0001 C CNN "Distributor"
+F 6 "TCC1206X7R333K500DT" H 6950 3650 50  0001 C CNN "ManPartNr"
+F 7 "CCTC" H 6950 3650 50  0001 C CNN "Manufacturer"
+F 8 "0.0144" H 6950 3650 50  0001 C CNN "PriceEUR"
+F 9 "50" H 6950 3650 50  0001 C CNN "PriceForQty"
+	1    6950 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3850 4800 3850
+Wire Wire Line
+	4800 3850 4800 4100
+$Comp
+L Device:CP C?
+U 1 1 60A5D79C
+P 4200 4000
+AR Path="/608DBC83/60A5D79C" Ref="C?"  Part="1" 
+AR Path="/608DBC83/60A447A8/60A5D79C" Ref="C?"  Part="1" 
+AR Path="/608DBC83/60A427AE/60A5D79C" Ref="C15"  Part="1" 
+F 0 "C15" H 4318 4046 50  0000 L CNN
+F 1 "100u/63V" H 4318 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10" H 4238 3850 50  0001 C CNN
+F 3 "~" H 4200 4000 50  0001 C CNN
+F 4 "C487384" H 4200 4000 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 4200 4000 50  0001 C CNN "Distributor"
+F 6 "VKMD1001J101MV" H 4200 4000 50  0001 C CNN "ManPartNr"
+F 7 "Ymin" H 4200 4000 50  0001 C CNN "Manufacturer"
+F 8 "100uF ±20% 63V 8mm 10mm 902mA @ 100kHz 10000hrs @ 105℃ -55℃~+105℃ SMD,8x10mm Aluminum Electrolytic Capacitors" H 4200 4000 50  0001 C CNN "Notes"
+F 9 "0.0698" H 4200 4000 50  0001 C CNN "PriceEUR"
+F 10 "150" H 4200 4000 50  0001 C CNN "PriceForQty"
+	1    4200 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 60A5D7A2
+P 7300 4200
+AR Path="/608DBC83/60A5D7A2" Ref="C?"  Part="1" 
+AR Path="/608DBC83/60A447A8/60A5D7A2" Ref="C?"  Part="1" 
+AR Path="/608DBC83/60A427AE/60A5D7A2" Ref="C17"  Part="1" 
+F 0 "C17" H 7418 4246 50  0000 L CNN
+F 1 "100u/25V" H 7418 4155 50  0000 L CNN
+F 2 "TODO" H 7338 4050 50  0001 C CNN
+F 3 "~" H 7300 4200 50  0001 C CNN
+F 4 "C454667" H 7300 4200 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 7300 4200 50  0001 C CNN "Distributor"
+F 6 "EEHZA1E101XV" H 7300 4200 50  0001 C CNN "ManPartNr"
+F 7 "Panasonic" H 7300 4200 50  0001 C CNN "Manufacturer"
+F 8 "100uF ±20% 25V 7.7mm 8mm 2A @ 100kHz 30mΩ @ 100kHz 10000hrs @ 105℃ -55℃~+105℃ SMD,7.7x8mm Solid Polymer Electrolytic Capacitor" H 7300 4200 50  0001 C CNN "Notes"
+F 9 "0.4258" H 7300 4200 50  0001 C CNN "PriceEUR"
+F 10 "100" H 7300 4200 50  0001 C CNN "PriceForQty"
+	1    7300 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A5D7A8
+P 3800 4000
+AR Path="/608DBC83/60A5D7A8" Ref="C?"  Part="1" 
+AR Path="/608DBC83/60A447A8/60A5D7A8" Ref="C?"  Part="1" 
+AR Path="/608DBC83/60A427AE/60A5D7A8" Ref="C14"  Part="1" 
+F 0 "C14" H 3915 4046 50  0000 L CNN
+F 1 "100n/100V" H 3915 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3838 3850 50  0001 C CNN
+F 3 "~" H 3800 4000 50  0001 C CNN
+F 4 "C1945" H 3800 4000 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 3800 4000 50  0001 C CNN "Distributor"
+F 6 "CL31B104KCFNNNE" H 3800 4000 50  0001 C CNN "ManPartNr"
+F 7 "Samsung Electro-Mechanics" H 3800 4000 50  0001 C CNN "Manufacturer"
+F 8 "100nF ±10% 100V X7R  Multilayer Ceramic Capacitors MLCC" H 3800 4000 50  0001 C CNN "Notes"
+F 9 "0.014" H 3800 4000 50  0001 C CNN "PriceEUR"
+F 10 "200" H 3800 4000 50  0001 C CNN "PriceForQty"
+	1    3800 4000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3450 4200 3450
+Wire Wire Line
+	3800 3850 3800 3450
+Connection ~ 3800 3450
+Wire Wire Line
+	4200 3850 4200 3450
+Connection ~ 4200 3450
+Wire Wire Line
+	4200 3450 3800 3450
+Wire Wire Line
+	4200 4600 4200 4150
+Wire Wire Line
+	3800 4600 3800 4150
+Wire Wire Line
+	5200 4250 5200 4350
+Wire Wire Line
+	5200 4350 5300 4350
+Wire Wire Line
+	5500 4350 5500 4250
+Wire Wire Line
+	5400 4250 5400 4350
+Connection ~ 5400 4350
+Wire Wire Line
+	5400 4350 5500 4350
+Wire Wire Line
+	5300 4250 5300 4350
+Connection ~ 5300 4350
+Wire Wire Line
+	5300 4350 5350 4350
+Wire Wire Line
+	5350 4600 5350 4350
+Connection ~ 5350 4350
+Wire Wire Line
+	5350 4350 5400 4350
+Wire Wire Line
+	5750 3850 6600 3850
+Connection ~ 6600 3850
+Wire Wire Line
+	6600 3850 6600 4100
+Wire Wire Line
+	6600 3850 6950 3850
+Wire Wire Line
+	6950 3850 6950 3800
+Wire Wire Line
+	6600 3450 6950 3450
+Wire Wire Line
+	6950 3450 6950 3500
+Connection ~ 6600 3450
+Wire Wire Line
+	6950 3450 7300 3450
+Wire Wire Line
+	7300 3450 7300 4050
+Wire Wire Line
+	7300 4350 7300 4600
+Connection ~ 6950 3450
+Wire Wire Line
+	5900 4600 5900 4300
+Wire Wire Line
+	5900 4000 5900 3450
+Connection ~ 5900 3450
+Wire Wire Line
+	5900 3450 6000 3450
+Text Notes 5100 3550 0    50   ~ 0
+8...80V
+Connection ~ 7300 3450
+Connection ~ 8150 3450
+Wire Wire Line
+	8150 3450 8450 3450
+$Comp
+L Device:R R?
+U 1 1 60A5D7E4
+P 4800 4250
+AR Path="/608DBC83/60A5D7E4" Ref="R?"  Part="1" 
+AR Path="/608DBC83/60A447A8/60A5D7E4" Ref="R?"  Part="1" 
+AR Path="/608DBC83/60A427AE/60A5D7E4" Ref="R28"  Part="1" 
+F 0 "R28" H 4870 4296 50  0000 L CNN
+F 1 "0R" H 4870 4205 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4730 4250 50  0001 C CNN
+F 3 "~" H 4800 4250 50  0001 C CNN
+	1    4800 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4400 4800 4600
+$Comp
+L Device:R R?
+U 1 1 60A5D7EC
+P 8150 3800
+AR Path="/608DBC83/60A5D7EC" Ref="R?"  Part="1" 
+AR Path="/608DBC83/60A447A8/60A5D7EC" Ref="R?"  Part="1" 
+AR Path="/608DBC83/60A427AE/60A5D7EC" Ref="R31"  Part="1" 
+F 0 "R31" H 8220 3846 50  0000 L CNN
+F 1 "3k3" H 8220 3755 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8080 3800 50  0001 C CNN
+F 3 "~" H 8150 3800 50  0001 C CNN
+	1    8150 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 3650 8150 3450
+$Comp
+L Device:LED D?
+U 1 1 60A5D7F6
+P 8150 4300
+AR Path="/608DBC83/60A5D7F6" Ref="D?"  Part="1" 
+AR Path="/608DBC83/60A447A8/60A5D7F6" Ref="D?"  Part="1" 
+AR Path="/608DBC83/60A427AE/60A5D7F6" Ref="D7"  Part="1" 
+F 0 "D7" V 8189 4182 50  0000 R CNN
+F 1 "grün" V 8098 4182 50  0000 R CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 8150 4300 50  0001 C CNN
+F 3 "~" H 8150 4300 50  0001 C CNN
+F 4 "LCSC" H 8150 4300 50  0001 C CNN "Distributor"
+F 5 "C965825" H 8150 4300 50  0001 C CNN "DistOrderNr"
+F 6 "https://lcsc.com/product-detail/Pre-ordered-Products_XINGLIGHT-XL-3216UGC_C965825.html" H 8150 4300 50  0001 C CNN "Weblink"
+	1    8150 4300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8150 4600 8150 4450
+Wire Wire Line
+	8150 4150 8150 3950
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 60A5D7FE
+P 3500 4600
+AR Path="/608DBC83/60A447A8/60A5D7FE" Ref="#PWR?"  Part="1" 
+AR Path="/608DBC83/60A427AE/60A5D7FE" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 3500 4400 50  0001 C CNN
+F 1 "GNDPWR" H 3504 4446 50  0000 C CNN
+F 2 "" H 3500 4550 50  0001 C CNN
+F 3 "" H 3500 4550 50  0001 C CNN
+	1    3500 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 4600 3800 4600
+Connection ~ 3800 4600
+Wire Wire Line
+	3800 4600 4200 4600
+Connection ~ 4200 4600
+Wire Wire Line
+	4200 4600 4800 4600
+Connection ~ 4800 4600
+Wire Wire Line
+	4800 4600 5350 4600
+Connection ~ 5350 4600
+Wire Wire Line
+	5350 4600 5900 4600
+Connection ~ 5900 4600
+Wire Wire Line
+	5900 4600 6600 4600
+Connection ~ 6600 4600
+Wire Wire Line
+	6600 4600 7300 4600
+Connection ~ 7300 4600
+Wire Wire Line
+	7300 4600 8150 4600
+Connection ~ 8150 4600
+Wire Wire Line
+	8150 4600 8450 4600
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 60A5D815
+P 8450 4600
+AR Path="/608DBC83/60A447A8/60A5D815" Ref="#PWR?"  Part="1" 
+AR Path="/608DBC83/60A427AE/60A5D815" Ref="#PWR034"  Part="1" 
+F 0 "#PWR034" H 8450 4400 50  0001 C CNN
+F 1 "GNDPWR" H 8454 4446 50  0000 C CNN
+F 2 "" H 8450 4550 50  0001 C CNN
+F 3 "" H 8450 4550 50  0001 C CNN
+	1    8450 4600
+	1    0    0    -1  
+$EndComp
+Text HLabel 3500 3450 0    50   Input ~ 0
+IN
+Wire Wire Line
+	3500 3450 3800 3450
+Text HLabel 8450 3450 2    50   Output ~ 0
+12V
+Wire Wire Line
+	7300 3450 8150 3450
+$EndSCHEMATC
