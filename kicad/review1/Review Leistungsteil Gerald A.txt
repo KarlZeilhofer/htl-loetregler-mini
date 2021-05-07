@@ -1,0 +1,46 @@
+R26/R27/R28
+    Footprint OK
+    Leistung 0.25W OK
+    Bestellnr. OK
+
+R29
+    Footprint OK
+    Leistung 0.25W OK
+    Bestellnr. OK
+
+R30
+    Footprint OK
+    Leistung 0.25W OK
+    Bestellnr. OK
+
+R31 ausführlich überprüft
+    Footprint OK
+    Leistung 7W OK
+    Bestellnr. OK
+    Pads nahe aneinander
+
+C20
+    Footprint OK
+    Bestellnr. OK
+    Spannung 16V OK
+
+C21
+    Footprint OK
+    Bestellnr. OK
+    Spannung 50V OK
+
+D7
+    Footprint OK
+    Bestellnr. OK
+
+Q1
+    Footprint OK
+    Bestellnr. OK
+    UDS/RDS(on) 80V/9.5mOhm OK
+    Pinbelegung OK
+    Body Diode OK
+
+U7
+    Footprint OK
+    Bestellnr. OK
+    Pinbelegung OK    

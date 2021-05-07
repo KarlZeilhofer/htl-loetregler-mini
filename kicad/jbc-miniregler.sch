@@ -70,12 +70,12 @@ F7 "5V" O R 3200 2300 50
 F8 "BattMessung" O R 3200 2400 50 
 $EndSheet
 $Comp
-L Connector:Screw_Terminal_01x03 J3
+L Connector:Screw_Terminal_01x03 X3
 U 1 1 609B52E2
 P 8550 1850
-F 0 "J3" H 8468 1525 50  0000 C CNN
+F 0 "X3" H 8468 1525 50  0000 C CNN
 F 1 "Lötkolben" H 8468 1616 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 8550 1850 50  0001 C CNN
+F 2 "htl_connectors:Federklemme_KF142_3P_P5.08mm_C475145" H 8550 1850 50  0001 C CNN
 F 3 "~" H 8550 1850 50  0001 C CNN
 F 4 "C475145" H 8550 1850 50  0001 C CNN "DistOrderNr"
 F 5 "LCSC" H 8550 1850 50  0001 C CNN "Distributor"
@@ -102,12 +102,12 @@ Wire Wire Line
 Wire Wire Line
 	7850 3550 7650 3550
 $Comp
-L Connector:Screw_Terminal_01x03 J2
+L Connector:Screw_Terminal_01x03 X2
 U 1 1 60A7601A
 P 1100 3650
-F 0 "J2" H 1018 3967 50  0000 C CNN
+F 0 "X2" H 1018 3967 50  0000 C CNN
 F 1 "COM" H 1018 3876 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 1100 3650 50  0001 C CNN
+F 2 "htl_connectors:Federklemme_KF142_3P_P5.08mm_C475145" H 1100 3650 50  0001 C CNN
 F 3 "~" H 1100 3650 50  0001 C CNN
 F 4 "C475145" H 1100 3650 50  0001 C CNN "DistOrderNr"
 F 5 "LCSC" H 1100 3650 50  0001 C CNN "Distributor"
@@ -137,43 +137,43 @@ $EndSheet
 $Comp
 L Switch:SW_Push SW?
 U 1 1 60AB2E65
-P 3250 5900
+P 3250 6000
 AR Path="/608DBC3C/60AB2E65" Ref="SW?"  Part="1" 
 AR Path="/60AB2E65" Ref="SW3"  Part="1" 
-F 0 "SW3" V 3296 5852 50  0000 R CNN
-F 1 "ENTER" V 3205 5852 50  0000 R CNN
-F 2 "htl_smd:SW_Push_5.1mm_H1.5mm" H 3250 6100 50  0001 C CNN
-F 3 "~" H 3250 6100 50  0001 C CNN
-F 4 "C318884" H 3250 5900 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 3250 5900 50  0001 C CNN "Distributor"
-F 6 "TS-1187A-B-A-B" H 3250 5900 50  0001 C CNN "ManPartNr"
-F 7 "XKB Connectivity" H 3250 5900 50  0001 C CNN "Manufacturer"
-F 8 "SPST 50mA @ 12VDC Vertical Round Button 160gf SMD Tactile Switches" H 3250 5900 50  0001 C CNN "Notes"
-F 9 "0.01" H 3250 5900 50  0001 C CNN "PriceEUR"
-F 10 "500" H 3250 5900 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Tactile-Switches_XKB-Connectivity-TS-1187A-B-A-B_C318884.html" H 3250 5900 50  0001 C CNN "Weblink"
-	1    3250 5900
+F 0 "SW3" V 3296 5952 50  0000 R CNN
+F 1 "ENTER" V 3205 5952 50  0000 R CNN
+F 2 "htl_smd:SW_Push_5.1mm_H1.5mm" H 3250 6200 50  0001 C CNN
+F 3 "~" H 3250 6200 50  0001 C CNN
+F 4 "C318884" H 3250 6000 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 3250 6000 50  0001 C CNN "Distributor"
+F 6 "TS-1187A-B-A-B" H 3250 6000 50  0001 C CNN "ManPartNr"
+F 7 "XKB Connectivity" H 3250 6000 50  0001 C CNN "Manufacturer"
+F 8 "SPST 50mA @ 12VDC Vertical Round Button 160gf SMD Tactile Switches" H 3250 6000 50  0001 C CNN "Notes"
+F 9 "0.01" H 3250 6000 50  0001 C CNN "PriceEUR"
+F 10 "500" H 3250 6000 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Tactile-Switches_XKB-Connectivity-TS-1187A-B-A-B_C318884.html" H 3250 6000 50  0001 C CNN "Weblink"
+	1    3250 6000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Switch:SW_Push SW?
 U 1 1 60AB2E6B
-P 4050 5900
+P 4050 6000
 AR Path="/608DBC3C/60AB2E6B" Ref="SW?"  Part="1" 
 AR Path="/60AB2E6B" Ref="SW4"  Part="1" 
-F 0 "SW4" V 4096 5852 50  0000 R CNN
-F 1 "BACK" V 4005 5852 50  0000 R CNN
-F 2 "htl_smd:SW_Push_5.1mm_H1.5mm" H 4050 6100 50  0001 C CNN
-F 3 "~" H 4050 6100 50  0001 C CNN
-F 4 "C318884" H 4050 5900 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 4050 5900 50  0001 C CNN "Distributor"
-F 6 "TS-1187A-B-A-B" H 4050 5900 50  0001 C CNN "ManPartNr"
-F 7 "XKB Connectivity" H 4050 5900 50  0001 C CNN "Manufacturer"
-F 8 "SPST 50mA @ 12VDC Vertical Round Button 160gf SMD Tactile Switches" H 4050 5900 50  0001 C CNN "Notes"
-F 9 "0.01" H 4050 5900 50  0001 C CNN "PriceEUR"
-F 10 "500" H 4050 5900 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Tactile-Switches_XKB-Connectivity-TS-1187A-B-A-B_C318884.html" H 4050 5900 50  0001 C CNN "Weblink"
-	1    4050 5900
+F 0 "SW4" V 4096 5952 50  0000 R CNN
+F 1 "BACK" V 4005 5952 50  0000 R CNN
+F 2 "htl_smd:SW_Push_5.1mm_H1.5mm" H 4050 6200 50  0001 C CNN
+F 3 "~" H 4050 6200 50  0001 C CNN
+F 4 "C318884" H 4050 6000 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 4050 6000 50  0001 C CNN "Distributor"
+F 6 "TS-1187A-B-A-B" H 4050 6000 50  0001 C CNN "ManPartNr"
+F 7 "XKB Connectivity" H 4050 6000 50  0001 C CNN "Manufacturer"
+F 8 "SPST 50mA @ 12VDC Vertical Round Button 160gf SMD Tactile Switches" H 4050 6000 50  0001 C CNN "Notes"
+F 9 "0.01" H 4050 6000 50  0001 C CNN "PriceEUR"
+F 10 "500" H 4050 6000 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Tactile-Switches_XKB-Connectivity-TS-1187A-B-A-B_C318884.html" H 4050 6000 50  0001 C CNN "Weblink"
+	1    4050 6000
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -214,29 +214,27 @@ Connection ~ 3250 4450
 Wire Wire Line
 	3250 4450 3250 4650
 Wire Wire Line
-	4050 6100 4050 6300
+	4050 6200 4050 6400
 Wire Wire Line
-	3250 6300 3550 6300
+	3250 6400 3550 6400
 Wire Wire Line
-	3250 6100 3250 6300
+	3250 6200 3250 6400
 $Comp
 L power:GND #PWR?
 U 1 1 60AB2E88
-P 3250 6400
+P 3250 6500
 AR Path="/608DBC3C/60AB2E88" Ref="#PWR?"  Part="1" 
 AR Path="/60AB2E88" Ref="#PWR01"  Part="1" 
-F 0 "#PWR01" H 3250 6150 50  0001 C CNN
-F 1 "GND" H 3255 6227 50  0000 C CNN
-F 2 "" H 3250 6400 50  0001 C CNN
-F 3 "" H 3250 6400 50  0001 C CNN
-	1    3250 6400
+F 0 "#PWR01" H 3250 6250 50  0001 C CNN
+F 1 "GND" H 3255 6327 50  0000 C CNN
+F 2 "" H 3250 6500 50  0001 C CNN
+F 3 "" H 3250 6500 50  0001 C CNN
+	1    3250 6500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3250 6400 3250 6300
-Connection ~ 3250 6300
-Wire Wire Line
-	3200 2300 3550 2300
+	3250 6500 3250 6400
+Connection ~ 3250 6400
 Wire Wire Line
 	3550 2300 3550 3300
 Wire Wire Line
@@ -279,43 +277,43 @@ Wire Wire Line
 $Comp
 L Switch:SW_Push SW?
 U 1 1 60AC53E0
-P 1650 5900
+P 1650 6000
 AR Path="/608DBC3C/60AC53E0" Ref="SW?"  Part="1" 
 AR Path="/60AC53E0" Ref="SW1"  Part="1" 
-F 0 "SW1" V 1696 5852 50  0000 R CNN
-F 1 "UP" V 1605 5852 50  0000 R CNN
-F 2 "htl_smd:SW_Push_5.1mm_H1.5mm" H 1650 6100 50  0001 C CNN
-F 3 "~" H 1650 6100 50  0001 C CNN
-F 4 "C318884" H 1650 5900 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 1650 5900 50  0001 C CNN "Distributor"
-F 6 "TS-1187A-B-A-B" H 1650 5900 50  0001 C CNN "ManPartNr"
-F 7 "XKB Connectivity" H 1650 5900 50  0001 C CNN "Manufacturer"
-F 8 "SPST 50mA @ 12VDC Vertical Round Button 160gf SMD Tactile Switches" H 1650 5900 50  0001 C CNN "Notes"
-F 9 "0.01" H 1650 5900 50  0001 C CNN "PriceEUR"
-F 10 "500" H 1650 5900 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Tactile-Switches_XKB-Connectivity-TS-1187A-B-A-B_C318884.html" H 1650 5900 50  0001 C CNN "Weblink"
-	1    1650 5900
+F 0 "SW1" V 1696 5952 50  0000 R CNN
+F 1 "UP" V 1605 5952 50  0000 R CNN
+F 2 "htl_smd:SW_Push_5.1mm_H1.5mm" H 1650 6200 50  0001 C CNN
+F 3 "~" H 1650 6200 50  0001 C CNN
+F 4 "C318884" H 1650 6000 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 1650 6000 50  0001 C CNN "Distributor"
+F 6 "TS-1187A-B-A-B" H 1650 6000 50  0001 C CNN "ManPartNr"
+F 7 "XKB Connectivity" H 1650 6000 50  0001 C CNN "Manufacturer"
+F 8 "SPST 50mA @ 12VDC Vertical Round Button 160gf SMD Tactile Switches" H 1650 6000 50  0001 C CNN "Notes"
+F 9 "0.01" H 1650 6000 50  0001 C CNN "PriceEUR"
+F 10 "500" H 1650 6000 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Tactile-Switches_XKB-Connectivity-TS-1187A-B-A-B_C318884.html" H 1650 6000 50  0001 C CNN "Weblink"
+	1    1650 6000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Switch:SW_Push SW?
 U 1 1 60AC53E6
-P 2500 5900
+P 2500 6000
 AR Path="/608DBC3C/60AC53E6" Ref="SW?"  Part="1" 
 AR Path="/60AC53E6" Ref="SW2"  Part="1" 
-F 0 "SW2" V 2546 5852 50  0000 R CNN
-F 1 "DOWN" V 2455 5852 50  0000 R CNN
-F 2 "htl_smd:SW_Push_5.1mm_H1.5mm" H 2500 6100 50  0001 C CNN
-F 3 "~" H 2500 6100 50  0001 C CNN
-F 4 "C318884" H 2500 5900 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 2500 5900 50  0001 C CNN "Distributor"
-F 6 "TS-1187A-B-A-B" H 2500 5900 50  0001 C CNN "ManPartNr"
-F 7 "XKB Connectivity" H 2500 5900 50  0001 C CNN "Manufacturer"
-F 8 "SPST 50mA @ 12VDC Vertical Round Button 160gf SMD Tactile Switches" H 2500 5900 50  0001 C CNN "Notes"
-F 9 "0.01" H 2500 5900 50  0001 C CNN "PriceEUR"
-F 10 "500" H 2500 5900 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Tactile-Switches_XKB-Connectivity-TS-1187A-B-A-B_C318884.html" H 2500 5900 50  0001 C CNN "Weblink"
-	1    2500 5900
+F 0 "SW2" V 2546 5952 50  0000 R CNN
+F 1 "DOWN" V 2455 5952 50  0000 R CNN
+F 2 "htl_smd:SW_Push_5.1mm_H1.5mm" H 2500 6200 50  0001 C CNN
+F 3 "~" H 2500 6200 50  0001 C CNN
+F 4 "C318884" H 2500 6000 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 2500 6000 50  0001 C CNN "Distributor"
+F 6 "TS-1187A-B-A-B" H 2500 6000 50  0001 C CNN "ManPartNr"
+F 7 "XKB Connectivity" H 2500 6000 50  0001 C CNN "Manufacturer"
+F 8 "SPST 50mA @ 12VDC Vertical Round Button 160gf SMD Tactile Switches" H 2500 6000 50  0001 C CNN "Notes"
+F 9 "0.01" H 2500 6000 50  0001 C CNN "PriceEUR"
+F 10 "500" H 2500 6000 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Tactile-Switches_XKB-Connectivity-TS-1187A-B-A-B_C318884.html" H 2500 6000 50  0001 C CNN "Weblink"
+	1    2500 6000
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -331,6 +329,7 @@ F 3 "~" H 1650 4800 50  0001 C CNN
 F 4 "0.01" H 1650 4800 50  0001 C CNN "PriceEUR"
 F 5 "C118075" H 1650 4800 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 1650 4800 50  0001 C CNN "Distributor"
+F 7 "10kΩ ±5% 0.25W ±100ppm/℃ 3216 Chip Resistor" H 1650 4800 50  0001 C CNN "Notes"
 	1    1650 4800
 	1    0    0    -1  
 $EndComp
@@ -357,18 +356,18 @@ Wire Wire Line
 Wire Wire Line
 	1650 4450 1650 4650
 Wire Wire Line
-	2500 6100 2500 6300
+	2500 6200 2500 6400
 Wire Wire Line
-	1650 6300 1950 6300
+	1650 6400 1950 6400
 Wire Wire Line
-	1650 6100 1650 6300
+	1650 6200 1650 6400
 Wire Wire Line
 	1650 4950 1650 5050
 Wire Wire Line
 	2500 4950 2500 5150
 Wire Wire Line
-	2500 6300 2800 6300
-Connection ~ 2500 6300
+	2500 6400 2800 6400
+Connection ~ 2500 6400
 Wire Wire Line
 	2500 4450 3250 4450
 Connection ~ 2500 4450
@@ -376,22 +375,22 @@ Wire Wire Line
 	1650 5050 4550 5050
 Connection ~ 1650 5050
 Wire Wire Line
-	1650 5050 1650 5600
+	1650 5050 1650 5700
 Wire Wire Line
 	2500 5150 4550 5150
 Connection ~ 2500 5150
 Wire Wire Line
-	2500 5150 2500 5600
+	2500 5150 2500 5700
 Wire Wire Line
 	3250 5250 4550 5250
 Connection ~ 3250 5250
 Wire Wire Line
-	3250 5250 3250 5600
+	3250 5250 3250 5700
 Wire Wire Line
 	4050 5350 4550 5350
 Connection ~ 4050 5350
 Wire Wire Line
-	4050 5350 4050 5600
+	4050 5350 4050 5700
 $Comp
 L Device:LED D?
 U 1 1 60ADA10B
@@ -404,7 +403,7 @@ F 2 "LED_SMD:LED_1206_3216Metric" H 6200 2550 50  0001 C CNN
 F 3 "~" H 6200 2550 50  0001 C CNN
 F 4 "C965823" H 6200 2550 50  0001 C CNN "DistOrderNr"
 F 5 "LCSC" H 6200 2550 50  0001 C CNN "Distributor"
-F 6 "LED, green, SMD3216" H 6200 2550 50  0001 C CNN "Notes"
+F 6 "LED, red, SMD3216" H 6200 2550 50  0001 C CNN "Notes"
 F 7 "0.0079" H 6200 2550 50  0001 C CNN "PriceEUR"
 F 8 "50" H 6200 2550 50  0001 C CNN "PriceForQty"
 	1    6200 2550
@@ -466,112 +465,112 @@ Wire Wire Line
 $Comp
 L Device:C C1
 U 1 1 60B19969
-P 1800 5600
-F 0 "C1" V 1548 5600 50  0000 C CNN
-F 1 "100n" V 1639 5600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 1838 5450 50  0001 C CNN
-F 3 "~" H 1800 5600 50  0001 C CNN
-F 4 "C464972" H 1800 5600 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 1800 5600 50  0001 C CNN "Distributor"
-F 6 "FN31X104K500PXG" H 1800 5600 50  0001 C CNN "ManPartNr"
-F 7 "PSA(Prosperity Dielectrics)" H 1800 5600 50  0001 C CNN "Manufacturer"
-F 8 "100nF ±10% 50V X7R Multilayer Ceramic Capacitors MLCC" H 1800 5600 50  0001 C CNN "Notes"
-F 9 "0.0093" H 1800 5600 50  0001 C CNN "PriceEUR"
-F 10 "500" H 1800 5600 50  0001 C CNN "PriceForQty"
-F 11 "" H 1800 5600 50  0001 C CNN "Weblink"
-	1    1800 5600
+P 1800 5700
+F 0 "C1" V 1548 5700 50  0000 C CNN
+F 1 "100n" V 1639 5700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 1838 5550 50  0001 C CNN
+F 3 "~" H 1800 5700 50  0001 C CNN
+F 4 "C464972" H 1800 5700 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 1800 5700 50  0001 C CNN "Distributor"
+F 6 "FN31X104K500PXG" H 1800 5700 50  0001 C CNN "ManPartNr"
+F 7 "PSA(Prosperity Dielectrics)" H 1800 5700 50  0001 C CNN "Manufacturer"
+F 8 "100nF ±10% 50V X7R Multilayer Ceramic Capacitors MLCC" H 1800 5700 50  0001 C CNN "Notes"
+F 9 "0.0093" H 1800 5700 50  0001 C CNN "PriceEUR"
+F 10 "500" H 1800 5700 50  0001 C CNN "PriceForQty"
+F 11 "" H 1800 5700 50  0001 C CNN "Weblink"
+	1    1800 5700
 	0    1    1    0   
 $EndComp
-Connection ~ 1650 5600
+Connection ~ 1650 5700
 Wire Wire Line
-	1650 5600 1650 5700
+	1650 5700 1650 5800
 Wire Wire Line
-	1950 5600 1950 6300
-Connection ~ 1950 6300
+	1950 5700 1950 6400
+Connection ~ 1950 6400
 Wire Wire Line
-	1950 6300 2500 6300
+	1950 6400 2500 6400
 $Comp
 L Device:C C2
 U 1 1 60B20A61
-P 2650 5600
-F 0 "C2" V 2398 5600 50  0000 C CNN
-F 1 "100n" V 2489 5600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 2688 5450 50  0001 C CNN
-F 3 "~" H 2650 5600 50  0001 C CNN
-F 4 "C464972" H 2650 5600 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 2650 5600 50  0001 C CNN "Distributor"
-F 6 "FN31X104K500PXG" H 2650 5600 50  0001 C CNN "ManPartNr"
-F 7 "PSA(Prosperity Dielectrics)" H 2650 5600 50  0001 C CNN "Manufacturer"
-F 8 "100nF ±10% 50V X7R Multilayer Ceramic Capacitors MLCC" H 2650 5600 50  0001 C CNN "Notes"
-F 9 "0.0093" H 2650 5600 50  0001 C CNN "PriceEUR"
-F 10 "500" H 2650 5600 50  0001 C CNN "PriceForQty"
-F 11 "" H 2650 5600 50  0001 C CNN "Weblink"
-	1    2650 5600
+P 2650 5700
+F 0 "C2" V 2398 5700 50  0000 C CNN
+F 1 "100n" V 2489 5700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 2688 5550 50  0001 C CNN
+F 3 "~" H 2650 5700 50  0001 C CNN
+F 4 "C464972" H 2650 5700 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 2650 5700 50  0001 C CNN "Distributor"
+F 6 "FN31X104K500PXG" H 2650 5700 50  0001 C CNN "ManPartNr"
+F 7 "PSA(Prosperity Dielectrics)" H 2650 5700 50  0001 C CNN "Manufacturer"
+F 8 "100nF ±10% 50V X7R Multilayer Ceramic Capacitors MLCC" H 2650 5700 50  0001 C CNN "Notes"
+F 9 "0.0093" H 2650 5700 50  0001 C CNN "PriceEUR"
+F 10 "500" H 2650 5700 50  0001 C CNN "PriceForQty"
+F 11 "" H 2650 5700 50  0001 C CNN "Weblink"
+	1    2650 5700
 	0    1    1    0   
 $EndComp
-Connection ~ 2500 5600
+Connection ~ 2500 5700
 Wire Wire Line
-	2500 5600 2500 5700
+	2500 5700 2500 5800
 Wire Wire Line
-	2800 5600 2800 6300
-Connection ~ 2800 6300
+	2800 5700 2800 6400
+Connection ~ 2800 6400
 Wire Wire Line
-	2800 6300 3250 6300
+	2800 6400 3250 6400
 $Comp
 L Device:C C3
 U 1 1 60B228A4
-P 3400 5600
-F 0 "C3" V 3148 5600 50  0000 C CNN
-F 1 "100n" V 3239 5600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 3438 5450 50  0001 C CNN
-F 3 "~" H 3400 5600 50  0001 C CNN
-F 4 "C464972" H 3400 5600 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 3400 5600 50  0001 C CNN "Distributor"
-F 6 "FN31X104K500PXG" H 3400 5600 50  0001 C CNN "ManPartNr"
-F 7 "PSA(Prosperity Dielectrics)" H 3400 5600 50  0001 C CNN "Manufacturer"
-F 8 "100nF ±10% 50V X7R Multilayer Ceramic Capacitors MLCC" H 3400 5600 50  0001 C CNN "Notes"
-F 9 "0.0093" H 3400 5600 50  0001 C CNN "PriceEUR"
-F 10 "500" H 3400 5600 50  0001 C CNN "PriceForQty"
-F 11 "" H 3400 5600 50  0001 C CNN "Weblink"
-	1    3400 5600
+P 3400 5700
+F 0 "C3" V 3148 5700 50  0000 C CNN
+F 1 "100n" V 3239 5700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3438 5550 50  0001 C CNN
+F 3 "~" H 3400 5700 50  0001 C CNN
+F 4 "C464972" H 3400 5700 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 3400 5700 50  0001 C CNN "Distributor"
+F 6 "FN31X104K500PXG" H 3400 5700 50  0001 C CNN "ManPartNr"
+F 7 "PSA(Prosperity Dielectrics)" H 3400 5700 50  0001 C CNN "Manufacturer"
+F 8 "100nF ±10% 50V X7R Multilayer Ceramic Capacitors MLCC" H 3400 5700 50  0001 C CNN "Notes"
+F 9 "0.0093" H 3400 5700 50  0001 C CNN "PriceEUR"
+F 10 "500" H 3400 5700 50  0001 C CNN "PriceForQty"
+F 11 "" H 3400 5700 50  0001 C CNN "Weblink"
+	1    3400 5700
 	0    1    1    0   
 $EndComp
-Connection ~ 3250 5600
+Connection ~ 3250 5700
 Wire Wire Line
-	3250 5600 3250 5700
+	3250 5700 3250 5800
 Wire Wire Line
-	3550 5600 3550 6300
-Connection ~ 3550 6300
+	3550 5700 3550 6400
+Connection ~ 3550 6400
 Wire Wire Line
-	3550 6300 4050 6300
+	3550 6400 4050 6400
 $Comp
 L Device:C C4
 U 1 1 60B24746
-P 4200 5600
-F 0 "C4" V 3948 5600 50  0000 C CNN
-F 1 "100n" V 4039 5600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 4238 5450 50  0001 C CNN
-F 3 "~" H 4200 5600 50  0001 C CNN
-F 4 "C464972" H 4200 5600 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 4200 5600 50  0001 C CNN "Distributor"
-F 6 "FN31X104K500PXG" H 4200 5600 50  0001 C CNN "ManPartNr"
-F 7 "PSA(Prosperity Dielectrics)" H 4200 5600 50  0001 C CNN "Manufacturer"
-F 8 "100nF ±10% 50V X7R Multilayer Ceramic Capacitors MLCC" H 4200 5600 50  0001 C CNN "Notes"
-F 9 "0.0093" H 4200 5600 50  0001 C CNN "PriceEUR"
-F 10 "500" H 4200 5600 50  0001 C CNN "PriceForQty"
-F 11 "" H 4200 5600 50  0001 C CNN "Weblink"
-	1    4200 5600
+P 4200 5700
+F 0 "C4" V 3948 5700 50  0000 C CNN
+F 1 "100n" V 4039 5700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4238 5550 50  0001 C CNN
+F 3 "~" H 4200 5700 50  0001 C CNN
+F 4 "C464972" H 4200 5700 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 4200 5700 50  0001 C CNN "Distributor"
+F 6 "FN31X104K500PXG" H 4200 5700 50  0001 C CNN "ManPartNr"
+F 7 "PSA(Prosperity Dielectrics)" H 4200 5700 50  0001 C CNN "Manufacturer"
+F 8 "100nF ±10% 50V X7R Multilayer Ceramic Capacitors MLCC" H 4200 5700 50  0001 C CNN "Notes"
+F 9 "0.0093" H 4200 5700 50  0001 C CNN "PriceEUR"
+F 10 "500" H 4200 5700 50  0001 C CNN "PriceForQty"
+F 11 "" H 4200 5700 50  0001 C CNN "Weblink"
+	1    4200 5700
 	0    1    1    0   
 $EndComp
-Connection ~ 4050 5600
+Connection ~ 4050 5700
 Wire Wire Line
-	4050 5600 4050 5700
+	4050 5700 4050 5800
 Wire Wire Line
-	4350 5600 4350 6300
+	4350 5700 4350 6400
 Wire Wire Line
-	4350 6300 4050 6300
-Connection ~ 4050 6300
-Text Notes 1650 6650 0    50   ~ 0
+	4350 6400 4050 6400
+Connection ~ 4050 6400
+Text Notes 1650 6750 0    50   ~ 0
 Kondensatoren sollen dem\nOxidieren der Schaltkontaktfächen\nentgegenwirken. 
 $Comp
 L htl_modules:OLED-128x32-Module U1
@@ -749,17 +748,13 @@ F 7 "NAP" H 9950 4450 50  0001 C CNN "Distributor"
 	1    9950 4450
 	1    0    0    -1  
 $EndComp
-Text Notes 8200 2100 0    50   ~ 0
-TODO: Footprint Federklemmen\n
-Text Label 3350 2300 0    50   ~ 0
-5V
 $Comp
-L Connector:Screw_Terminal_01x03 J1
+L Connector:Screw_Terminal_01x03 X1
 U 1 1 60B4DA3D
 P 1050 2250
-F 0 "J1" H 968 2567 50  0000 C CNN
-F 1 "COM" H 968 2476 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 1050 2250 50  0001 C CNN
+F 0 "X1" H 968 2567 50  0000 C CNN
+F 1 "POWER" H 968 2476 50  0000 C CNN
+F 2 "htl_connectors:Federklemme_KF142_3P_P5.08mm_C475145" H 1050 2250 50  0001 C CNN
 F 3 "~" H 1050 2250 50  0001 C CNN
 F 4 "C475145" H 1050 2250 50  0001 C CNN "DistOrderNr"
 F 5 "LCSC" H 1050 2250 50  0001 C CNN "Distributor"
@@ -802,4 +797,14 @@ Wire Wire Line
 	1500 1350 1500 2250
 Wire Wire Line
 	1500 2250 1800 2250
+Text Notes 1850 4250 0    50   ~ 0
+TODO: umstellen auf RS485\nfür die Bus-Fähigkeit\nLCSC  C269866
+Text Label 3750 2300 0    50   ~ 0
+5V
+Wire Wire Line
+	3200 2300 3550 2300
+Wire Wire Line
+	3550 2300 3750 2300
+Text Notes 8200 2350 0    50   ~ 0
+TODO: Footprint\nHier gibts noch ein problem mit der x-Ausrichtung\nDas 3D-Modell passt offenbar nicht zu 2D-Skizze\nPins sollten zum Drahtloch leicht versetzt sein.
 $EndSCHEMATC

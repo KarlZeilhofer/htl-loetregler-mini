@@ -1,0 +1,36 @@
+Review Root Sheet
+Karl Zeilhofer
+
+LED Strom: 3.3mA, OK
+LED-Farbe: 605nm, Rot-Orange, OK
+
+Taster: 
+	3.7/6 mm Padraster: OK
+	Padgröße: 0.75x1mm: OK
+	Beschaltung: 1-1 und 2-2: OK
+	Bestellnr: OK
+
+100nF:
+	Bestellnummer: OK
+	Footprint: OK
+
+10k:
+	Footprint: OK
+	Bestellnr: OK
+	Leistung bei 5V: reicht leicht
+
+1k:
+	Footprint: OK
+	Leistung: 11mW, OK
+	Bestellnr: OK
+
+OLED:
+	Pin-Platzierung: OK
+	Abmessungen 12x38mm: OK
+	Sichtbare Displayfläche: noch undefiniert, für Gehäuse wichtig
+
+Federklemmen:
+    TODO: Footprint
+    Hier gibts noch ein problem mit der x-Ausrichtung
+    Das 3D-Modell passt offenbar nicht zu 2D-Skizze
+    Pins sollten zum Drahtloch leicht versetzt sein.

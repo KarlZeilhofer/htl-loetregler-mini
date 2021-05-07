@@ -1,0 +1,27 @@
+
+Designreview:
+
+Footprint größe
+Pin-Raster
+Bohrlöcherdurchmesser
+Bohrlöcherposition/-abstand
+
+Verlustleistung Widerstand
+Kondensatoren: Spannungsfestigkeit
+Bauform Kondensator
+
+LED-Strom
+
+ICs: 
+Pinnamen
+Pinnummern
+Gehäuseform zur exakten Bestellnummer/Herstellerteilenummer
+
+TVS-Spannungen mit Absolute Maximum Ratings vergleichen
+
+Busverbindungen
+Signalrichtungen kontrollieren
+100nF Stützkondensatoren bei jedem Chip
+
+
+

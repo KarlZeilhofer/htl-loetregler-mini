@@ -1,0 +1,26 @@
+5V-Spannungsversorgung
+
+3k3 Verlustleistung: 0,47mW , ca. 30mW max. Verlust = 0,25W
+
+LED Farbe laut wellenlänge richtig, Strom 3,6mA, erlaubt sind 25
+
+Kondensator gepolt: Spannung passt 12V bei 25V
+
+Kond. Spannung passt 12V bei 50V
+
+Shotkey Diode: Spannung passt 80V bei 100V
+ACHTUNG: Footprint zu schmal, noch nicht geändert
+
+
+XL 7005A Pinnummern u. Pinnamen ok, Spannungen überall ausreichend,Gehäuse 3,8 – 4 x 4,7–5,1 ok
+
+Spule 7,3 x 7,3 ok, Strom 1 A ok,
+
+100Ohm Verlustleistung ok , Footprint passt
+
+Kond. Gepolt 63V Spannung passt, Footprint passt 8x10
+
+Kond. 100V Spannung ok, Footprint ok, 
+
+
+
