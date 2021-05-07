@@ -414,9 +414,11 @@ Wire Wire Line
 Wire Wire Line
 	2250 4200 2600 4200
 $Comp
-L Connector:USB_B J4
+L jbc-miniregler-rescue:USB_B-Connector J4
 U 1 1 6095254E
 P 1550 6300
+AR Path="/6095254E" Ref="J4"  Part="1" 
+AR Path="/608DBC3C/60930C19/6095254E" Ref="J4"  Part="1" 
 F 0 "J4" H 1607 6767 50  0000 C CNN
 F 1 "USB_B" H 1607 6676 50  0000 C CNN
 F 2 "Connector_USB:USB_B_Lumberg_2411_02_Horizontal" H 1700 6250 50  0001 C CNN
@@ -492,8 +494,6 @@ Wire Wire Line
 	5950 4050 5950 6100
 Wire Wire Line
 	4800 6100 5950 6100
-Wire Wire Line
-	5850 6000 5850 3950
 Wire Wire Line
 	5850 3950 5100 3950
 Wire Wire Line
@@ -685,36 +685,36 @@ Text Label 6100 3250 0    50   ~ 0
 $Comp
 L Switch:SW_Push SW?
 U 1 1 6099C47A
-P 6300 4350
+P 6300 4550
 AR Path="/608DBC3C/6099C47A" Ref="SW?"  Part="1" 
 AR Path="/6099C47A" Ref="SW?"  Part="1" 
 AR Path="/608DBC3C/60930C19/6099C47A" Ref="SW5"  Part="1" 
-F 0 "SW5" V 6346 4302 50  0000 R CNN
-F 1 "Reset" V 6255 4302 50  0000 R CNN
-F 2 "htl_smd:SW_Push_5.1mm_H1.5mm" H 6300 4550 50  0001 C CNN
-F 3 "~" H 6300 4550 50  0001 C CNN
-F 4 "C318884" H 6300 4350 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 6300 4350 50  0001 C CNN "Distributor"
-F 6 "TS-1187A-B-A-B" H 6300 4350 50  0001 C CNN "ManPartNr"
-F 7 "XKB Connectivity" H 6300 4350 50  0001 C CNN "Manufacturer"
-F 8 "SPST 50mA @ 12VDC Vertical Round Button 160gf SMD Tactile Switches" H 6300 4350 50  0001 C CNN "Notes"
-F 9 "0.01" H 6300 4350 50  0001 C CNN "PriceEUR"
-F 10 "500" H 6300 4350 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Tactile-Switches_XKB-Connectivity-TS-1187A-B-A-B_C318884.html" H 6300 4350 50  0001 C CNN "Weblink"
-	1    6300 4350
+F 0 "SW5" V 6346 4502 50  0000 R CNN
+F 1 "Reset" V 6255 4502 50  0000 R CNN
+F 2 "htl_smd:SW_Push_5.1mm_H1.5mm" H 6300 4750 50  0001 C CNN
+F 3 "~" H 6300 4750 50  0001 C CNN
+F 4 "C318884" H 6300 4550 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 6300 4550 50  0001 C CNN "Distributor"
+F 6 "TS-1187A-B-A-B" H 6300 4550 50  0001 C CNN "ManPartNr"
+F 7 "XKB Connectivity" H 6300 4550 50  0001 C CNN "Manufacturer"
+F 8 "SPST 50mA @ 12VDC Vertical Round Button 160gf SMD Tactile Switches" H 6300 4550 50  0001 C CNN "Notes"
+F 9 "0.01" H 6300 4550 50  0001 C CNN "PriceEUR"
+F 10 "500" H 6300 4550 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Tactile-Switches_XKB-Connectivity-TS-1187A-B-A-B_C318884.html" H 6300 4550 50  0001 C CNN "Weblink"
+	1    6300 4550
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6300 4150 6300 3750
+	6300 4350 6300 4200
 $Comp
 L power:GND #PWR022
 U 1 1 609A896E
-P 6300 4550
-F 0 "#PWR022" H 6300 4300 50  0001 C CNN
-F 1 "GND" H 6305 4377 50  0000 C CNN
-F 2 "" H 6300 4550 50  0001 C CNN
-F 3 "" H 6300 4550 50  0001 C CNN
-	1    6300 4550
+P 6300 4750
+F 0 "#PWR022" H 6300 4500 50  0001 C CNN
+F 1 "GND" H 6305 4577 50  0000 C CNN
+F 2 "" H 6300 4750 50  0001 C CNN
+F 3 "" H 6300 4750 50  0001 C CNN
+	1    6300 4750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1254,4 +1254,44 @@ Wire Wire Line
 	6250 5300 7200 5300
 Wire Wire Line
 	1850 6100 2250 6100
+Wire Wire Line
+	5850 6000 5850 3950
+Wire Wire Line
+	6300 4200 6700 4200
+Wire Wire Line
+	6700 4200 6700 4450
+Connection ~ 6300 4200
+Wire Wire Line
+	6300 4200 6300 3750
+$Comp
+L power:GND #PWR?
+U 1 1 6097814E
+P 6700 4750
+F 0 "#PWR?" H 6700 4500 50  0001 C CNN
+F 1 "GND" H 6705 4577 50  0000 C CNN
+F 2 "" H 6700 4750 50  0001 C CNN
+F 3 "" H 6700 4750 50  0001 C CNN
+	1    6700 4750
+	1    0    0    -1  
+$EndComp
+Text Notes 6450 5050 0    50   ~ 0
+TODO: notwendig?
+$Comp
+L Device:C C?
+U 1 1 6097B642
+P 6700 4600
+F 0 "C?" H 6815 4646 50  0000 L CNN
+F 1 "10n" H 6815 4555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6738 4450 50  0001 C CNN
+F 3 "~" H 6700 4600 50  0001 C CNN
+F 4 "C525316" H 6700 4600 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 6700 4600 50  0001 C CNN "Distributor"
+F 6 "FN31X103K500PXG" H 6700 4600 50  0001 C CNN "ManPartNr"
+F 7 "PSA(Prosperity Dielectrics)" H 6700 4600 50  0001 C CNN "Manufacturer"
+F 8 "10nF ±10% 50V X7R  Multilayer Ceramic Capacitors MLCC" H 6700 4600 50  0001 C CNN "Notes"
+F 9 "0.0106" H 6700 4600 50  0001 C CNN "PriceEUR"
+F 10 "500" H 6700 4600 50  0001 C CNN "PriceForQty"
+	1    6700 4600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

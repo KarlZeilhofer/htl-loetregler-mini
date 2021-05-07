@@ -382,7 +382,7 @@ Wire Wire Line
 Text Notes 1650 4800 0    50   ~ 0
 Schutzwiderstand\ngegen 60V
 $Comp
-L Diode:BAV99 D?
+L jbc-miniregler-rescue:BAV99-Diode D?
 U 1 1 60B5DBF4
 P 2350 5100
 AR Path="/608DBC55/60B5DBF4" Ref="D?"  Part="2" 
@@ -403,7 +403,7 @@ F 11 "https://lcsc.com/product-detail/Switching-Diode_BAV99-chip0-23_C181111.htm
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAV99 D?
+L jbc-miniregler-rescue:BAV99-Diode D?
 U 2 1 60B5F1E3
 P 2800 5100
 AR Path="/608DBC55/60B5F1E3" Ref="D?"  Part="2" 

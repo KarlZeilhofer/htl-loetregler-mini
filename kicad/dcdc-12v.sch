@@ -148,7 +148,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 3850 4800 4100
 $Comp
-L Device:CP C?
+L jbc-miniregler-rescue:CP-Device C?
 U 1 1 60A5D79C
 P 4200 4000
 AR Path="/608DBC83/60A5D79C" Ref="C?"  Part="1" 
@@ -169,7 +169,7 @@ F 10 "150" H 4200 4000 50  0001 C CNN "PriceForQty"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C?
+L jbc-miniregler-rescue:CP-Device C?
 U 1 1 60A5D7A2
 P 7300 4200
 AR Path="/608DBC83/60A5D7A2" Ref="C?"  Part="1" 

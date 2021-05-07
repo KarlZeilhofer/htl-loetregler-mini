@@ -75,7 +75,7 @@ $EndComp
 Wire Wire Line
 	6000 2500 5900 2500
 $Comp
-L Diode:BAV99 D6
+L jbc-miniregler-rescue:BAV99-Diode D6
 U 2 1 608F0A12
 P 4350 3300
 F 0 "D6" V 4304 3378 50  0000 L CNN
@@ -94,7 +94,7 @@ F 11 "https://lcsc.com/product-detail/Switching-Diode_BAV99-chip0-23_C181111.htm
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAV99 D6
+L jbc-miniregler-rescue:BAV99-Diode D6
 U 1 1 608F1916
 P 4150 3300
 F 0 "D6" V 4196 3377 50  0000 L CNN
@@ -443,7 +443,7 @@ Wire Wire Line
 Text Notes 1650 2650 0    50   ~ 0
 Pullup zum Detektieren\neiner fehlenden Lötspitze. 
 $Comp
-L Diode:BAV99 D5
+L jbc-miniregler-rescue:BAV99-Diode D5
 U 2 1 60B76F24
 P 3950 5550
 F 0 "D5" V 3904 5628 50  0000 L CNN
@@ -462,7 +462,7 @@ F 11 "https://lcsc.com/product-detail/Switching-Diode_BAV99-chip0-23_C181111.htm
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAV99 D5
+L jbc-miniregler-rescue:BAV99-Diode D5
 U 1 1 60B76F32
 P 3750 5550
 F 0 "D5" V 3796 5627 50  0000 L CNN

@@ -142,7 +142,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 3600 4700 3850
 $Comp
-L Device:CP C?
+L jbc-miniregler-rescue:CP-Device C?
 U 1 1 60A48C90
 P 7200 3950
 AR Path="/608DBC83/60A48C90" Ref="C?"  Part="1" 
@@ -382,7 +382,7 @@ Connection ~ 4100 3200
 Wire Wire Line
 	4100 3600 4100 3200
 $Comp
-L Device:CP C?
+L jbc-miniregler-rescue:CP-Device C?
 U 1 1 60B4B9FB
 P 4100 3750
 AR Path="/608DBC83/60B4B9FB" Ref="C?"  Part="1" 

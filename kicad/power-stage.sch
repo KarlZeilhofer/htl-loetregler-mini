@@ -401,4 +401,6 @@ Wire Wire Line
 	4900 3200 4950 3200
 Wire Wire Line
 	6650 4800 6650 5350
+Text Notes 6800 5300 0    50   ~ 0
+Integrierte\n"Grid Tie"-Verbindung\nzu Deutsch: Massesternpunkt. 
 $EndSCHEMATC
