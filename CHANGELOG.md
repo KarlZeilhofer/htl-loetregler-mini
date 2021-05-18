@@ -7,4 +7,4 @@ JBC Miniregler - Changelog
 * Reset-Kondensator eingefügt (10nF, notwendig?)
 * Footprint + 3D-Modell für Federklemmen fertig
 * 3D-Modell für USB-B Steckverbinder
-
+* Optional anstatt von RS232 RS485 möglich

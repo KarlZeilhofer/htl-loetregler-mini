@@ -483,9 +483,10 @@ Connection ~ 2800 5300
 Text Notes 3650 5200 0    50   ~ 0
 Kondensator \nwichtig für ESD-Schutz
 Wire Wire Line
-	4600 3950 4500 3950
-NoConn ~ 4500 3950
-Wire Wire Line
 	4500 4050 4600 4050
 NoConn ~ 4500 4050
+Text HLabel 3350 3950 0    50   Output ~ 0
+ComDriverEnable
+Wire Wire Line
+	3350 3950 4600 3950
 $EndSCHEMATC

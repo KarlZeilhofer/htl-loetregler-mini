@@ -335,7 +335,7 @@ $EndComp
 Wire Wire Line
 	4950 1250 4800 1250
 Text HLabel 1650 3950 0    50   Input ~ 0
-UART_Tx1
+UART_TxD
 Wire Wire Line
 	2250 2750 3400 2750
 Wire Wire Line
@@ -344,10 +344,10 @@ Wire Wire Line
 	2550 3150 3400 3150
 Wire Wire Line
 	3250 3350 3400 3350
-Text HLabel 9950 4150 2    50   Input ~ 0
+Text HLabel 10450 4150 2    50   Input ~ 0
 RxD_B
-Text HLabel 9950 3800 2    50   Output ~ 0
-TXD_A
+Text HLabel 10450 3800 2    50   Output ~ 0
+TxD_A
 Wire Wire Line
 	5150 3350 5000 3350
 Wire Wire Line
@@ -428,7 +428,7 @@ F 11 "https://lcsc.com/product-detail/Pre-ordered-transistors_GOODWORK-SMAJ8-0CA
 	0    1    1    0   
 $EndComp
 Text HLabel 1650 4350 0    50   Output ~ 0
-UART_Rx1
+UART_RxD
 NoConn ~ 3250 2950
 NoConn ~ 3250 3350
 NoConn ~ 5150 2950
@@ -491,7 +491,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 4150 9700 4150
 Wire Wire Line
-	9950 3800 9050 3800
+	10450 3800 10300 3800
 Wire Wire Line
 	9050 4300 9050 3800
 Connection ~ 9050 3800
@@ -501,7 +501,7 @@ Wire Wire Line
 	9700 4300 9700 4150
 Connection ~ 9700 4150
 Wire Wire Line
-	9700 4150 9950 4150
+	9700 4150 10000 4150
 $Comp
 L Jumper:SolderJumper_3_Open JP?
 U 1 1 6098A36F
@@ -535,9 +535,9 @@ Wire Wire Line
 Wire Wire Line
 	8100 4000 8100 5700
 Wire Wire Line
-	8100 5700 5450 5700
+	8100 5700 6350 5700
 Wire Wire Line
-	5450 5400 8350 5400
+	5450 5400 6550 5400
 Wire Wire Line
 	8350 5400 8350 4350
 Wire Wire Line
@@ -715,4 +715,99 @@ F 3 "" H 5050 6200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5050 6250 5050 6100
+$Comp
+L Device:R R?
+U 1 1 609BC636
+P 10150 3800
+F 0 "R?" V 9943 3800 50  0000 C CNN
+F 1 "10R" V 10034 3800 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10080 3800 50  0001 C CNN
+F 3 "~" H 10150 3800 50  0001 C CNN
+	1    10150 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10000 3800 9050 3800
+$Comp
+L Device:R R?
+U 1 1 609BC9D3
+P 10150 4150
+F 0 "R?" V 9943 4150 50  0000 C CNN
+F 1 "10R" V 10034 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10080 4150 50  0001 C CNN
+F 3 "~" H 10150 4150 50  0001 C CNN
+	1    10150 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10300 4150 10450 4150
+$Comp
+L Device:R R?
+U 1 1 609BF4B9
+P 6350 5100
+AR Path="/608DBC83/609BF4B9" Ref="R?"  Part="1" 
+AR Path="/60A756E2/609BF4B9" Ref="R?"  Part="1" 
+F 0 "R?" H 6420 5146 50  0000 L CNN
+F 1 "1k" H 6420 5055 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6280 5100 50  0001 C CNN
+F 3 "~" H 6350 5100 50  0001 C CNN
+F 4 "0.0042" H 6350 5100 50  0001 C CNN "PriceEUR"
+F 5 "C104601" H 6350 5100 50  0001 C CNN "DistOrderNr"
+F 6 "LCSC" H 6350 5100 50  0001 C CNN "Distributor"
+F 7 "RTT03101JTP" H 6350 5100 50  0001 C CNN "ManPartNr"
+F 8 "RALEC" H 6350 5100 50  0001 C CNN "Manufacturer"
+F 9 "1kΩ ±5% 0.25W ±100ppm/℃ 1206 Chip Resistor" H 6350 5100 50  0001 C CNN "Notes"
+F 10 "50" H 6350 5100 50  0001 C CNN "PriceForQty"
+	1    6350 5100
+	1    0    0    -1  
+$EndComp
+Text Label 6200 4650 0    50   ~ 0
+5V_COM
+Wire Wire Line
+	6200 4650 6350 4650
+Wire Wire Line
+	6350 4650 6350 4950
+Wire Wire Line
+	6350 5250 6350 5700
+Connection ~ 6350 5700
+Wire Wire Line
+	6350 5700 5450 5700
+$Comp
+L Device:R R?
+U 1 1 609C36A8
+P 6550 6000
+AR Path="/608DBC83/609C36A8" Ref="R?"  Part="1" 
+AR Path="/60A756E2/609C36A8" Ref="R?"  Part="1" 
+F 0 "R?" H 6620 6046 50  0000 L CNN
+F 1 "1k" H 6620 5955 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6480 6000 50  0001 C CNN
+F 3 "~" H 6550 6000 50  0001 C CNN
+F 4 "0.0042" H 6550 6000 50  0001 C CNN "PriceEUR"
+F 5 "C104601" H 6550 6000 50  0001 C CNN "DistOrderNr"
+F 6 "LCSC" H 6550 6000 50  0001 C CNN "Distributor"
+F 7 "RTT03101JTP" H 6550 6000 50  0001 C CNN "ManPartNr"
+F 8 "RALEC" H 6550 6000 50  0001 C CNN "Manufacturer"
+F 9 "1kΩ ±5% 0.25W ±100ppm/℃ 1206 Chip Resistor" H 6550 6000 50  0001 C CNN "Notes"
+F 10 "50" H 6550 6000 50  0001 C CNN "PriceForQty"
+	1    6550 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 609C3BAE
+P 6550 6250
+F 0 "#PWR?" H 6550 6050 50  0001 C CNN
+F 1 "GNDPWR" H 6554 6096 50  0000 C CNN
+F 2 "" H 6550 6200 50  0001 C CNN
+F 3 "" H 6550 6200 50  0001 C CNN
+	1    6550 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 6250 6550 6150
+Wire Wire Line
+	6550 5850 6550 5400
+Connection ~ 6550 5400
+Wire Wire Line
+	6550 5400 8350 5400
 $EndSCHEMATC

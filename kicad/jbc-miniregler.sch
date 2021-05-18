@@ -34,6 +34,7 @@ F14 "TxD" O L 4550 3550 50
 F15 "SCL" B R 5950 4500 50 
 F16 "SDA" B R 5950 4400 50 
 F17 "Lötkolbenständer" I L 4550 2800 50 
+F18 "ComDriverEnable" O L 4550 3750 50 
 $EndSheet
 $Sheet
 S 6600 3300 1050 350 
@@ -126,13 +127,14 @@ Wire Wire Line
 $Sheet
 S 1800 3150 1400 700 
 U 60A756E2
-F0 "UART-RS232" 50
-F1 "uart-rs232.sch" 50
-F2 "UART_Tx1" I R 3200 3550 50 
-F3 "UART_Rx1" O R 3200 3650 50 
-F4 "RS232_Rx1" I L 1800 3550 50 
-F5 "RS232_Tx1" O L 1800 3650 50 
-F6 "5V" I R 3200 3300 50 
+F0 "UART RS232/RS485" 50
+F1 "uart-rs232-rs485.sch" 50
+F2 "5V" I R 3200 3300 50 
+F3 "UART_TxD" I R 3200 3550 50 
+F4 "RxD_B" I L 1800 3650 50 
+F5 "UART_RxD" O R 3200 3650 50 
+F6 "DriverEnable" I R 3200 3750 50 
+F7 "TxD_A" O L 1800 3550 50 
 $EndSheet
 $Comp
 L Switch:SW_Push SW?
@@ -797,8 +799,6 @@ Wire Wire Line
 	1500 1350 1500 2250
 Wire Wire Line
 	1500 2250 1800 2250
-Text Notes 1850 4250 0    50   ~ 0
-TODO: umstellen auf RS485\nfür die Bus-Fähigkeit\nLCSC  C269866
 Text Label 3750 2300 0    50   ~ 0
 5V
 Wire Wire Line
@@ -807,4 +807,6 @@ Wire Wire Line
 	3550 2300 3750 2300
 Text Notes 8200 2350 0    50   ~ 0
 TODO: Footprint\nHier gibts noch ein problem mit der x-Ausrichtung\nDas 3D-Modell passt offenbar nicht zu 2D-Skizze\nPins sollten zum Drahtloch leicht versetzt sein.
+Wire Wire Line
+	3200 3750 4550 3750
 $EndSCHEMATC

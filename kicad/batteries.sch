@@ -273,4 +273,6 @@ Wire Wire Line
 	4400 2500 4550 2500
 Text Notes 4600 1350 0    50   ~ 0
 TODO: Footprint überprüfen\nTODO: Geometrien der Akkus
+Text Notes 7150 1800 0    50   ~ 0
+B2+ und B2- sind die Standardanschlüsse für ein 20V-Pack
 $EndSCHEMATC
