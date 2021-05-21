@@ -76,31 +76,6 @@ F 10 "1" H 5000 3700 50  0001 C CNN "PriceForQty"
 	-1   0    0    1   
 $EndComp
 Connection ~ 5200 3700
-Wire Wire Line
-	5200 3700 5200 3900
-$Comp
-L Connector_Generic:Conn_01x01 J?
-U 1 1 60BECE6F
-P 5000 3900
-AR Path="/60BECE6F" Ref="J?"  Part="1" 
-AR Path="/60BEB366/60BECE6F" Ref="J9"  Part="1" 
-F 0 "J9" H 5080 3850 50  0000 L CNN
-F 1 "Bosch Plus" H 5080 3941 50  0000 L CNN
-F 2 "htl_connectors:Faston_Tab_6.3mm_vertical" H 5000 3900 50  0001 C CNN
-F 3 "~" H 5000 3900 50  0001 C CNN
-F 4 "VT FS-P 6,35" H 5000 3900 50  0001 C CNN "DistOrderNr"
-F 5 "Reichelt" H 5000 3900 50  0001 C CNN "Distributor"
-F 6 "03866.A68" H 5000 3900 50  0001 C CNN "ManPartNr"
-F 7 "Vogt" H 5000 3900 50  0001 C CNN "Manufacturer"
-F 8 "Faston Flachstecker vertikal 6.3mm für Leiterplattenmontage" H 5000 3900 50  0001 C CNN "Notes"
-F 9 "0.042" H 5000 3900 50  0001 C CNN "PriceEUR"
-F 10 "1" H 5000 3900 50  0001 C CNN "PriceForQty"
-	1    5000 3900
-	-1   0    0    1   
-$EndComp
-Connection ~ 5200 3900
-Wire Wire Line
-	5200 3900 5200 4350
 $Comp
 L Connector_Generic:Conn_01x01 J?
 U 1 1 60BECE77
@@ -123,7 +98,7 @@ F 10 "1" H 4100 2500 50  0001 C CNN "PriceForQty"
 $EndComp
 Connection ~ 5200 2500
 Wire Wire Line
-	5200 2500 5200 3700
+	5200 2500 5200 3500
 Text HLabel 6050 4350 2    50   Output ~ 0
 Plus
 Text HLabel 6050 4550 2    50   Output ~ 0
@@ -153,31 +128,6 @@ F 10 "1" H 5550 3700 50  0001 C CNN "PriceForQty"
 	1    0    0    -1  
 $EndComp
 Connection ~ 5350 3700
-Wire Wire Line
-	5350 3700 5350 3900
-$Comp
-L Connector_Generic:Conn_01x01 J?
-U 1 1 60BFE07F
-P 5550 3900
-AR Path="/60BFE07F" Ref="J?"  Part="1" 
-AR Path="/60BEB366/60BFE07F" Ref="J11"  Part="1" 
-F 0 "J11" H 5630 3942 50  0000 L CNN
-F 1 "Bosch Minus" H 5630 3851 50  0000 L CNN
-F 2 "htl_connectors:Faston_Tab_6.3mm_vertical" H 5550 3900 50  0001 C CNN
-F 3 "~" H 5550 3900 50  0001 C CNN
-F 4 "VT FS-P 6,35" H 5550 3900 50  0001 C CNN "DistOrderNr"
-F 5 "Reichelt" H 5550 3900 50  0001 C CNN "Distributor"
-F 6 "03866.A68" H 5550 3900 50  0001 C CNN "ManPartNr"
-F 7 "Vogt" H 5550 3900 50  0001 C CNN "Manufacturer"
-F 8 "Faston Flachstecker vertikal 6.3mm für Leiterplattenmontage" H 5550 3900 50  0001 C CNN "Notes"
-F 9 "0.042" H 5550 3900 50  0001 C CNN "PriceEUR"
-F 10 "1" H 5550 3900 50  0001 C CNN "PriceForQty"
-	1    5550 3900
-	1    0    0    -1  
-$EndComp
-Connection ~ 5350 3900
-Wire Wire Line
-	5350 3900 5350 4550
 $Comp
 L Jumper:SolderJumper_2_Open JP1
 U 1 1 60C008B7
@@ -237,7 +187,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 1750 5200 1750
 Wire Wire Line
-	5350 2500 5350 3700
+	5350 2500 5350 3500
 Wire Wire Line
 	6050 2500 5350 2500
 Wire Wire Line
@@ -275,4 +225,54 @@ Text Notes 4600 1350 0    50   ~ 0
 TODO: Footprint überprüfen\nTODO: Geometrien der Akkus
 Text Notes 7150 1800 0    50   ~ 0
 B2+ und B2- sind die Standardanschlüsse für ein 20V-Pack
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 60A928EC
+P 5000 3500
+AR Path="/60A928EC" Ref="J?"  Part="1" 
+AR Path="/60BEB366/60A928EC" Ref="J1"  Part="1" 
+F 0 "J1" H 5080 3450 50  0000 L CNN
+F 1 "Makita Plus" H 5080 3541 50  0000 L CNN
+F 2 "htl_connectors:Faston_Tab_6.3mm_vertical" H 5000 3500 50  0001 C CNN
+F 3 "~" H 5000 3500 50  0001 C CNN
+F 4 "VT FS-P 6,35" H 5000 3500 50  0001 C CNN "DistOrderNr"
+F 5 "Reichelt" H 5000 3500 50  0001 C CNN "Distributor"
+F 6 "03866.A68" H 5000 3500 50  0001 C CNN "ManPartNr"
+F 7 "Vogt" H 5000 3500 50  0001 C CNN "Manufacturer"
+F 8 "Faston Flachstecker vertikal 6.3mm für Leiterplattenmontage" H 5000 3500 50  0001 C CNN "Notes"
+F 9 "0.042" H 5000 3500 50  0001 C CNN "PriceEUR"
+F 10 "1" H 5000 3500 50  0001 C CNN "PriceForQty"
+	1    5000 3500
+	-1   0    0    1   
+$EndComp
+Connection ~ 5200 3500
+Wire Wire Line
+	5200 3500 5200 3700
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 60A92BD7
+P 5550 3500
+AR Path="/60A92BD7" Ref="J?"  Part="1" 
+AR Path="/60BEB366/60A92BD7" Ref="J2"  Part="1" 
+F 0 "J2" H 5630 3542 50  0000 L CNN
+F 1 "Makita Minus" H 5630 3451 50  0000 L CNN
+F 2 "htl_connectors:Faston_Tab_6.3mm_vertical" H 5550 3500 50  0001 C CNN
+F 3 "~" H 5550 3500 50  0001 C CNN
+F 4 "VT FS-P 6,35" H 5550 3500 50  0001 C CNN "DistOrderNr"
+F 5 "Reichelt" H 5550 3500 50  0001 C CNN "Distributor"
+F 6 "03866.A68" H 5550 3500 50  0001 C CNN "ManPartNr"
+F 7 "Vogt" H 5550 3500 50  0001 C CNN "Manufacturer"
+F 8 "Faston Flachstecker vertikal 6.3mm für Leiterplattenmontage" H 5550 3500 50  0001 C CNN "Notes"
+F 9 "0.042" H 5550 3500 50  0001 C CNN "PriceEUR"
+F 10 "1" H 5550 3500 50  0001 C CNN "PriceForQty"
+	1    5550 3500
+	1    0    0    -1  
+$EndComp
+Connection ~ 5350 3500
+Wire Wire Line
+	5350 3500 5350 3700
+Wire Wire Line
+	5200 3700 5200 4350
+Wire Wire Line
+	5350 3700 5350 4550
 $EndSCHEMATC
