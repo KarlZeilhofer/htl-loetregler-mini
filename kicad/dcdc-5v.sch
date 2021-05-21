@@ -189,26 +189,21 @@ Wire Wire Line
 Wire Wire Line
 	3700 4350 3700 3900
 Wire Wire Line
-	5100 4000 5100 4100
+	5050 4000 5050 4100
 Wire Wire Line
-	5100 4100 5200 4100
+	5050 4100 5150 4100
 Wire Wire Line
-	5400 4100 5400 4000
+	5350 4100 5350 4000
 Wire Wire Line
-	5300 4000 5300 4100
-Connection ~ 5300 4100
-Wire Wire Line
-	5300 4100 5400 4100
-Wire Wire Line
-	5200 4000 5200 4100
-Connection ~ 5200 4100
-Wire Wire Line
-	5200 4100 5250 4100
-Wire Wire Line
-	5250 4350 5250 4100
+	5250 4000 5250 4100
 Connection ~ 5250 4100
 Wire Wire Line
-	5250 4100 5300 4100
+	5250 4100 5350 4100
+Wire Wire Line
+	5150 4000 5150 4100
+Connection ~ 5150 4100
+Wire Wire Line
+	5250 4350 5250 4100
 Wire Wire Line
 	5650 3600 6500 3600
 Connection ~ 6500 3600
@@ -342,11 +337,6 @@ Connection ~ 4100 4350
 Wire Wire Line
 	4100 4350 4700 4350
 Connection ~ 4700 4350
-Wire Wire Line
-	4700 4350 5250 4350
-Connection ~ 5250 4350
-Wire Wire Line
-	5250 4350 5800 4350
 Connection ~ 5800 4350
 Wire Wire Line
 	5800 4350 6500 4350
@@ -401,4 +391,22 @@ F 10 "30" H 4100 3750 50  0001 C CNN "PriceForQty"
 	1    4100 3750
 	1    0    0    -1  
 $EndComp
+Text Label 5650 3200 0    50   ~ 0
+sw
+Text Label 4700 3600 0    50   ~ 0
+~en
+Text Label 5900 3600 0    50   ~ 0
+fb
+Connection ~ 5250 4350
+Wire Wire Line
+	5250 4350 5800 4350
+Wire Wire Line
+	5150 4100 5250 4100
+Wire Wire Line
+	4700 4350 5250 4350
+Wire Wire Line
+	5350 4100 5450 4100
+Wire Wire Line
+	5450 4100 5450 4000
+Connection ~ 5350 4100
 $EndSCHEMATC

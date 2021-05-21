@@ -225,26 +225,18 @@ Wire Wire Line
 Wire Wire Line
 	3800 4600 3800 4150
 Wire Wire Line
-	5200 4250 5200 4350
+	5150 4250 5150 4350
 Wire Wire Line
-	5200 4350 5300 4350
+	5450 4350 5450 4250
 Wire Wire Line
-	5500 4350 5500 4250
-Wire Wire Line
-	5400 4250 5400 4350
-Connection ~ 5400 4350
-Wire Wire Line
-	5400 4350 5500 4350
-Wire Wire Line
-	5300 4250 5300 4350
-Connection ~ 5300 4350
-Wire Wire Line
-	5300 4350 5350 4350
-Wire Wire Line
-	5350 4600 5350 4350
+	5350 4250 5350 4350
 Connection ~ 5350 4350
 Wire Wire Line
-	5350 4350 5400 4350
+	5350 4350 5450 4350
+Wire Wire Line
+	5250 4250 5250 4350
+Wire Wire Line
+	5350 4600 5350 4350
 Wire Wire Line
 	5750 3850 6600 3850
 Connection ~ 6600 3850
@@ -366,11 +358,6 @@ Connection ~ 4200 4600
 Wire Wire Line
 	4200 4600 4800 4600
 Connection ~ 4800 4600
-Wire Wire Line
-	4800 4600 5350 4600
-Connection ~ 5350 4600
-Wire Wire Line
-	5350 4600 5900 4600
 Connection ~ 5900 4600
 Wire Wire Line
 	5900 4600 6600 4600
@@ -406,4 +393,25 @@ Wire Wire Line
 	7300 3450 8150 3450
 Text Notes 5900 3150 0    50   ~ 0
 TODO: check footprint!
+Wire Wire Line
+	5150 4350 5250 4350
+Connection ~ 5250 4350
+Connection ~ 5350 4600
+Wire Wire Line
+	5350 4600 5900 4600
+Wire Wire Line
+	5250 4350 5350 4350
+Wire Wire Line
+	4800 4600 5350 4600
+Wire Wire Line
+	5450 4350 5550 4350
+Wire Wire Line
+	5550 4350 5550 4250
+Connection ~ 5450 4350
+Text Label 5750 3450 0    50   ~ 0
+sw
+Text Label 5950 3850 0    50   ~ 0
+fb
+Text Label 4800 3850 0    50   ~ 0
+~en
 $EndSCHEMATC
