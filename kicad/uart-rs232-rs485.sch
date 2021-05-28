@@ -422,7 +422,7 @@ F 1 "COM" V 8055 3868 50  0000 L CNN
 F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels" H 8100 3800 50  0001 C CNN
 F 3 "~" H 8100 3800 50  0001 C CNN
 	1    8100 3800
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Jumper:SolderJumper_3_Open JP7
@@ -433,7 +433,7 @@ F 1 "COM" V 8305 4218 50  0000 L CNN
 F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels" H 8350 4150 50  0001 C CNN
 F 3 "~" H 8350 4150 50  0001 C CNN
 	1    8350 4150
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	8100 3600 8100 2750
@@ -514,7 +514,7 @@ F 1 "UART" V 2205 4018 50  0000 L CNN
 F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels" H 2250 3950 50  0001 C CNN
 F 3 "~" H 2250 3950 50  0001 C CNN
 	1    2250 3950
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Jumper:SolderJumper_3_Open JP5
@@ -525,7 +525,7 @@ F 1 "UART" V 2505 4418 50  0000 L CNN
 F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels" H 2550 4350 50  0001 C CNN
 F 3 "~" H 2550 4350 50  0001 C CNN
 	1    2550 4350
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	2550 3150 2550 4150
@@ -749,4 +749,24 @@ F 3 "" H 6050 2500 50  0001 C CNN
 	1    6050 2550
 	0    -1   -1   0   
 $EndComp
+Text Label 7650 5400 0    50   ~ 0
+B
+Text Label 7650 5700 0    50   ~ 0
+A
+Text Label 7500 2750 0    50   ~ 0
+TxD
+Text Label 7500 3150 0    50   ~ 0
+RxD
+Text Label 5900 3150 0    50   ~ 0
+Rx
+Text Label 5900 2750 0    50   ~ 0
+Tx
+Text Label 2700 2750 0    50   ~ 0
+tin
+Text Label 2700 3150 0    50   ~ 0
+rout
+Text Label 2800 5400 0    50   ~ 0
+ro
+Text Label 2800 5700 0    50   ~ 0
+di
 $EndSCHEMATC
