@@ -77,28 +77,9 @@ Wire Wire Line
 $Comp
 L jbc-miniregler-rescue:BAV99-Diode D6
 U 2 1 608F0A12
-P 3750 2700
-F 0 "D6" V 3704 2778 50  0000 L CNN
-F 1 "BAV99" V 3795 2778 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3750 2550 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 3750 2800 50  0001 C CNN
-F 4 "C181111" H 3750 2700 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 3750 2700 50  0001 C CNN "Distributor"
-F 6 "BAV99" H 3750 2700 50  0001 C CNN "ManPartNr"
-F 7 "Guangdong Hottech" H 3750 2700 50  0001 C CNN "Manufacturer"
-F 8 "70V 200mA 1.25V @ 150mA 6ns SOT-23 Switching Diode" H 3750 2700 50  0001 C CNN "Notes"
-F 9 "0.0073" H 3750 2700 50  0001 C CNN "PriceEUR"
-F 10 "500" H 3750 2700 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Switching-Diode_BAV99-chip0-23_C181111.html" H 3750 2700 50  0001 C CNN "Weblink"
-	2    3750 2700
-	0    1    1    0   
-$EndComp
-$Comp
-L jbc-miniregler-rescue:BAV99-Diode D6
-U 1 1 608F1916
 P 3550 2700
-F 0 "D6" V 3596 2777 50  0000 L CNN
-F 1 "BAV99" V 3505 2777 50  0000 L CNN
+F 0 "D6" V 3504 2778 50  0000 L CNN
+F 1 "BAV99" V 3595 2778 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3550 2550 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 3550 2800 50  0001 C CNN
 F 4 "C181111" H 3550 2700 50  0001 C CNN "DistOrderNr"
@@ -109,8 +90,27 @@ F 8 "70V 200mA 1.25V @ 150mA 6ns SOT-23 Switching Diode" H 3550 2700 50  0001 C 
 F 9 "0.0073" H 3550 2700 50  0001 C CNN "PriceEUR"
 F 10 "500" H 3550 2700 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Switching-Diode_BAV99-chip0-23_C181111.html" H 3550 2700 50  0001 C CNN "Weblink"
-	1    3550 2700
+	2    3550 2700
 	0    -1   -1   0   
+$EndComp
+$Comp
+L jbc-miniregler-rescue:BAV99-Diode D6
+U 1 1 608F1916
+P 3750 2700
+F 0 "D6" V 3796 2777 50  0000 L CNN
+F 1 "BAV99" V 3705 2777 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3750 2550 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 3750 2800 50  0001 C CNN
+F 4 "C181111" H 3750 2700 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 3750 2700 50  0001 C CNN "Distributor"
+F 6 "BAV99" H 3750 2700 50  0001 C CNN "ManPartNr"
+F 7 "Guangdong Hottech" H 3750 2700 50  0001 C CNN "Manufacturer"
+F 8 "70V 200mA 1.25V @ 150mA 6ns SOT-23 Switching Diode" H 3750 2700 50  0001 C CNN "Notes"
+F 9 "0.0073" H 3750 2700 50  0001 C CNN "PriceEUR"
+F 10 "500" H 3750 2700 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Switching-Diode_BAV99-chip0-23_C181111.html" H 3750 2700 50  0001 C CNN "Weblink"
+	1    3750 2700
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5350 2400 4950 2400
@@ -568,28 +568,9 @@ $EndComp
 $Comp
 L jbc-miniregler-rescue:BAV99-Diode D5
 U 1 1 60B76F32
-P 3250 5500
-F 0 "D5" V 3296 5577 50  0000 L CNN
-F 1 "BAV99" V 3205 5577 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3250 5350 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 3250 5600 50  0001 C CNN
-F 4 "C181111" H 3250 5500 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 3250 5500 50  0001 C CNN "Distributor"
-F 6 "BAV99" H 3250 5500 50  0001 C CNN "ManPartNr"
-F 7 "Guangdong Hottech" H 3250 5500 50  0001 C CNN "Manufacturer"
-F 8 "70V 200mA 1.25V @ 150mA 6ns SOT-23 Switching Diode" H 3250 5500 50  0001 C CNN "Notes"
-F 9 "0.0073" H 3250 5500 50  0001 C CNN "PriceEUR"
-F 10 "500" H 3250 5500 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Switching-Diode_BAV99-chip0-23_C181111.html" H 3250 5500 50  0001 C CNN "Weblink"
-	1    3250 5500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L jbc-miniregler-rescue:BAV99-Diode D5
-U 2 1 60B76F24
 P 3450 5500
-F 0 "D5" V 3404 5578 50  0000 L CNN
-F 1 "BAV99" V 3495 5578 50  0000 L CNN
+F 0 "D5" V 3496 5577 50  0000 L CNN
+F 1 "BAV99" V 3405 5577 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3450 5350 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 3450 5600 50  0001 C CNN
 F 4 "C181111" H 3450 5500 50  0001 C CNN "DistOrderNr"
@@ -600,8 +581,27 @@ F 8 "70V 200mA 1.25V @ 150mA 6ns SOT-23 Switching Diode" H 3450 5500 50  0001 C 
 F 9 "0.0073" H 3450 5500 50  0001 C CNN "PriceEUR"
 F 10 "500" H 3450 5500 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Switching-Diode_BAV99-chip0-23_C181111.html" H 3450 5500 50  0001 C CNN "Weblink"
-	2    3450 5500
+	1    3450 5500
 	0    1    1    0   
+$EndComp
+$Comp
+L jbc-miniregler-rescue:BAV99-Diode D5
+U 2 1 60B76F24
+P 3250 5500
+F 0 "D5" V 3204 5578 50  0000 L CNN
+F 1 "BAV99" V 3295 5578 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3250 5350 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 3250 5600 50  0001 C CNN
+F 4 "C181111" H 3250 5500 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 3250 5500 50  0001 C CNN "Distributor"
+F 6 "BAV99" H 3250 5500 50  0001 C CNN "ManPartNr"
+F 7 "Guangdong Hottech" H 3250 5500 50  0001 C CNN "Manufacturer"
+F 8 "70V 200mA 1.25V @ 150mA 6ns SOT-23 Switching Diode" H 3250 5500 50  0001 C CNN "Notes"
+F 9 "0.0073" H 3250 5500 50  0001 C CNN "PriceEUR"
+F 10 "500" H 3250 5500 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Switching-Diode_BAV99-chip0-23_C181111.html" H 3250 5500 50  0001 C CNN "Weblink"
+	2    3250 5500
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2950 5250 3250 5250
