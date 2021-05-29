@@ -720,7 +720,7 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 609A9798
-P 3200 2500
+P 4950 1600
 AR Path="/5F64F622/609A9798" Ref="C?"  Part="1" 
 AR Path="/5F78AFC8/609A9798" Ref="C?"  Part="1" 
 AR Path="/5F7F8851/5F7FB5B8/609A9798" Ref="C?"  Part="1" 
@@ -729,22 +729,22 @@ AR Path="/5F8AD0E2/5F7FB5B8/609A9798" Ref="C?"  Part="1"
 AR Path="/5FA85ABF/5F7FB5B8/609A9798" Ref="C?"  Part="1" 
 AR Path="/5F8D661A/609A9798" Ref="C?"  Part="1" 
 AR Path="/608DBC3C/60930C19/60930D3D/609A9798" Ref="C?"  Part="1" 
-AR Path="/608DBC3C/60930C19/609A9798" Ref="C8"  Part="1" 
-F 0 "C8" H 3085 2454 50  0000 R CNN
-F 1 "100n" H 3085 2545 50  0000 R CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 3238 2350 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811151136_Walsin-Tech-Corp-0603B104K160CT_C80516.pdf" H 3200 2500 50  0001 C CNN
-F 4 "LCSC" H 3200 2500 50  0001 C CNN "Distributor"
-F 5 "PSA(Prosperity Dielectrics)" H 3200 2500 50  0001 C CNN "Manufacturer"
-F 6 "100nF ±10% 50V X7R Multilayer Ceramic Capacitors MLCC" H 3200 2500 50  0001 C CNN "Notes"
-F 7 "" H 3200 2500 50  0001 C CNN "OrderNr"
-F 8 "" H 3200 2500 50  0001 C CNN "PartNr"
-F 9 "0.0093" H 3200 2500 50  0001 C CNN "PriceEUR"
-F 10 "500" H 3200 2500 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-0603B104K160CT_C80516.html" H 3200 2500 50  0001 C CNN "Weblink"
-F 12 "C464972" H 3200 2500 50  0001 C CNN "DistOrderNr"
-F 13 "FN31X104K500PXG" H 3200 2500 50  0001 C CNN "ManPartNr"
-	1    3200 2500
+AR Path="/608DBC3C/60930C19/609A9798" Ref="C12"  Part="1" 
+F 0 "C12" H 4835 1554 50  0000 R CNN
+F 1 "100n" H 4835 1645 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4988 1450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811151136_Walsin-Tech-Corp-0603B104K160CT_C80516.pdf" H 4950 1600 50  0001 C CNN
+F 4 "LCSC" H 4950 1600 50  0001 C CNN "Distributor"
+F 5 "PSA(Prosperity Dielectrics)" H 4950 1600 50  0001 C CNN "Manufacturer"
+F 6 "100nF ±10% 50V X7R Multilayer Ceramic Capacitors MLCC" H 4950 1600 50  0001 C CNN "Notes"
+F 7 "" H 4950 1600 50  0001 C CNN "OrderNr"
+F 8 "" H 4950 1600 50  0001 C CNN "PartNr"
+F 9 "0.0093" H 4950 1600 50  0001 C CNN "PriceEUR"
+F 10 "500" H 4950 1600 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-0603B104K160CT_C80516.html" H 4950 1600 50  0001 C CNN "Weblink"
+F 12 "C464972" H 4950 1600 50  0001 C CNN "DistOrderNr"
+F 13 "FN31X104K500PXG" H 4950 1600 50  0001 C CNN "ManPartNr"
+	1    4950 1600
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -958,21 +958,21 @@ Wire Wire Line
 $Comp
 L Device:C C?
 U 1 1 609FC0C3
-P 4950 1600
+P 3200 2500
 AR Path="/608DBC6E/609FC0C3" Ref="C?"  Part="1" 
-AR Path="/608DBC3C/60930C19/609FC0C3" Ref="C12"  Part="1" 
-F 0 "C12" H 5065 1646 50  0000 L CNN
-F 1 "1u" H 5065 1555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 4988 1450 50  0001 C CNN
-F 3 "~" H 4950 1600 50  0001 C CNN
-F 4 "C1848" H 4950 1600 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 4950 1600 50  0001 C CNN "Distributor"
-F 6 "CL31B105KBHNNNE" H 4950 1600 50  0001 C CNN "ManPartNr"
-F 7 "Samsung" H 4950 1600 50  0001 C CNN "Manufacturer"
-F 8 "1uF ±10% 50V X7R Multilayer Ceramic Capacitors MLCC" H 4950 1600 50  0001 C CNN "Notes"
-F 9 "0.0225" H 4950 1600 50  0001 C CNN "PriceEUR"
-F 10 "100" H 4950 1600 50  0001 C CNN "PriceForQty"
-	1    4950 1600
+AR Path="/608DBC3C/60930C19/609FC0C3" Ref="C8"  Part="1" 
+F 0 "C8" H 3315 2546 50  0000 L CNN
+F 1 "1u" H 3315 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3238 2350 50  0001 C CNN
+F 3 "~" H 3200 2500 50  0001 C CNN
+F 4 "C1848" H 3200 2500 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 3200 2500 50  0001 C CNN "Distributor"
+F 6 "CL31B105KBHNNNE" H 3200 2500 50  0001 C CNN "ManPartNr"
+F 7 "Samsung" H 3200 2500 50  0001 C CNN "Manufacturer"
+F 8 "1uF ±10% 50V X7R Multilayer Ceramic Capacitors MLCC" H 3200 2500 50  0001 C CNN "Notes"
+F 9 "0.0225" H 3200 2500 50  0001 C CNN "PriceEUR"
+F 10 "100" H 3200 2500 50  0001 C CNN "PriceForQty"
+	1    3200 2500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line

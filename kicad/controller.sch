@@ -489,4 +489,92 @@ Text HLabel 3350 3950 0    50   Output ~ 0
 ComDriverEnable
 Wire Wire Line
 	3350 3950 4600 3950
+$Comp
+L Reference_Voltage:TL431DBZ U?
+U 1 1 60B78F6B
+P 6950 2800
+F 0 "U?" V 6996 2730 50  0000 R CNN
+F 1 "TL431DBZ" V 6905 2730 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6950 2650 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tl431.pdf" H 6950 2800 50  0001 C CIN
+	1    6950 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B79FC6
+P 6950 2900
+F 0 "#PWR?" H 6950 2650 50  0001 C CNN
+F 1 "GND" H 6955 2727 50  0000 C CNN
+F 2 "" H 6950 2900 50  0001 C CNN
+F 3 "" H 6950 2900 50  0001 C CNN
+	1    6950 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 2800 6850 2600
+Wire Wire Line
+	6850 2600 6950 2600
+Wire Wire Line
+	6950 2600 6950 2700
+$Comp
+L Device:R R?
+U 1 1 60B8161C
+P 6950 2250
+AR Path="/608DBC3C/60B8161C" Ref="R?"  Part="1" 
+AR Path="/60B8161C" Ref="R?"  Part="1" 
+F 0 "R?" H 7020 2296 50  0000 L CNN
+F 1 "1k" H 7020 2205 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6880 2250 50  0001 C CNN
+F 3 "~" H 6950 2250 50  0001 C CNN
+F 4 "0.0042" H 6950 2250 50  0001 C CNN "PriceEUR"
+F 5 "C104601" H 6950 2250 50  0001 C CNN "DistOrderNr"
+F 6 "LCSC" H 6950 2250 50  0001 C CNN "Distributor"
+F 7 "RTT03101JTP" H 6950 2250 50  0001 C CNN "ManPartNr"
+F 8 "RALEC" H 6950 2250 50  0001 C CNN "Manufacturer"
+F 9 "1kΩ ±5% 0.25W ±100ppm/℃ 1206 Chip Resistor" H 6950 2250 50  0001 C CNN "Notes"
+F 10 "50" H 6950 2250 50  0001 C CNN "PriceForQty"
+	1    6950 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60B83876
+P 7200 2250
+AR Path="/608DBC3C/60B83876" Ref="R?"  Part="1" 
+AR Path="/60B83876" Ref="R?"  Part="1" 
+F 0 "R?" H 7270 2296 50  0000 L CNN
+F 1 "1k" H 7270 2205 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 7130 2250 50  0001 C CNN
+F 3 "~" H 7200 2250 50  0001 C CNN
+F 4 "0.0042" H 7200 2250 50  0001 C CNN "PriceEUR"
+F 5 "C104601" H 7200 2250 50  0001 C CNN "DistOrderNr"
+F 6 "LCSC" H 7200 2250 50  0001 C CNN "Distributor"
+F 7 "RTT03101JTP" H 7200 2250 50  0001 C CNN "ManPartNr"
+F 8 "RALEC" H 7200 2250 50  0001 C CNN "Manufacturer"
+F 9 "1kΩ ±5% 0.25W ±100ppm/℃ 1206 Chip Resistor" H 7200 2250 50  0001 C CNN "Notes"
+F 10 "50" H 7200 2250 50  0001 C CNN "PriceForQty"
+	1    7200 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 2600 6950 2400
+Connection ~ 6950 2600
+Wire Wire Line
+	6950 2600 7200 2600
+Wire Wire Line
+	7200 2600 7200 2400
+Wire Wire Line
+	6950 1950 7200 1950
+Wire Wire Line
+	7200 1950 7200 2100
+Wire Wire Line
+	6950 1950 6950 2100
+Wire Wire Line
+	6850 2600 6550 2600
+Wire Wire Line
+	5550 3050 5550 3450
+Wire Wire Line
+	5550 3450 5350 3450
+Connection ~ 6850 2600
 $EndSCHEMATC
