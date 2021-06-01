@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 10
-Title "JBC-Miniregler"
-Date "2021-05-02"
-Rev "0.0.1"
+Title "HTL Lötregler Mini"
+Date "2021-06-01"
+Rev "21.0.0"
 Comp "HTL Steyr"
-Comment1 "Prof. Karl Zeilhofer"
+Comment1 "Prof. Karl Zeilhofer et al."
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -830,4 +830,28 @@ $EndComp
 Connection ~ 9900 3700
 Wire Wire Line
 	9900 3700 10050 3700
+$Comp
+L power:GND #PWR063
+U 1 1 60B7CAD7
+P 6450 6200
+F 0 "#PWR063" H 6450 5950 50  0001 C CNN
+F 1 "GND" H 6455 6027 50  0000 C CNN
+F 2 "" H 6450 6200 50  0001 C CNN
+F 3 "" H 6450 6200 50  0001 C CNN
+	1    6450 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 X4
+U 1 1 60B7EA5B
+P 6650 6050
+F 0 "X4" H 6730 6092 50  0000 L CNN
+F 1 "GND-Öse" H 6730 6001 50  0000 L CNN
+F 2 "htl_smd:Keystone_5016" H 6650 6050 50  0001 C CNN
+F 3 "~" H 6650 6050 50  0001 C CNN
+	1    6650 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 6050 6450 6200
 $EndSCHEMATC

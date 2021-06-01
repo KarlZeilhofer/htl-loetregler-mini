@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 10
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "HTL Lötregler Mini"
+Date "2021-06-01"
+Rev "21.0.0"
+Comp "HTL Steyr"
+Comment1 "Prof. Karl Zeilhofer et al."
 Comment2 ""
 Comment3 ""
 Comment4 ""

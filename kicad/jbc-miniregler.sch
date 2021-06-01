@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 10
-Title "JBC-Miniregler"
-Date "2021-05-02"
-Rev "0.0.1"
+Title "HTL Lötregler Mini"
+Date "2021-06-01"
+Rev "21.0.0"
 Comp "HTL Steyr"
-Comment1 "Prof. Karl Zeilhofer"
+Comment1 "Prof. Karl Zeilhofer et al."
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -650,74 +650,6 @@ F 6 "Multi-CB" H 9200 6200 50  0001 C CNN "Manufacturer"
 F 7 "0.1656" H 9200 6200 50  0001 C CNN "PriceEUR"
 F 8 "100" H 9200 6200 50  0001 C CNN "PriceForQty"
 	1    9200 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 60B4E525
-P 9950 5050
-F 0 "H1" H 10050 5096 50  0000 L CNN
-F 1 "MountingHole" H 10050 5005 50  0000 L CNN
-F 2 "htl_mechanical:mountinghole_d4mm_R5mm" H 9950 5050 50  0001 C CNN
-F 3 "~" H 9950 5050 50  0001 C CNN
-F 4 "NAP2" H 9950 5050 50  0001 C CNN "DistOrderNr"
-F 5 "NAP" H 9950 5050 50  0001 C CNN "Distributor"
-F 6 "NAP" H 9950 5050 50  0001 C CNN "ManPartNr"
-F 7 "NAP" H 9950 5050 50  0001 C CNN "Manufacturer"
-F 8 "Not a Part" H 9950 5050 50  0001 C CNN "Notes"
-F 9 "0.00" H 9950 5050 50  0001 C CNN "PriceEUR"
-	1    9950 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 60B4EA6D
-P 9950 5250
-F 0 "H2" H 10050 5296 50  0000 L CNN
-F 1 "MountingHole" H 10050 5205 50  0000 L CNN
-F 2 "htl_mechanical:mountinghole_d4mm_R5mm" H 9950 5250 50  0001 C CNN
-F 3 "~" H 9950 5250 50  0001 C CNN
-F 4 "NAP2" H 9950 5250 50  0001 C CNN "DistOrderNr"
-F 5 "NAP" H 9950 5250 50  0001 C CNN "Distributor"
-F 6 "NAP" H 9950 5250 50  0001 C CNN "ManPartNr"
-F 7 "NAP" H 9950 5250 50  0001 C CNN "Manufacturer"
-F 8 "Not a Part" H 9950 5250 50  0001 C CNN "Notes"
-F 9 "0.00" H 9950 5250 50  0001 C CNN "PriceEUR"
-	1    9950 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 60B4EC08
-P 9950 5450
-F 0 "H3" H 10050 5496 50  0000 L CNN
-F 1 "MountingHole" H 10050 5405 50  0000 L CNN
-F 2 "htl_mechanical:mountinghole_d4mm_R5mm" H 9950 5450 50  0001 C CNN
-F 3 "~" H 9950 5450 50  0001 C CNN
-F 4 "NAP2" H 9950 5450 50  0001 C CNN "DistOrderNr"
-F 5 "NAP" H 9950 5450 50  0001 C CNN "Distributor"
-F 6 "NAP" H 9950 5450 50  0001 C CNN "ManPartNr"
-F 7 "NAP" H 9950 5450 50  0001 C CNN "Manufacturer"
-F 8 "Not a Part" H 9950 5450 50  0001 C CNN "Notes"
-F 9 "0.00" H 9950 5450 50  0001 C CNN "PriceEUR"
-	1    9950 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 60B4EDEA
-P 9950 5650
-F 0 "H4" H 10050 5696 50  0000 L CNN
-F 1 "MountingHole" H 10050 5605 50  0000 L CNN
-F 2 "htl_mechanical:mountinghole_d4mm_R5mm" H 9950 5650 50  0001 C CNN
-F 3 "~" H 9950 5650 50  0001 C CNN
-F 4 "NAP2" H 9950 5650 50  0001 C CNN "DistOrderNr"
-F 5 "NAP" H 9950 5650 50  0001 C CNN "Distributor"
-F 6 "NAP" H 9950 5650 50  0001 C CNN "ManPartNr"
-F 7 "NAP" H 9950 5650 50  0001 C CNN "Manufacturer"
-F 8 "Not a Part" H 9950 5650 50  0001 C CNN "Notes"
-F 9 "0.00" H 9950 5650 50  0001 C CNN "PriceEUR"
-	1    9950 5650
 	1    0    0    -1  
 $EndComp
 $Comp
