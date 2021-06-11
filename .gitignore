@@ -25,3 +25,5 @@ fp-info-cache
 *.csv
 
 *.sch-bak
+
+*.FCStd1
