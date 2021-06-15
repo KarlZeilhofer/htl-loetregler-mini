@@ -741,4 +741,23 @@ Text Notes 8200 2350 0    50   ~ 0
 TODO: Footprint\nHier gibts noch ein problem mit der x-Ausrichtung\nDas 3D-Modell passt offenbar nicht zu 2D-Skizze\nPins sollten zum Drahtloch leicht versetzt sein.
 Wire Wire Line
 	3200 3750 4550 3750
+$Comp
+L htl_virtual:Item Item5
+U 1 1 60C20DEA
+P 6950 5200
+F 0 "Item5" H 7080 5246 50  0000 L CNN
+F 1 "Buchsenleiste 4P" H 7080 5155 50  0000 L CNN
+F 2 "htl_virtual:Virtual-Item" H 6950 5130 50  0001 C CNN
+F 3 "~" V 6950 5200 50  0001 C CNN
+F 4 "CJT(Changjiang Connectors)" H 6950 5200 50  0001 C CNN "Manufacturer"
+F 5 "A2541HWV-4P" H 6950 5200 50  0001 C CNN "ManPartNr"
+F 6 "LCSC" H 6950 5200 50  0001 C CNN "Distributor"
+F 7 "C225501" H 6950 5200 50  0001 C CNN "DistOrderNr"
+F 8 "0.0517" H 6950 5200 50  0001 C CNN "PriceEUR"
+F 9 "50" H 6950 5200 50  0001 C CNN "PriceForQty"
+F 10 "https://lcsc.com/product-detail/Pin-Header-Female-Header_CJT-Changjiang-Connectors-A2541HWV-4P_C225501.html" H 6950 5200 50  0001 C CNN "Weblink"
+F 11 "Buchsenleiste, 8.5mm hoch, 2.54mm Raster" H 6950 5200 50  0001 C CNN "Notes"
+	1    6950 5200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
