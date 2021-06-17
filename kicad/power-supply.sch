@@ -549,7 +549,7 @@ L Device:R R39
 U 1 1 60A7F224
 P 5100 5400
 F 0 "R39" H 5170 5446 50  0000 L CNN
-F 1 "10k" H 5170 5355 50  0000 L CNN
+F 1 "22k" H 5170 5355 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 5030 5400 50  0001 C CNN
 F 3 "~" H 5100 5400 50  0001 C CNN
 F 4 "0.01" H 5100 5400 50  0001 C CNN "PriceEUR"
@@ -635,7 +635,7 @@ Wire Wire Line
 Text HLabel 10050 5600 2    50   Output ~ 0
 BattMessung
 Text Notes 10100 5750 0    50   ~ 0
-11:1
+23:1
 Text Notes 4900 6700 0    50   ~ 0
 Für analoge Signale muss\nGND anstatt GNDPWR \nverwendet werden. 
 $Comp
@@ -854,4 +854,6 @@ F 3 "~" H 6650 6050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6450 6050 6450 6200
+Text Notes 9900 5850 0    50   ~ 0
+2.087V @ 48V
 $EndSCHEMATC

@@ -126,7 +126,7 @@ L Device:R R22
 U 1 1 608F3901
 P 7200 3050
 F 0 "R22" H 7270 3096 50  0000 L CNN
-F 1 "30k" H 7270 3005 50  0000 L CNN
+F 1 "22k" H 7270 3005 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 7130 3050 50  0001 C CNN
 F 3 "~" H 7200 3050 50  0001 C CNN
 F 4 "0.01" H 7200 3050 50  0001 C CNN "PriceEUR"
@@ -266,7 +266,7 @@ L Device:R R24
 U 1 1 60A2E38C
 P 7150 5600
 F 0 "R24" H 7220 5646 50  0000 L CNN
-F 1 "30k" H 7220 5555 50  0000 L CNN
+F 1 "22k" H 7220 5555 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 7080 5600 50  0001 C CNN
 F 3 "~" H 7150 5600 50  0001 C CNN
 F 4 "0.01" H 7150 5600 50  0001 C CNN "PriceEUR"
@@ -324,7 +324,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 5350 7700 5350
 Connection ~ 7150 5350
-Text HLabel 8400 5350 2    50   Output ~ 0
+Text HLabel 8750 5350 2    50   Output ~ 0
 Strom
 $Comp
 L Amplifier_Operational:LM358 U6
@@ -760,7 +760,11 @@ Wire Wire Line
 	8150 5500 8150 5350
 Connection ~ 8150 5350
 Wire Wire Line
-	8150 5350 8400 5350
+	8150 5350 8750 5350
 Text Notes 5700 1600 0    50   ~ 0
 Polarität des Verstärkers wählbar:\n1-2: für positive Eingangsspannungen\n2-3: für negative Eingangsspannungen
+Text Notes 8850 3050 0    50   ~ 0
+2.228V @ 450°C\n1.485V @ 300°C\nmit T0=30°C und 24uV/K
+Text Notes 8600 5500 0    50   ~ 0
+2.21V @ 10A
 $EndSCHEMATC

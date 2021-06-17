@@ -31,8 +31,14 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 // A5: SCL (OLED und PCB-Temp-Sensor)
 #define PIN_AIN_Staender    A6
 
+char str[20]={0};
+uint16_t tempSoll = 330;
+bool standby = false;
 
 void setup() {
+    pinMode(PIN_Selbsthaltung, OUTPUT);
+    selbsthaltung();
+
   // put your setup code here, to run once:
     analogReference(EXTERNAL); // 2.51V
 
@@ -55,32 +61,60 @@ void setup() {
     display.setCursor(0,10);
     display.print("U_BATT: 00.00 V");
     display.setCursor(0,20);
-    display.print("T_LOET: 000 'C");
+    display.print("T_LOET: 000/000 'C");
     display.display();
-
-    pinMode(PIN_Selbsthaltung, OUTPUT);
-    selbsthaltung();
 
     pinMode(PIN_Heizelement, OUTPUT);
     analogWrite(PIN_Heizelement, 3);
 }
 
 void loop() {
-  float uBatt = spannungMessen(PIN_AIN_UBatt)*11;
+  float uBatt = spannungBatterie();
   display.fillRect(8*6,10,5*6,10, BLACK);
   display.setCursor(8*6, 10);
   display.print(uBatt);
 
-  float tempSpitze = spannungMessen(PIN_AIN_TempSensor)/301/24e-6 + 30; // in °C
-  display.fillRect(8*6,20,5*6,10, BLACK);
+  float tempSpitze = temperaturSpitze();
+  display.fillRect(8*6,20,7*6,10, BLACK);
   display.setCursor(8*6, 20);
-  display.print(uint16_t(tempSpitze));
+  sprintf(str, "%d/%d", uint16_t(tempSpitze), uint16_t(tempSoll));
+  display.print(str);
 
-  if(tempSpitze < 350){
+  float stromMesswert;
+  if((!standby && (tempSpitze < tempSoll)) ||
+          (standby && (tempSpitze < 150))){
       analogWrite(PIN_Heizelement, 250); // nicht 100% PWM (=255), damit der Bootstrap-Kondensator nachladen kann!
   }
   delay(10); // max. 20ms durchgehend Heizen
+  stromMesswert = strom();
   analogWrite(PIN_Heizelement, 0);
+
+  // TODO: Strommesswert verwerten/anzeigen
+
+  buttons.readAll();
+  if(buttons.up->getEvent() == Button::PressedEvent){
+      tempSoll+=10;
+  }
+  if(buttons.down->getEvent() == Button::PressedEvent){
+      tempSoll-=10;
+  }
+  if(buttons.back->getEvent() == Button::PressedEvent){
+      standby = true;
+  }
+  if(buttons.enter->getEvent() == Button::PressedEvent){
+      standby = false;
+  }
+  if((buttons.power->getEvent() == Button::PressedEvent) && millis() > 1000){
+      display.fillRect(0,0,128,30, BLACK);
+      display.setCursor(0, 20);
+      display.print("HERUNTERFAHREN...");
+      display.display();
+      delay(3000);
+
+      digitalWrite(PIN_Selbsthaltung, LOW);
+      while(1);
+  }
+  tempSoll = constrain(tempSoll, 50, 450);
 
   display.display();
   selbsthaltung();
@@ -94,10 +128,22 @@ float spannungMessen(uint8_t pin){
 
 // muss periodisch aufgerufen werden!
 void selbsthaltung(){
-    if(spannungMessen(PIN_AIN_UBatt)*11){
+    if(spannungBatterie() > 30){ // für 40V-Akku: 30V, für 20V-Akku: 15V
         digitalWrite(PIN_Selbsthaltung, HIGH);
     }else{
         digitalWrite(PIN_Selbsthaltung, LOW);
         while(1);
     }
+}
+
+float temperaturSpitze(){
+    return spannungMessen(PIN_AIN_TempSensor)/221/24e-6 + 30; // in °C
+}
+
+float spannungBatterie(){
+    return spannungMessen(PIN_AIN_UBatt)*23;
+}
+
+float strom(){
+    return spannungMessen(PIN_AIN_Strom)/221/0.001;
 }
