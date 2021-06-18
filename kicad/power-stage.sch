@@ -404,10 +404,10 @@ Wire Wire Line
 Text Notes 6800 5300 0    50   ~ 0
 Integrierte\n"Grid Tie"-Verbindung\nzu Deutsch: Massesternpunkt. 
 $Comp
-L Device:R R?
+L Device:R R65
 U 1 1 60CD69B2
 P 5100 3400
-F 0 "R?" H 5170 3446 50  0000 L CNN
+F 0 "R65" H 5170 3446 50  0000 L CNN
 F 1 "56k" H 5170 3355 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 5030 3400 50  0001 C CNN
 F 3 "~" H 5100 3400 50  0001 C CNN
