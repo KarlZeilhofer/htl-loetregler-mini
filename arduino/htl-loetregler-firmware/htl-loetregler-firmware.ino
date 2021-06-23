@@ -42,7 +42,7 @@ void setup() {
   // put your setup code here, to run once:
     analogReference(EXTERNAL); // 2.51V
 
-    Serial.begin(9600);
+    Serial.begin(115200);
     delay(100);
     Serial.println("HTL LOETREGLER MINI");
     Wire.begin();
@@ -75,6 +75,8 @@ void loop() {
   display.print(uBatt);
 
   float tempSpitze = temperaturSpitze();
+  Serial.println(tempSpitze);
+
   display.fillRect(8*6,20,7*6,10, BLACK);
   display.setCursor(8*6, 20);
   sprintf(str, "%d/%d", uint16_t(tempSpitze), uint16_t(tempSoll));
