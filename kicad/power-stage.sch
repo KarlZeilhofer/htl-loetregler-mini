@@ -426,4 +426,38 @@ Wire Wire Line
 Connection ~ 5100 3650
 Wire Wire Line
 	5100 3650 5600 3650
+$Comp
+L htl_semiconductors:D_Schottky D16
+U 1 1 60D9E4E3
+P 5100 3900
+F 0 "D16" H 5100 3675 50  0000 C CNN
+F 1 "SS210" H 5100 3766 50  0000 C CNN
+F 2 "htl_smd:D_SMA_wide" H 5100 3900 50  0001 C CNN
+F 3 "~" H 5100 3900 50  0001 C CNN
+F 4 "C2683692" H 5100 3900 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 5100 3900 50  0001 C CNN "Distributor"
+F 6 "SS210A-W" H 5100 3900 50  0001 C CNN "ManPartNr"
+F 7 "ZHIDE" H 5100 3900 50  0001 C CNN "Manufacturer"
+F 8 "100V 2A 850mV @ 2A SMA(DO-214AC) Schottky Barrier Diodes" H 5100 3900 50  0001 C CNN "Notes"
+F 9 "0.0155" H 5100 3900 50  0001 C CNN "PriceEUR"
+F 10 "200" H 5100 3900 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_ZHIDE-SS210A-W_C2683692.html" H 5100 3900 50  0001 C CNN "Weblink"
+	1    5100 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR064
+U 1 1 60D9F0D3
+P 5100 4150
+F 0 "#PWR064" H 5100 3900 50  0001 C CNN
+F 1 "GND" H 5105 3977 50  0000 C CNN
+F 2 "" H 5100 4150 50  0001 C CNN
+F 3 "" H 5100 4150 50  0001 C CNN
+	1    5100 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 4150 5100 4050
+Wire Wire Line
+	5100 3750 5100 3650
 $EndSCHEMATC
