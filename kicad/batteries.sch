@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 10 10
 Title "HTL Lötregler Mini"
-Date "2021-06-01"
-Rev "21.0.0"
+Date "2021-09-22"
+Rev "21.0.1-dev"
 Comp "HTL Steyr"
 Comment1 "Prof. Karl Zeilhofer et al."
 Comment2 ""

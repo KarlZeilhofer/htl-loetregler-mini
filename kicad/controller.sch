@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 10
 Title "HTL Lötregler Mini"
-Date "2021-06-01"
-Rev "21.0.0"
+Date "2021-09-22"
+Rev "21.0.1-dev"
 Comp "HTL Steyr"
 Comment1 "Prof. Karl Zeilhofer et al."
 Comment2 ""
@@ -339,6 +339,7 @@ F 3 "~" H 1900 4550 50  0001 C CNN
 F 4 "0.01" H 1900 4550 50  0001 C CNN "PriceEUR"
 F 5 "C118075" H 1900 4550 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 1900 4550 50  0001 C CNN "Distributor"
+F 7 "10kΩ ±5% 0.25W ±100ppm/℃ 3216 Chip Resistor" H 1900 4550 50  0001 C CNN "Notes"
 	1    1900 4550
 	0    -1   -1   0   
 $EndComp
@@ -359,6 +360,7 @@ F 3 "~" H 2350 4300 50  0001 C CNN
 F 4 "0.01" H 2350 4300 50  0001 C CNN "PriceEUR"
 F 5 "C118075" H 2350 4300 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 2350 4300 50  0001 C CNN "Distributor"
+F 7 "10kΩ ±5% 0.25W ±100ppm/℃ 3216 Chip Resistor" H 2350 4300 50  0001 C CNN "Notes"
 	1    2350 4300
 	1    0    0    -1  
 $EndComp

@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 10
 Title "HTL Lötregler Mini"
-Date "2021-06-01"
-Rev "21.0.0"
+Date "2021-09-22"
+Rev "21.0.1-dev"
 Comp "HTL Steyr"
 Comment1 "Prof. Karl Zeilhofer et al."
 Comment2 ""
@@ -43,6 +43,7 @@ F 3 "~" H 2700 4550 50  0001 C CNN
 F 4 "0.01" H 2700 4550 50  0001 C CNN "PriceEUR"
 F 5 "C118075" H 2700 4550 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 2700 4550 50  0001 C CNN "Distributor"
+F 7 "10kΩ ±5% 0.25W ±100ppm/℃ 3216 Chip Resistor" H 2700 4550 50  0001 C CNN "Notes"
 	1    2700 4550
 	1    0    0    -1  
 $EndComp
@@ -57,6 +58,7 @@ F 3 "~" H 2350 5200 50  0001 C CNN
 F 4 "0.01" H 2350 5200 50  0001 C CNN "PriceEUR"
 F 5 "C118075" H 2350 5200 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 2350 5200 50  0001 C CNN "Distributor"
+F 7 "10kΩ ±5% 0.25W ±100ppm/℃ 3216 Chip Resistor" H 2350 5200 50  0001 C CNN "Notes"
 	1    2350 5200
 	1    0    0    -1  
 $EndComp
@@ -119,6 +121,7 @@ F 3 "~" H 3650 3400 50  0001 C CNN
 F 4 "0.01" H 3650 3400 50  0001 C CNN "PriceEUR"
 F 5 "C118075" H 3650 3400 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 3650 3400 50  0001 C CNN "Distributor"
+F 7 "10kΩ ±5% 0.25W ±100ppm/℃ 3216 Chip Resistor" H 3650 3400 50  0001 C CNN "Notes"
 	1    3650 3400
 	1    0    0    -1  
 $EndComp
@@ -499,8 +502,6 @@ Wire Wire Line
 	3250 5650 4500 5650
 Wire Wire Line
 	9150 4500 9400 4500
-Wire Wire Line
-	7050 4500 7250 4500
 $Comp
 L Device:R R42
 U 1 1 60A621EF
@@ -537,13 +538,6 @@ Text HLabel 10050 4500 2    50   Output ~ 0
 5V
 Wire Wire Line
 	7700 4500 7750 4500
-Wire Wire Line
-	7250 3700 7250 4500
-Wire Wire Line
-	7250 3700 9900 3700
-Connection ~ 7250 4500
-Wire Wire Line
-	7250 4500 7400 4500
 $Comp
 L Device:R R39
 U 1 1 60A7F224
@@ -648,6 +642,7 @@ F 3 "~" H 1700 4550 50  0001 C CNN
 F 4 "0.01" H 1700 4550 50  0001 C CNN "PriceEUR"
 F 5 "C118075" H 1700 4550 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 1700 4550 50  0001 C CNN "Distributor"
+F 7 "10kΩ ±5% 0.25W ±100ppm/℃ 3216 Chip Resistor" H 1700 4550 50  0001 C CNN "Notes"
 	1    1700 4550
 	1    0    0    -1  
 $EndComp
@@ -855,4 +850,10 @@ Wire Wire Line
 	6450 6050 6450 6200
 Text Notes 9900 5850 0    50   ~ 0
 2.087V @ 48V
+Wire Wire Line
+	7750 4500 7750 3700
+Wire Wire Line
+	7750 3700 9900 3700
+Wire Wire Line
+	7050 4500 7400 4500
 $EndSCHEMATC

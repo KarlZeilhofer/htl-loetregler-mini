@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 10
 Title "HTL Lötregler Mini"
-Date "2021-06-01"
-Rev "21.0.0"
+Date "2021-09-22"
+Rev "21.0.1-dev"
 Comp "HTL Steyr"
 Comment1 "Prof. Karl Zeilhofer et al."
 Comment2 ""
@@ -42,6 +42,7 @@ F 3 "~" H 5600 3900 50  0001 C CNN
 F 4 "0.01" H 5600 3900 50  0001 C CNN "PriceEUR"
 F 5 "C118075" H 5600 3900 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 5600 3900 50  0001 C CNN "Distributor"
+F 7 "10kΩ ±5% 0.25W ±100ppm/℃ 3216 Chip Resistor" H 5600 3900 50  0001 C CNN "Notes"
 	1    5600 3900
 	1    0    0    -1  
 $EndComp
@@ -63,16 +64,17 @@ L Device:C C21
 U 1 1 609FBE75
 P 4500 2900
 F 0 "C21" H 4615 2946 50  0000 L CNN
-F 1 "1u" H 4615 2855 50  0000 L CNN
+F 1 "1u/100V" H 4615 2855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 4538 2750 50  0001 C CNN
 F 3 "~" H 4500 2900 50  0001 C CNN
-F 4 "C1848" H 4500 2900 50  0001 C CNN "DistOrderNr"
+F 4 "C70463" H 4500 2900 50  0001 C CNN "DistOrderNr"
 F 5 "LCSC" H 4500 2900 50  0001 C CNN "Distributor"
-F 6 "CL31B105KBHNNNE" H 4500 2900 50  0001 C CNN "ManPartNr"
-F 7 "Samsung" H 4500 2900 50  0001 C CNN "Manufacturer"
-F 8 "1uF ±10% 50V X7R Multilayer Ceramic Capacitors MLCC" H 4500 2900 50  0001 C CNN "Notes"
-F 9 "0.0225" H 4500 2900 50  0001 C CNN "PriceEUR"
-F 10 "100" H 4500 2900 50  0001 C CNN "PriceForQty"
+F 6 "CC1206KKX7R0BB105" H 4500 2900 50  0001 C CNN "ManPartNr"
+F 7 "YAGEO" H 4500 2900 50  0001 C CNN "Manufacturer"
+F 8 "X7R ±10% 100V 1uF 1206 Multilayer Ceramic Capacitors MLCC" H 4500 2900 50  0001 C CNN "Notes"
+F 9 "0.0535 " H 4500 2900 50  0001 C CNN "PriceEUR"
+F 10 "50" H 4500 2900 50  0001 C CNN "PriceForQty"
+F 11 "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_HUI-JU-NC1206B105K101CEPN_C710469.html" H 4500 2900 50  0001 C CNN "Weblink"
 	1    4500 2900
 	1    0    0    -1  
 $EndComp
@@ -340,7 +342,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 4300 7550 4300
 Wire Wire Line
-	5600 3650 7550 3650
+	5600 3650 6650 3650
 $Comp
 L power:GNDPWR #PWR044
 U 1 1 60A12125
@@ -387,12 +389,12 @@ F 0 "R29" V 4865 3200 50  0000 C CNN
 F 1 "100R" V 4956 3200 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 4680 3200 50  0001 C CNN
 F 3 "~" H 4750 3200 50  0001 C CNN
-F 4 "0.0037" H 4750 3200 50  0001 C CNN "PriceEUR"
-F 5 "C113307" H 4750 3200 50  0001 C CNN "DistOrderNr"
+F 4 "0.0030" H 4750 3200 50  0001 C CNN "PriceEUR"
+F 5 "C245445" H 4750 3200 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 4750 3200 50  0001 C CNN "Distributor"
-F 7 "RC1206JR-07100RL" H 4750 3200 50  0001 C CNN "ManPartNr"
-F 8 "YAGEO" H 4750 3200 50  0001 C CNN "Manufacturer"
-F 9 "100Ω ±5% 0.25W ±100ppm/℃ 1206 Chip Resistor" H 4750 3200 50  0001 C CNN "Notes"
+F 7 "CR1206F100RP05Z" H 4750 3200 50  0001 C CNN "ManPartNr"
+F 8 "Ever Ohms Tech" H 4750 3200 50  0001 C CNN "Manufacturer"
+F 9 "0.25W ±1% ±100ppm/℃ 100Ω 1206" H 4750 3200 50  0001 C CNN "Notes"
 F 10 "500" H 4750 3200 50  0001 C CNN "PriceForQty"
 	1    4750 3200
 	0    1    1    0   
@@ -429,35 +431,28 @@ Wire Wire Line
 $Comp
 L htl_semiconductors:D_Schottky D16
 U 1 1 60D9E4E3
-P 5100 3900
-F 0 "D16" H 5100 3675 50  0000 C CNN
-F 1 "SS210" H 5100 3766 50  0000 C CNN
-F 2 "htl_smd:D_SMA_wide" H 5100 3900 50  0001 C CNN
-F 3 "~" H 5100 3900 50  0001 C CNN
-F 4 "C2683692" H 5100 3900 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 5100 3900 50  0001 C CNN "Distributor"
-F 6 "SS210A-W" H 5100 3900 50  0001 C CNN "ManPartNr"
-F 7 "ZHIDE" H 5100 3900 50  0001 C CNN "Manufacturer"
-F 8 "100V 2A 850mV @ 2A SMA(DO-214AC) Schottky Barrier Diodes" H 5100 3900 50  0001 C CNN "Notes"
-F 9 "0.0155" H 5100 3900 50  0001 C CNN "PriceEUR"
-F 10 "200" H 5100 3900 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_ZHIDE-SS210A-W_C2683692.html" H 5100 3900 50  0001 C CNN "Weblink"
-	1    5100 3900
+P 6650 3950
+F 0 "D16" H 6650 3725 50  0000 C CNN
+F 1 "SS210" H 6650 3816 50  0000 C CNN
+F 2 "htl_smd:D_SMA_wide" H 6650 3950 50  0001 C CNN
+F 3 "~" H 6650 3950 50  0001 C CNN
+F 4 "C2683692" H 6650 3950 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 6650 3950 50  0001 C CNN "Distributor"
+F 6 "SS210A-W" H 6650 3950 50  0001 C CNN "ManPartNr"
+F 7 "ZHIDE" H 6650 3950 50  0001 C CNN "Manufacturer"
+F 8 "100V 2A 850mV @ 2A SMA(DO-214AC) Schottky Barrier Diodes" H 6650 3950 50  0001 C CNN "Notes"
+F 9 "0.0155" H 6650 3950 50  0001 C CNN "PriceEUR"
+F 10 "200" H 6650 3950 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_ZHIDE-SS210A-W_C2683692.html" H 6650 3950 50  0001 C CNN "Weblink"
+	1    6650 3950
 	0    1    1    0   
 $EndComp
-$Comp
-L power:GND #PWR064
-U 1 1 60D9F0D3
-P 5100 4150
-F 0 "#PWR064" H 5100 3900 50  0001 C CNN
-F 1 "GND" H 5105 3977 50  0000 C CNN
-F 2 "" H 5100 4150 50  0001 C CNN
-F 3 "" H 5100 4150 50  0001 C CNN
-	1    5100 4150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5100 4150 5100 4050
+	6650 3650 6650 3800
 Wire Wire Line
-	5100 3750 5100 3650
+	6650 4100 6650 4300
+Connection ~ 6650 3650
+Wire Wire Line
+	6650 3650 7550 3650
+Connection ~ 6650 4300
 $EndSCHEMATC

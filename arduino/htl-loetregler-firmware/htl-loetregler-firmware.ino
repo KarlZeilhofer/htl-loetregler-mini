@@ -130,7 +130,7 @@ float spannungMessen(uint8_t pin){
 
 // muss periodisch aufgerufen werden!
 void selbsthaltung(){
-    if(spannungBatterie() > 30){ // für 40V-Akku: 30V, für 20V-Akku: 15V
+    if(spannungBatterie() > 16){ // für 40V-Akku: 30V, für 20V-Akku: 15V
         digitalWrite(PIN_Selbsthaltung, HIGH);
     }else{
         digitalWrite(PIN_Selbsthaltung, LOW);

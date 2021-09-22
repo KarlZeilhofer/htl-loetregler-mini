@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 10
 Title "HTL Lötregler Mini"
-Date "2021-06-01"
-Rev "21.0.0"
+Date "2021-09-22"
+Rev "21.0.1-dev"
 Comp "HTL Steyr"
 Comment1 "Prof. Karl Zeilhofer et al."
 Comment2 ""
@@ -89,6 +89,7 @@ F 3 "~" H 6500 3400 50  0001 C CNN
 F 4 "0.01" H 6500 3400 50  0001 C CNN "PriceEUR"
 F 5 "C118075" H 6500 3400 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 6500 3400 50  0001 C CNN "Distributor"
+F 7 "10kΩ ±5% 0.25W ±100ppm/℃ 3216 Chip Resistor" H 6500 3400 50  0001 C CNN "Notes"
 	1    6500 3400
 	1    0    0    -1  
 $EndComp
@@ -263,12 +264,12 @@ F 0 "R48" H 4770 4046 50  0000 L CNN
 F 1 "100R" H 4770 3955 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 4630 4000 50  0001 C CNN
 F 3 "~" H 4700 4000 50  0001 C CNN
-F 4 "0.0037" H 4700 4000 50  0001 C CNN "PriceEUR"
-F 5 "C113307" H 4700 4000 50  0001 C CNN "DistOrderNr"
+F 4 "0.0030" H 4700 4000 50  0001 C CNN "PriceEUR"
+F 5 "C245445" H 4700 4000 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 4700 4000 50  0001 C CNN "Distributor"
-F 7 "RC1206JR-07100RL" H 4700 4000 50  0001 C CNN "ManPartNr"
-F 8 "YAGEO" H 4700 4000 50  0001 C CNN "Manufacturer"
-F 9 "100Ω ±5% 0.25W ±100ppm/℃ 1206 Chip Resistor" H 4700 4000 50  0001 C CNN "Notes"
+F 7 "CR1206F100RP05Z" H 4700 4000 50  0001 C CNN "ManPartNr"
+F 8 "Ever Ohms Tech" H 4700 4000 50  0001 C CNN "Manufacturer"
+F 9 "0.25W ±1% ±100ppm/℃ 100Ω 1206" H 4700 4000 50  0001 C CNN "Notes"
 F 10 "500" H 4700 4000 50  0001 C CNN "PriceForQty"
 	1    4700 4000
 	1    0    0    -1  
