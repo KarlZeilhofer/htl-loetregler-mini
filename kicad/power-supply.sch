@@ -856,4 +856,8 @@ Wire Wire Line
 	7750 3700 9900 3700
 Wire Wire Line
 	7050 4500 7400 4500
+Text Notes 4200 5900 0    50   ~ 0
+Pulldown\nfür Reset-Zustand
+Text Label 7150 4500 0    50   ~ 0
+12Va
 $EndSCHEMATC

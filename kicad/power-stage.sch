@@ -455,4 +455,6 @@ Connection ~ 6650 3650
 Wire Wire Line
 	6650 3650 7550 3650
 Connection ~ 6650 4300
+Text Notes 1700 4550 0    50   ~ 0
+Pulldown\nfür Reset-Zustand
 $EndSCHEMATC

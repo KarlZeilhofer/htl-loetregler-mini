@@ -323,7 +323,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 2900 5350 2900
 Wire Wire Line
-	2000 2400 5450 2400
+	2000 2400 4300 2400
 Text HLabel 1600 4550 0    50   Input ~ 0
 Lötkolbenständer
 $Comp
@@ -484,9 +484,6 @@ Wire Wire Line
 Connection ~ 2800 5300
 Text Notes 3650 5200 0    50   ~ 0
 Kondensator \nwichtig für ESD-Schutz
-Wire Wire Line
-	4500 4050 4600 4050
-NoConn ~ 4500 4050
 Text HLabel 3350 3950 0    50   Output ~ 0
 ComDriverEnable
 Wire Wire Line
@@ -592,4 +589,27 @@ F 9 "2.5V, +/-0.5%, +/-50ppm/K, SOT-23, Ref-Kath-Ano" H 6350 3250 50  0001 C CNN
 	1    6350 3250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4300 4050 4300 2850
+Wire Wire Line
+	4300 4050 4600 4050
+Connection ~ 4300 2400
+Wire Wire Line
+	4300 2400 5450 2400
+$Comp
+L Device:R R66
+U 1 1 61598C99
+P 4300 2700
+F 0 "R66" H 4230 2746 50  0000 R CNN
+F 1 "3k3" H 4230 2655 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4230 2700 50  0001 C CNN
+F 3 "~" H 4300 2700 50  0001 C CNN
+F 4 "0.01" H 4300 2700 50  0001 C CNN "PriceEUR"
+F 5 "C229599" H 4300 2700 50  0001 C CNN "DistOrderNr"
+F 6 "LCSC" H 4300 2700 50  0001 C CNN "Distributor"
+	1    4300 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2550 4300 2400
 $EndSCHEMATC
