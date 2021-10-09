@@ -40,6 +40,8 @@ F 8 "100nF ±10% 50V X7R Multilayer Ceramic Capacitors MLCC" H 6700 2100 50  000
 F 9 "0.0093" H 6700 2100 50  0001 C CNN "PriceEUR"
 F 10 "500" H 6700 2100 50  0001 C CNN "PriceForQty"
 F 11 "" H 6700 2100 50  0001 C CNN "Weblink"
+F 12 "40" H 6700 2100 50  0001 C CNN "Index"
+F 13 "" H 6700 2100 50  0001 C CNN "NotesAlt"
 	1    6700 2100
 	0    1    1    0   
 $EndComp
@@ -90,6 +92,7 @@ F 8 "70V 200mA 1.25V @ 150mA 6ns SOT-23 Switching Diode" H 3550 2700 50  0001 C 
 F 9 "0.0073" H 3550 2700 50  0001 C CNN "PriceEUR"
 F 10 "500" H 3550 2700 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Switching-Diode_BAV99-chip0-23_C181111.html" H 3550 2700 50  0001 C CNN "Weblink"
+F 12 "22" H 3550 2700 50  0001 C CNN "Index"
 	2    3550 2700
 	0    -1   -1   0   
 $EndComp
@@ -109,6 +112,7 @@ F 8 "70V 200mA 1.25V @ 150mA 6ns SOT-23 Switching Diode" H 3750 2700 50  0001 C 
 F 9 "0.0073" H 3750 2700 50  0001 C CNN "PriceEUR"
 F 10 "500" H 3750 2700 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Switching-Diode_BAV99-chip0-23_C181111.html" H 3750 2700 50  0001 C CNN "Weblink"
+F 12 "22" H 3750 2700 50  0001 C CNN "Index"
 	1    3750 2700
 	0    1    1    0   
 $EndComp
@@ -130,7 +134,9 @@ F 1 "22k" H 7270 3005 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 7130 3050 50  0001 C CNN
 F 3 "~" H 7200 3050 50  0001 C CNN
 F 4 "0.01" H 7200 3050 50  0001 C CNN "PriceEUR"
-F 5 "LCSC" H 7200 3050 50  0001 C CNN "Distributor"
+F 5 "AufLager" H 7200 3050 50  0001 C CNN "Distributor"
+F 6 "R3216-22k" H 7200 3050 50  0001 C CNN "DistOrderNr"
+F 7 "57" H 7200 3050 50  0001 C CNN "Index"
 	1    7200 3050
 	1    0    0    -1  
 $EndComp
@@ -149,6 +155,7 @@ F 7 "CR1206F100RP05Z" H 7200 3500 50  0001 C CNN "ManPartNr"
 F 8 "Ever Ohms Tech" H 7200 3500 50  0001 C CNN "Manufacturer"
 F 9 "0.25W ±1% ±100ppm/℃ 100Ω 1206" H 7200 3500 50  0001 C CNN "Notes"
 F 10 "500" H 7200 3500 50  0001 C CNN "PriceForQty"
+F 11 "28" H 7200 3500 50  0001 C CNN "Index"
 	1    7200 3500
 	1    0    0    -1  
 $EndComp
@@ -197,6 +204,7 @@ F 4 "0.01" H 3150 2400 50  0001 C CNN "PriceEUR"
 F 5 "C118075" H 3150 2400 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 3150 2400 50  0001 C CNN "Distributor"
 F 7 "10kΩ ±5% 0.25W ±100ppm/℃ 3216 Chip Resistor" H 3150 2400 50  0001 C CNN "Notes"
+F 8 "15" H 3150 2400 50  0001 C CNN "Index"
 	1    3150 2400
 	0    1    1    0   
 $EndComp
@@ -215,6 +223,7 @@ F 7 "PSA(Prosperity Dielectrics)" H 4250 2700 50  0001 C CNN "Manufacturer"
 F 8 "10nF ±10% 50V X7R  Multilayer Ceramic Capacitors MLCC" H 4250 2700 50  0001 C CNN "Notes"
 F 9 "0.0106" H 4250 2700 50  0001 C CNN "PriceEUR"
 F 10 "500" H 4250 2700 50  0001 C CNN "PriceForQty"
+F 11 "44" H 4250 2700 50  0001 C CNN "Index"
 	1    4250 2700
 	1    0    0    -1  
 $EndComp
@@ -270,7 +279,9 @@ F 1 "22k" H 7220 5555 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 7080 5600 50  0001 C CNN
 F 3 "~" H 7150 5600 50  0001 C CNN
 F 4 "0.01" H 7150 5600 50  0001 C CNN "PriceEUR"
-F 5 "LCSC" H 7150 5600 50  0001 C CNN "Distributor"
+F 5 "AufLager" H 7150 5600 50  0001 C CNN "Distributor"
+F 6 "R3216-22k" H 7150 5600 50  0001 C CNN "DistOrderNr"
+F 7 "57" H 7150 5600 50  0001 C CNN "Index"
 	1    7150 5600
 	1    0    0    -1  
 $EndComp
@@ -289,6 +300,7 @@ F 7 "CR1206F100RP05Z" H 7150 6050 50  0001 C CNN "ManPartNr"
 F 8 "Ever Ohms Tech" H 7150 6050 50  0001 C CNN "Manufacturer"
 F 9 "0.25W ±1% ±100ppm/℃ 100Ω 1206" H 7150 6050 50  0001 C CNN "Notes"
 F 10 "500" H 7150 6050 50  0001 C CNN "PriceForQty"
+F 11 "28" H 7150 6050 50  0001 C CNN "Index"
 	1    7150 6050
 	1    0    0    -1  
 $EndComp
@@ -341,6 +353,7 @@ F 8 "Zero-Drift 2 2.1V ~ 5.5V 20uA 350kHz 0.2 V/us SOP-8_150mil Precision OpAmps
 F 9 "0.3016" H 6500 5350 50  0001 C CNN "PriceEUR"
 F 10 "100" H 6500 5350 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Precision-OpAmps_Gainsil-GS8332-SR_C157713.html" H 6500 5350 50  0001 C CNN "Weblink"
+F 12 "19" H 6500 5350 50  0001 C CNN "Index"
 	2    6500 5350
 	1    0    0    -1  
 $EndComp
@@ -360,6 +373,7 @@ F 8 "Zero-Drift 2 2.1V ~ 5.5V 20uA 350kHz 0.2 V/us SOP-8_150mil Precision OpAmps
 F 9 "0.3016" H 6550 2700 50  0001 C CNN "PriceEUR"
 F 10 "100" H 6550 2700 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Precision-OpAmps_Gainsil-GS8332-SR_C157713.html" H 6550 2700 50  0001 C CNN "Weblink"
+F 12 "19" H 6550 2700 50  0001 C CNN "Index"
 	1    6550 2700
 	1    0    0    -1  
 $EndComp
@@ -379,6 +393,7 @@ F 8 "Zero-Drift 2 2.1V ~ 5.5V 20uA 350kHz 0.2 V/us SOP-8_150mil Precision OpAmps
 F 9 "0.3016" H 6550 2700 50  0001 C CNN "PriceEUR"
 F 10 "100" H 6550 2700 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Precision-OpAmps_Gainsil-GS8332-SR_C157713.html" H 6550 2700 50  0001 C CNN "Weblink"
+F 12 "19" H 6550 2700 50  0001 C CNN "Index"
 	3    6550 2700
 	1    0    0    -1  
 $EndComp
@@ -395,6 +410,7 @@ F 3 "~" H 2150 2000 50  0001 C CNN
 F 4 "0.01" H 2150 2000 50  0001 C CNN "PriceEUR"
 F 5 "C269765" H 2150 2000 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 2150 2000 50  0001 C CNN "Distributor"
+F 7 "29" H 2150 2000 50  0001 C CNN "Index"
 	1    2150 2000
 	1    0    0    -1  
 $EndComp
@@ -430,6 +446,9 @@ F 0 "JP8" V 5896 2668 50  0000 L CNN
 F 1 "OP-Polarität" V 5600 2350 50  0000 L CNN
 F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels" H 5850 2600 50  0001 C CNN
 F 3 "~" H 5850 2600 50  0001 C CNN
+F 4 "NAP4" H 5850 2600 50  0001 C CNN "DistOrderNr"
+F 5 "NAP" H 5850 2600 50  0001 C CNN "Distributor"
+F 6 "54" H 5850 2600 50  0001 C CNN "Index"
 	1    5850 2600
 	0    -1   1    0   
 $EndComp
@@ -445,6 +464,9 @@ F 0 "JP9" H 7200 4013 50  0000 C CNN
 F 1 "OP-Polarität" H 7200 4104 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels" H 7200 3900 50  0001 C CNN
 F 3 "~" H 7200 3900 50  0001 C CNN
+F 4 "NAP4" H 7200 3900 50  0001 C CNN "DistOrderNr"
+F 5 "NAP" H 7200 3900 50  0001 C CNN "Distributor"
+F 6 "54" H 7200 3900 50  0001 C CNN "Index"
 	1    7200 3900
 	-1   0    0    1   
 $EndComp
@@ -484,6 +506,7 @@ F 7 "CR1206F100RP05Z" H 4800 2400 50  0001 C CNN "ManPartNr"
 F 8 "Ever Ohms Tech" H 4800 2400 50  0001 C CNN "Manufacturer"
 F 9 "0.25W ±1% ±100ppm/℃ 100Ω 1206" H 4800 2400 50  0001 C CNN "Notes"
 F 10 "500" H 4800 2400 50  0001 C CNN "PriceForQty"
+F 11 "28" H 4800 2400 50  0001 C CNN "Index"
 	1    4800 2400
 	0    -1   -1   0   
 $EndComp
@@ -505,6 +528,8 @@ F 8 "100nF ±10% 50V X7R Multilayer Ceramic Capacitors MLCC" H 4100 5550 50  000
 F 9 "0.0093" H 4100 5550 50  0001 C CNN "PriceEUR"
 F 10 "500" H 4100 5550 50  0001 C CNN "PriceForQty"
 F 11 "" H 4100 5550 50  0001 C CNN "Weblink"
+F 12 "40" H 4100 5550 50  0001 C CNN "Index"
+F 13 "" H 4100 5550 50  0001 C CNN "NotesAlt"
 	1    4100 5550
 	-1   0    0    1   
 $EndComp
@@ -529,6 +554,7 @@ F 7 "RTT03101JTP" H 2800 5250 50  0001 C CNN "ManPartNr"
 F 8 "RALEC" H 2800 5250 50  0001 C CNN "Manufacturer"
 F 9 "1kΩ ±5% 0.25W ±100ppm/℃ 1206 Chip Resistor" H 2800 5250 50  0001 C CNN "Notes"
 F 10 "50" H 2800 5250 50  0001 C CNN "PriceForQty"
+F 11 "12" H 2800 5250 50  0001 C CNN "Index"
 	1    2800 5250
 	0    -1   -1   0   
 $EndComp
@@ -580,6 +606,7 @@ F 8 "70V 200mA 1.25V @ 150mA 6ns SOT-23 Switching Diode" H 3450 5500 50  0001 C 
 F 9 "0.0073" H 3450 5500 50  0001 C CNN "PriceEUR"
 F 10 "500" H 3450 5500 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Switching-Diode_BAV99-chip0-23_C181111.html" H 3450 5500 50  0001 C CNN "Weblink"
+F 12 "22" H 3450 5500 50  0001 C CNN "Index"
 	1    3450 5500
 	0    1    1    0   
 $EndComp
@@ -599,6 +626,7 @@ F 8 "70V 200mA 1.25V @ 150mA 6ns SOT-23 Switching Diode" H 3250 5500 50  0001 C 
 F 9 "0.0073" H 3250 5500 50  0001 C CNN "PriceEUR"
 F 10 "500" H 3250 5500 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Switching-Diode_BAV99-chip0-23_C181111.html" H 3250 5500 50  0001 C CNN "Weblink"
+F 12 "22" H 3250 5500 50  0001 C CNN "Index"
 	2    3250 5500
 	0    -1   -1   0   
 $EndComp
@@ -640,6 +668,7 @@ F 7 "CR1206F100RP05Z" H 4800 5250 50  0001 C CNN "ManPartNr"
 F 8 "Ever Ohms Tech" H 4800 5250 50  0001 C CNN "Manufacturer"
 F 9 "0.25W ±1% ±100ppm/℃ 100Ω 1206" H 4800 5250 50  0001 C CNN "Notes"
 F 10 "500" H 4800 5250 50  0001 C CNN "PriceForQty"
+F 11 "28" H 4800 5250 50  0001 C CNN "Index"
 	1    4800 5250
 	0    -1   -1   0   
 $EndComp
@@ -663,6 +692,7 @@ F 7 "CR1206F100RP05Z" H 7850 2700 50  0001 C CNN "ManPartNr"
 F 8 "Ever Ohms Tech" H 7850 2700 50  0001 C CNN "Manufacturer"
 F 9 "0.25W ±1% ±100ppm/℃ 100Ω 1206" H 7850 2700 50  0001 C CNN "Notes"
 F 10 "500" H 7850 2700 50  0001 C CNN "PriceForQty"
+F 11 "28" H 7850 2700 50  0001 C CNN "Index"
 	1    7850 2700
 	0    -1   -1   0   
 $EndComp
@@ -683,6 +713,7 @@ F 7 "PSA(Prosperity Dielectrics)" H 8150 3000 50  0001 C CNN "Manufacturer"
 F 8 "10nF ±10% 50V X7R  Multilayer Ceramic Capacitors MLCC" H 8150 3000 50  0001 C CNN "Notes"
 F 9 "0.0106" H 8150 3000 50  0001 C CNN "PriceEUR"
 F 10 "500" H 8150 3000 50  0001 C CNN "PriceForQty"
+F 11 "44" H 8150 3000 50  0001 C CNN "Index"
 	1    8150 3000
 	1    0    0    -1  
 $EndComp
@@ -719,6 +750,7 @@ F 7 "CR1206F100RP05Z" H 7850 5350 50  0001 C CNN "ManPartNr"
 F 8 "Ever Ohms Tech" H 7850 5350 50  0001 C CNN "Manufacturer"
 F 9 "0.25W ±1% ±100ppm/℃ 100Ω 1206" H 7850 5350 50  0001 C CNN "Notes"
 F 10 "500" H 7850 5350 50  0001 C CNN "PriceForQty"
+F 11 "28" H 7850 5350 50  0001 C CNN "Index"
 	1    7850 5350
 	0    -1   -1   0   
 $EndComp
@@ -739,6 +771,7 @@ F 7 "PSA(Prosperity Dielectrics)" H 8150 5650 50  0001 C CNN "Manufacturer"
 F 8 "10nF ±10% 50V X7R  Multilayer Ceramic Capacitors MLCC" H 8150 5650 50  0001 C CNN "Notes"
 F 9 "0.0106" H 8150 5650 50  0001 C CNN "PriceEUR"
 F 10 "500" H 8150 5650 50  0001 C CNN "PriceForQty"
+F 11 "44" H 8150 5650 50  0001 C CNN "Index"
 	1    8150 5650
 	1    0    0    -1  
 $EndComp

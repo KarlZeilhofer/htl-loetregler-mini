@@ -45,6 +45,7 @@ F 8 "0.188404" H 4200 2650 50  0001 C CNN "PriceEUR"
 F 9 "100" H 4200 2650 50  0001 C CNN "PriceForQty"
 F 10 "https://lcsc.com/product-detail/Uncategorized_HGSEMI-MAX3232EIM-TR_C434486.html" H 4200 2650 50  0001 C CNN "Weblink"
 F 11 "RS232 - UART Umsetzer, 3V3 oder 5V" H 4200 2650 50  0001 C CNN "Notes"
+F 12 "39" H 4200 2650 50  0001 C CNN "Index"
 	1    4200 2650
 	1    0    0    -1  
 $EndComp
@@ -82,6 +83,8 @@ F 10 "" H 5300 1900 50  0001 C CNN "Weblink"
 F 11 "100nF ±10% 50V X7R Multilayer Ceramic Capacitors MLCC" H 5300 1900 50  0001 C CNN "Notes"
 F 12 "C464972" H 5300 1900 50  0001 C CNN "DistOrderNr"
 F 13 "FN31X104K500PXG" H 5300 1900 50  0001 C CNN "ManPartNr"
+F 14 "40" H 5300 1900 50  0001 C CNN "Index"
+F 15 "" H 5300 1900 50  0001 C CNN "NotesAlt"
 	1    5300 1900
 	1    0    0    -1  
 $EndComp
@@ -119,6 +122,8 @@ F 10 "500" H 3150 1900 50  0001 C CNN "PriceForQty"
 F 11 "" H 3150 1900 50  0001 C CNN "Weblink"
 F 12 "C464972" H 3150 1900 50  0001 C CNN "DistOrderNr"
 F 13 "FN31X104K500PXG" H 3150 1900 50  0001 C CNN "ManPartNr"
+F 14 "40" H 3150 1900 50  0001 C CNN "Index"
+F 15 "" H 3150 1900 50  0001 C CNN "NotesAlt"
 	1    3150 1900
 	1    0    0    -1  
 $EndComp
@@ -156,6 +161,8 @@ F 10 "500" H 5800 2250 50  0001 C CNN "PriceForQty"
 F 11 "" H 5800 2250 50  0001 C CNN "Weblink"
 F 12 "C464972" H 5800 2250 50  0001 C CNN "DistOrderNr"
 F 13 "FN31X104K500PXG" H 5800 2250 50  0001 C CNN "ManPartNr"
+F 14 "40" H 5800 2250 50  0001 C CNN "Index"
+F 15 "" H 5800 2250 50  0001 C CNN "NotesAlt"
 	1    5800 2250
 	0    1    1    0   
 $EndComp
@@ -193,6 +200,8 @@ F 10 "500" H 5400 2550 50  0001 C CNN "PriceForQty"
 F 11 "" H 5400 2550 50  0001 C CNN "Weblink"
 F 12 "C464972" H 5400 2550 50  0001 C CNN "DistOrderNr"
 F 13 "FN31X104K500PXG" H 5400 2550 50  0001 C CNN "ManPartNr"
+F 14 "40" H 5400 2550 50  0001 C CNN "Index"
+F 15 "" H 5400 2550 50  0001 C CNN "NotesAlt"
 	1    5400 2550
 	0    1    1    0   
 $EndComp
@@ -244,6 +253,8 @@ F 8 "500" H 4650 1250 50  0001 C CNN "PriceForQty"
 F 9 "" H 4650 1250 50  0001 C CNN "Weblink"
 F 10 "C464972" H 4650 1250 50  0001 C CNN "DistOrderNr"
 F 11 "FN31X104K500PXG" H 4650 1250 50  0001 C CNN "ManPartNr"
+F 12 "40" H 4650 1250 50  0001 C CNN "Index"
+F 13 "" H 4650 1250 50  0001 C CNN "NotesAlt"
 	1    4650 1250
 	0    1    1    0   
 $EndComp
@@ -287,6 +298,7 @@ F 7 "CR1206F100RP05Z" H 6700 2750 50  0001 C CNN "ManPartNr"
 F 8 "Ever Ohms Tech" H 6700 2750 50  0001 C CNN "Manufacturer"
 F 9 "0.25W ±1% ±100ppm/℃ 100Ω 1206" H 6700 2750 50  0001 C CNN "Notes"
 F 10 "500" H 6700 2750 50  0001 C CNN "PriceForQty"
+F 11 "28" H 6700 2750 50  0001 C CNN "Index"
 	1    6700 2750
 	0    1    1    0   
 $EndComp
@@ -305,6 +317,7 @@ F 7 "CR1206F100RP05Z" H 6700 3150 50  0001 C CNN "ManPartNr"
 F 8 "Ever Ohms Tech" H 6700 3150 50  0001 C CNN "Manufacturer"
 F 9 "0.25W ±1% ±100ppm/℃ 100Ω 1206" H 6700 3150 50  0001 C CNN "Notes"
 F 10 "500" H 6700 3150 50  0001 C CNN "PriceForQty"
+F 11 "28" H 6700 3150 50  0001 C CNN "Index"
 	1    6700 3150
 	0    1    1    0   
 $EndComp
@@ -324,6 +337,7 @@ F 8 "Bidirectional 8V 8.89V 13.6V 29.4A SMA(DO-214AC) TVS" H 7150 3450 50  0001 
 F 9 "0.0243" H 7150 3450 50  0001 C CNN "PriceEUR"
 F 10 "100" H 7150 3450 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Pre-ordered-transistors_GOODWORK-SMAJ8-0CA_C908814.html" H 7150 3450 50  0001 C CNN "Weblink"
+F 12 "45" H 7150 3450 50  0001 C CNN "Index"
 	1    7150 3450
 	0    1    1    0   
 $EndComp
@@ -343,6 +357,7 @@ F 8 "Bidirectional 8V 8.89V 13.6V 29.4A SMA(DO-214AC) TVS" H 7800 3450 50  0001 
 F 9 "0.0243" H 7800 3450 50  0001 C CNN "PriceEUR"
 F 10 "100" H 7800 3450 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Pre-ordered-transistors_GOODWORK-SMAJ8-0CA_C908814.html" H 7800 3450 50  0001 C CNN "Weblink"
+F 12 "45" H 7800 3450 50  0001 C CNN "Index"
 	1    7800 3450
 	0    1    1    0   
 $EndComp
@@ -380,6 +395,14 @@ F 1 "YD3082EESA" H 4700 6000 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5050 4800 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/lcsc/2006151006_GATEMODE-YD3082EESA_C269866.pdf" H 5050 5550 50  0001 C CNN
 F 4 "C269866" H 5050 5500 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 5050 5500 50  0001 C CNN "Distributor"
+F 6 "30" H 5050 5500 50  0001 C CNN "Index"
+F 7 "GATEMODE" H 5050 5500 50  0001 C CNN "Manufacturer"
+F 8 "YD3082EESA" H 5050 5500 50  0001 C CNN "ManPartNr"
+F 9 "0.237" H 5050 5500 50  0001 C CNN "PriceEUR"
+F 10 "30" H 5050 5500 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/search?q=YD3082EESA" H 5050 5500 50  0001 C CNN "Weblink"
+F 12 "1Mbps RS422, RS485 Transceiver SOP-8 RS-485/RS-422" H 5050 5500 50  0001 C CNN "Notes"
 	1    5050 5500
 	1    0    0    -1  
 $EndComp
@@ -421,6 +444,9 @@ F 0 "JP6" V 8146 3868 50  0000 L CNN
 F 1 "COM" V 8055 3868 50  0000 L CNN
 F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels" H 8100 3800 50  0001 C CNN
 F 3 "~" H 8100 3800 50  0001 C CNN
+F 4 "NAP4" H 8100 3800 50  0001 C CNN "DistOrderNr"
+F 5 "NAP" H 8100 3800 50  0001 C CNN "Distributor"
+F 6 "54" H 8100 3800 50  0001 C CNN "Index"
 	1    8100 3800
 	0    -1   1    0   
 $EndComp
@@ -432,6 +458,9 @@ F 0 "JP7" V 8396 4218 50  0000 L CNN
 F 1 "COM" V 8305 4218 50  0000 L CNN
 F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels" H 8350 4150 50  0001 C CNN
 F 3 "~" H 8350 4150 50  0001 C CNN
+F 4 "NAP4" H 8350 4150 50  0001 C CNN "DistOrderNr"
+F 5 "NAP" H 8350 4150 50  0001 C CNN "Distributor"
+F 6 "54" H 8350 4150 50  0001 C CNN "Index"
 	1    8350 4150
 	0    -1   1    0   
 $EndComp
@@ -498,6 +527,8 @@ F 8 "500" H 5500 4900 50  0001 C CNN "PriceForQty"
 F 9 "" H 5500 4900 50  0001 C CNN "Weblink"
 F 10 "C464972" H 5500 4900 50  0001 C CNN "DistOrderNr"
 F 11 "FN31X104K500PXG" H 5500 4900 50  0001 C CNN "ManPartNr"
+F 12 "40" H 5500 4900 50  0001 C CNN "Index"
+F 13 "" H 5500 4900 50  0001 C CNN "NotesAlt"
 	1    5500 4900
 	0    1    1    0   
 $EndComp
@@ -513,6 +544,9 @@ F 0 "JP4" V 2296 4018 50  0000 L CNN
 F 1 "UART" V 2205 4018 50  0000 L CNN
 F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels" H 2250 3950 50  0001 C CNN
 F 3 "~" H 2250 3950 50  0001 C CNN
+F 4 "NAP4" H 2250 3950 50  0001 C CNN "DistOrderNr"
+F 5 "NAP" H 2250 3950 50  0001 C CNN "Distributor"
+F 6 "54" H 2250 3950 50  0001 C CNN "Index"
 	1    2250 3950
 	0    1    1    0   
 $EndComp
@@ -524,6 +558,9 @@ F 0 "JP5" V 2596 4418 50  0000 L CNN
 F 1 "UART" V 2505 4418 50  0000 L CNN
 F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels" H 2550 4350 50  0001 C CNN
 F 3 "~" H 2550 4350 50  0001 C CNN
+F 4 "NAP4" H 2550 4350 50  0001 C CNN "DistOrderNr"
+F 5 "NAP" H 2550 4350 50  0001 C CNN "Distributor"
+F 6 "54" H 2550 4350 50  0001 C CNN "Index"
 	1    2550 4350
 	0    1    1    0   
 $EndComp
@@ -561,6 +598,7 @@ F 3 "~" H 3900 5950 50  0001 C CNN
 F 4 "0.01" H 3900 5950 50  0001 C CNN "PriceEUR"
 F 5 "C229599" H 3900 5950 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 3900 5950 50  0001 C CNN "Distributor"
+F 7 "26" H 3900 5950 50  0001 C CNN "Index"
 	1    3900 5950
 	1    0    0    -1  
 $EndComp
@@ -607,6 +645,9 @@ F 0 "R57" V 9943 3800 50  0000 C CNN
 F 1 "10R" V 10034 3800 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 10080 3800 50  0001 C CNN
 F 3 "~" H 10150 3800 50  0001 C CNN
+F 4 "R3216-10R" H 10150 3800 50  0001 C CNN "DistOrderNr"
+F 5 "AufLager" H 10150 3800 50  0001 C CNN "Distributor"
+F 6 "56" H 10150 3800 50  0001 C CNN "Index"
 	1    10150 3800
 	0    1    1    0   
 $EndComp
@@ -618,6 +659,9 @@ F 0 "R58" V 9943 4150 50  0000 C CNN
 F 1 "10R" V 10034 4150 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 10080 4150 50  0001 C CNN
 F 3 "~" H 10150 4150 50  0001 C CNN
+F 4 "R3216-10R" H 10150 4150 50  0001 C CNN "DistOrderNr"
+F 5 "AufLager" H 10150 4150 50  0001 C CNN "Distributor"
+F 6 "56" H 10150 4150 50  0001 C CNN "Index"
 	1    10150 4150
 	0    1    1    0   
 $EndComp
@@ -640,6 +684,7 @@ F 7 "RTT03101JTP" H 6350 5100 50  0001 C CNN "ManPartNr"
 F 8 "RALEC" H 6350 5100 50  0001 C CNN "Manufacturer"
 F 9 "1kΩ ±5% 0.25W ±100ppm/℃ 1206 Chip Resistor" H 6350 5100 50  0001 C CNN "Notes"
 F 10 "50" H 6350 5100 50  0001 C CNN "PriceForQty"
+F 11 "12" H 6350 5100 50  0001 C CNN "Index"
 	1    6350 5100
 	1    0    0    -1  
 $EndComp
@@ -671,6 +716,7 @@ F 7 "RTT03101JTP" H 6550 6000 50  0001 C CNN "ManPartNr"
 F 8 "RALEC" H 6550 6000 50  0001 C CNN "Manufacturer"
 F 9 "1kΩ ±5% 0.25W ±100ppm/℃ 1206 Chip Resistor" H 6550 6000 50  0001 C CNN "Notes"
 F 10 "50" H 6550 6000 50  0001 C CNN "PriceForQty"
+F 11 "12" H 6550 6000 50  0001 C CNN "Index"
 	1    6550 6000
 	1    0    0    -1  
 $EndComp

@@ -29,6 +29,7 @@ F 8 "SPST 50mA @ 12VDC Vertical Round Button 160gf SMD Tactile Switches" H 2700 
 F 9 "0.01" H 2700 3650 50  0001 C CNN "PriceEUR"
 F 10 "500" H 2700 3650 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Tactile-Switches_XKB-Connectivity-TS-1187A-B-A-B_C318884.html" H 2700 3650 50  0001 C CNN "Weblink"
+F 12 "33" H 2700 3650 50  0001 C CNN "Index"
 	1    2700 3650
 	0    -1   -1   0   
 $EndComp
@@ -44,6 +45,7 @@ F 4 "0.01" H 2700 4550 50  0001 C CNN "PriceEUR"
 F 5 "C118075" H 2700 4550 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 2700 4550 50  0001 C CNN "Distributor"
 F 7 "10kΩ ±5% 0.25W ±100ppm/℃ 3216 Chip Resistor" H 2700 4550 50  0001 C CNN "Notes"
+F 8 "15" H 2700 4550 50  0001 C CNN "Index"
 	1    2700 4550
 	1    0    0    -1  
 $EndComp
@@ -59,22 +61,24 @@ F 4 "0.01" H 2350 5200 50  0001 C CNN "PriceEUR"
 F 5 "C118075" H 2350 5200 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 2350 5200 50  0001 C CNN "Distributor"
 F 7 "10kΩ ±5% 0.25W ±100ppm/℃ 3216 Chip Resistor" H 2350 5200 50  0001 C CNN "Notes"
+F 8 "15" H 2350 5200 50  0001 C CNN "Index"
 	1    2350 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:BZX84Cxx D9
+L htl_semiconductors:BZX84Cxx D9
 U 1 1 60911C30
 P 2700 5200
 F 0 "D9" V 2654 5279 50  0000 L CNN
 F 1 "4V7" V 2745 5279 50  0000 L CNN
-F 2 "Diode_SMD:D_SOT-23_ANK" H 2700 5025 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2700 5025 50  0001 C CNN
 F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 2700 5200 50  0001 C CNN
 F 4 "C12727" H 2700 5200 50  0001 C CNN "DistOrderNr"
 F 5 "LCSC" H 2700 5200 50  0001 C CNN "Distributor"
 F 6 "4.7V 225mW 3uA @ 2V SOT-23(SOT-23-3) Zener Diodes" H 2700 5200 50  0001 C CNN "Notes"
 F 7 "0.014" H 2700 5200 50  0001 C CNN "PriceEUR"
 F 8 "50" H 2700 5200 50  0001 C CNN "PriceForQty"
+F 9 "3" H 2700 5200 50  0001 C CNN "Index"
 	1    2700 5200
 	0    1    1    0   
 $EndComp
@@ -91,6 +95,7 @@ F 5 "LCSC" H 3300 4850 50  0001 C CNN "Distributor"
 F 6 "0.0097" H 3300 4850 50  0001 C CNN "PriceEUR"
 F 7 "50" H 3300 4850 50  0001 C CNN "PriceForQty"
 F 8 "https://lcsc.com/product-detail/Transistors-NPN-PNP_KEXIN-MMBT3904_C382281.html" H 3300 4850 50  0001 C CNN "Weblink"
+F 9 "36" H 3300 4850 50  0001 C CNN "Index"
 	1    3300 4850
 	1    0    0    -1  
 $EndComp
@@ -107,6 +112,7 @@ F 5 "LCSC" H 4050 4850 50  0001 C CNN "Distributor"
 F 6 "0.0097" H 4050 4850 50  0001 C CNN "PriceEUR"
 F 7 "50" H 4050 4850 50  0001 C CNN "PriceForQty"
 F 8 "https://lcsc.com/product-detail/Transistors-NPN-PNP_KEXIN-MMBT3904_C382281.html" H 4050 4850 50  0001 C CNN "Weblink"
+F 9 "36" H 4050 4850 50  0001 C CNN "Index"
 	1    4050 4850
 	-1   0    0    -1  
 $EndComp
@@ -122,6 +128,7 @@ F 4 "0.01" H 3650 3400 50  0001 C CNN "PriceEUR"
 F 5 "C118075" H 3650 3400 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 3650 3400 50  0001 C CNN "Distributor"
 F 7 "10kΩ ±5% 0.25W ±100ppm/℃ 3216 Chip Resistor" H 3650 3400 50  0001 C CNN "Notes"
+F 8 "15" H 3650 3400 50  0001 C CNN "Index"
 	1    3650 3400
 	1    0    0    -1  
 $EndComp
@@ -165,6 +172,7 @@ F 3 "~" H 3250 5400 50  0001 C CNN
 F 4 "0.01" H 3250 5400 50  0001 C CNN "PriceEUR"
 F 5 "C229599" H 3250 5400 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 3250 5400 50  0001 C CNN "Distributor"
+F 7 "26" H 3250 5400 50  0001 C CNN "Index"
 	1    3250 5400
 	1    0    0    -1  
 $EndComp
@@ -219,6 +227,7 @@ F 7 "PSA(Prosperity Dielectrics)" H 4050 3400 50  0001 C CNN "Manufacturer"
 F 8 "10nF ±10% 50V X7R  Multilayer Ceramic Capacitors MLCC" H 4050 3400 50  0001 C CNN "Notes"
 F 9 "0.0106" H 4050 3400 50  0001 C CNN "PriceEUR"
 F 10 "500" H 4050 3400 50  0001 C CNN "PriceForQty"
+F 11 "44" H 4050 3400 50  0001 C CNN "Index"
 	1    4050 3400
 	1    0    0    -1  
 $EndComp
@@ -278,6 +287,7 @@ F 7 "RTT03101JTP" H 4500 5300 50  0001 C CNN "ManPartNr"
 F 8 "RALEC" H 4500 5300 50  0001 C CNN "Manufacturer"
 F 9 "1kΩ ±5% 0.25W ±100ppm/℃ 1206 Chip Resistor" H 4500 5300 50  0001 C CNN "Notes"
 F 10 "50" H 4500 5300 50  0001 C CNN "PriceForQty"
+F 11 "12" H 4500 5300 50  0001 C CNN "Index"
 	1    4500 5300
 	1    0    0    -1  
 $EndComp
@@ -306,6 +316,7 @@ F 8 "Shenzhen lanson Elec" H 1700 1500 50  0001 C CNN "Manufacturer"
 F 9 "0.0132" H 1700 1500 50  0001 C CNN "PriceEUR"
 F 10 "200" H 1700 1500 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Fuse-Holders_Shenzhen-lanson-Elec-LS-502_C182320.html" H 1700 1500 50  0001 C CNN "Weblink"
+F 12 "23" H 1700 1500 50  0001 C CNN "Index"
 	1    1700 1500
 	0    1    1    0   
 $EndComp
@@ -323,6 +334,7 @@ F 6 "0.12" H 2000 1700 50  0001 C CNN "PriceEUR"
 F 7 "100" H 2000 1700 50  0001 C CNN "PriceForQty"
 F 8 "https://lcsc.com/product-detail/TVS_Brightking-Elec-TAIWAN-SMCJ48A_C310056.html" H 2000 1700 50  0001 C CNN "Weblink"
 F 9 "TVS-Diode, 1500W, 77.4V, 19.4A" H 2000 1700 50  0001 C CNN "Notes"
+F 10 "32" H 2000 1700 50  0001 C CNN "Index"
 	1    2000 1700
 	0    1    1    0   
 $EndComp
@@ -350,6 +362,7 @@ F 8 "Glass Tube Fuse Delayed blow/Slow Blow 10A 250V Tube,5.2x20mm Cartridge Fus
 F 9 "0.0544" H 1700 1150 50  0001 C CNN "PriceEUR"
 F 10 "100" H 1700 1150 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Cartridge-Fuses_Littelfuse-0618010-MXP_C142673.html" H 1700 1150 50  0001 C CNN "Weblink"
+F 12 "18" H 1700 1150 50  0001 C CNN "Index"
 	1    1700 1150
 	-1   0    0    1   
 $EndComp
@@ -398,6 +411,7 @@ F 7 "Diodes" H 5000 3700 50  0001 C CNN "Manufacturer"
 F 8 "P-Channel -100V 600mA 4V @ 250uA 1Ω @ 600mA,10V 625mW SOT-23(SOT-23-3) MOSFET" H 5000 3700 50  0001 C CNN "Notes"
 F 9 "0.2191" H 5000 3700 50  0001 C CNN "PriceEUR"
 F 10 "100" H 5000 3700 50  0001 C CNN "PriceForQty"
+F 11 "8" H 5000 3700 50  0001 C CNN "Index"
 	1    5000 3700
 	1    0    0    1   
 $EndComp
@@ -421,6 +435,7 @@ F 8 "N-Channel 60V 115mA 2.5V @ 250uA 5Ω @ 500mA,10V 225mW SOT-23(SOT-23-3) MOS
 F 9 "0.0122" H 1800 5250 50  0001 C CNN "PriceEUR"
 F 10 "50" H 1800 5250 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/MOSFET_Guangdong-Hottech-2N7002_C181082.html" H 1800 5250 50  0001 C CNN "Weblink"
+F 12 "20" H 1800 5250 50  0001 C CNN "Index"
 	1    1800 5250
 	-1   0    0    -1  
 $EndComp
@@ -513,6 +528,7 @@ F 3 "~" H 7550 4500 50  0001 C CNN
 F 4 "0.01" H 7550 4500 50  0001 C CNN "PriceEUR"
 F 5 "C17928" H 7550 4500 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 7550 4500 50  0001 C CNN "Distributor"
+F 7 "4" H 7550 4500 50  0001 C CNN "Index"
 	1    7550 4500
 	0    1    1    0   
 $EndComp
@@ -527,6 +543,7 @@ F 3 "~" H 9550 4500 50  0001 C CNN
 F 4 "0.01" H 9550 4500 50  0001 C CNN "PriceEUR"
 F 5 "C17928" H 9550 4500 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 9550 4500 50  0001 C CNN "Distributor"
+F 7 "4" H 9550 4500 50  0001 C CNN "Index"
 	1    9550 4500
 	0    1    1    0   
 $EndComp
@@ -547,7 +564,9 @@ F 1 "22k" H 5170 5355 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 5030 5400 50  0001 C CNN
 F 3 "~" H 5100 5400 50  0001 C CNN
 F 4 "0.01" H 5100 5400 50  0001 C CNN "PriceEUR"
-F 5 "LCSC" H 5100 5400 50  0001 C CNN "Distributor"
+F 5 "AufLager" H 5100 5400 50  0001 C CNN "Distributor"
+F 6 "R3216-22k" H 5100 5400 50  0001 C CNN "DistOrderNr"
+F 7 "57" H 5100 5400 50  0001 C CNN "Index"
 	1    5100 5400
 	1    0    0    -1  
 $EndComp
@@ -566,6 +585,7 @@ F 7 "RTT03101JTP" H 5100 5850 50  0001 C CNN "ManPartNr"
 F 8 "RALEC" H 5100 5850 50  0001 C CNN "Manufacturer"
 F 9 "1kΩ ±5% 0.25W ±100ppm/℃ 1206 Chip Resistor" H 5100 5850 50  0001 C CNN "Notes"
 F 10 "50" H 5100 5850 50  0001 C CNN "PriceForQty"
+F 11 "12" H 5100 5850 50  0001 C CNN "Index"
 	1    5100 5850
 	1    0    0    -1  
 $EndComp
@@ -604,6 +624,7 @@ F 7 "Samsung" H 5600 5950 50  0001 C CNN "Manufacturer"
 F 8 "10uF ±10% 16V X7R Multilayer Ceramic Capacitors MLCC" H 5600 5950 50  0001 C CNN "Notes"
 F 9 "0.0233" H 5600 5950 50  0001 C CNN "PriceEUR"
 F 10 "100" H 5600 5950 50  0001 C CNN "PriceForQty"
+F 11 "7" H 5600 5950 50  0001 C CNN "Index"
 	1    5600 5950
 	1    0    0    -1  
 $EndComp
@@ -643,6 +664,7 @@ F 4 "0.01" H 1700 4550 50  0001 C CNN "PriceEUR"
 F 5 "C118075" H 1700 4550 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 1700 4550 50  0001 C CNN "Distributor"
 F 7 "10kΩ ±5% 0.25W ±100ppm/℃ 3216 Chip Resistor" H 1700 4550 50  0001 C CNN "Notes"
+F 8 "15" H 1700 4550 50  0001 C CNN "Index"
 	1    1700 4550
 	1    0    0    -1  
 $EndComp
@@ -669,6 +691,7 @@ F 7 "IHHEC(HOLY STONE ENTERPRISE CO., LTD)" H 2850 3400 50  0001 C CNN "Manufact
 F 8 "1nF ±10% 100V X7R Multilayer Ceramic Capacitors MLCC" H 2850 3400 50  0001 C CNN "Notes"
 F 9 "0.0123" H 2850 3400 50  0001 C CNN "PriceEUR"
 F 10 "50" H 2850 3400 50  0001 C CNN "PriceForQty"
+F 11 "37" H 2850 3400 50  0001 C CNN "Index"
 	1    2850 3400
 	0    -1   -1   0   
 $EndComp
@@ -702,6 +725,7 @@ F 3 "~" H 5450 4500 50  0001 C CNN
 F 4 "0.01" H 5450 4500 50  0001 C CNN "PriceEUR"
 F 5 "C17928" H 5450 4500 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 5450 4500 50  0001 C CNN "Distributor"
+F 7 "4" H 5450 4500 50  0001 C CNN "Index"
 	1    5450 4500
 	0    1    1    0   
 $EndComp
@@ -723,6 +747,7 @@ F 8 "Shenzhen lanson Elec" H 1700 800 50  0001 C CNN "Manufacturer"
 F 9 "0.0132" H 1700 800 50  0001 C CNN "PriceEUR"
 F 10 "200" H 1700 800 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Fuse-Holders_Shenzhen-lanson-Elec-LS-502_C182320.html" H 1700 800 50  0001 C CNN "Weblink"
+F 12 "23" H 1700 800 50  0001 C CNN "Index"
 	1    1700 800 
 	1    0    0    -1  
 $EndComp
@@ -743,6 +768,7 @@ F 7 "RTT03101JTP" H 3550 5400 50  0001 C CNN "ManPartNr"
 F 8 "RALEC" H 3550 5400 50  0001 C CNN "Manufacturer"
 F 9 "1kΩ ±5% 0.25W ±100ppm/℃ 1206 Chip Resistor" H 3550 5400 50  0001 C CNN "Notes"
 F 10 "50" H 3550 5400 50  0001 C CNN "PriceForQty"
+F 11 "12" H 3550 5400 50  0001 C CNN "Index"
 	1    3550 5400
 	1    0    0    -1  
 $EndComp
@@ -843,6 +869,9 @@ F 0 "X4" H 6730 6092 50  0000 L CNN
 F 1 "GND-Öse" H 6730 6001 50  0000 L CNN
 F 2 "htl_smd:Keystone_5016" H 6650 6050 50  0001 C CNN
 F 3 "~" H 6650 6050 50  0001 C CNN
+F 4 "C238129" H 6650 6050 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 6650 6050 50  0001 C CNN "Distributor"
+F 6 "27" H 6650 6050 50  0001 C CNN "Index"
 	1    6650 6050
 	1    0    0    -1  
 $EndComp

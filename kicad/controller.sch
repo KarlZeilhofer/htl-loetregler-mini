@@ -78,6 +78,7 @@ F 3 "~" H 7000 3800 50  0001 C CNN
 F 4 "0.01" H 7000 3800 50  0001 C CNN "PriceEUR"
 F 5 "C229599" H 7000 3800 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 7000 3800 50  0001 C CNN "Distributor"
+F 7 "26" H 7000 3800 50  0001 C CNN "Index"
 	1    7000 3800
 	1    0    0    -1  
 $EndComp
@@ -92,6 +93,7 @@ F 3 "~" H 7300 3800 50  0001 C CNN
 F 4 "0.01" H 7300 3800 50  0001 C CNN "PriceEUR"
 F 5 "C229599" H 7300 3800 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 7300 3800 50  0001 C CNN "Distributor"
+F 7 "26" H 7300 3800 50  0001 C CNN "Index"
 	1    7300 3800
 	1    0    0    -1  
 $EndComp
@@ -126,6 +128,8 @@ F 6 "digital temperature sensor, +/-0.5°C, I2C" H 9450 4150 50  0001 C CNN "Not
 F 7 "0.096" H 9450 4150 50  0001 C CNN "PriceEUR"
 F 8 "10" H 9450 4150 50  0001 C CNN "PriceForQty"
 F 9 "https://lcsc.com/product-detail/Temperature-Sensors_NOVOSENSE-NST175-QSPR_C967852.html" H 9450 4150 50  0001 C CNN "Weblink"
+F 10 "48" H 9450 4150 50  0001 C CNN "Index"
+F 11 "NST175-H, MSOP-8, 0.65mm Raster, wird aber nicht verbaut, weil teuer und nicht nötig" H 9450 4150 50  0001 C CNN "NotesAlt"
 	1    9450 4150
 	1    0    0    -1  
 $EndComp
@@ -145,6 +149,8 @@ F 8 "100nF ±10% 50V X7R Multilayer Ceramic Capacitors MLCC" H 10300 4100 50  00
 F 9 "0.0093" H 10300 4100 50  0001 C CNN "PriceEUR"
 F 10 "500" H 10300 4100 50  0001 C CNN "PriceForQty"
 F 11 "" H 10300 4100 50  0001 C CNN "Weblink"
+F 12 "40" H 10300 4100 50  0001 C CNN "Index"
+F 13 "" H 10300 4100 50  0001 C CNN "NotesAlt"
 	1    10300 4100
 	1    0    0    -1  
 $EndComp
@@ -301,6 +307,7 @@ F 4 "C23654 " H 2000 2750 50  0001 C CNN "DistOrderNr"
 F 5 "0.044" H 2000 2750 50  0001 C CNN "PriceEUR"
 F 6 "100" H 2000 2750 50  0001 C CNN "PriceForQty"
 F 7 "LCSC" H 2000 2750 50  0001 C CNN "Distributor"
+F 8 "5" H 2000 2750 50  0001 C CNN "Index"
 	1    2000 2750
 	1    0    0    -1  
 $EndComp
@@ -340,6 +347,7 @@ F 4 "0.01" H 1900 4550 50  0001 C CNN "PriceEUR"
 F 5 "C118075" H 1900 4550 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 1900 4550 50  0001 C CNN "Distributor"
 F 7 "10kΩ ±5% 0.25W ±100ppm/℃ 3216 Chip Resistor" H 1900 4550 50  0001 C CNN "Notes"
+F 8 "15" H 1900 4550 50  0001 C CNN "Index"
 	1    1900 4550
 	0    -1   -1   0   
 $EndComp
@@ -361,6 +369,7 @@ F 4 "0.01" H 2350 4300 50  0001 C CNN "PriceEUR"
 F 5 "C118075" H 2350 4300 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 2350 4300 50  0001 C CNN "Distributor"
 F 7 "10kΩ ±5% 0.25W ±100ppm/℃ 3216 Chip Resistor" H 2350 4300 50  0001 C CNN "Notes"
+F 8 "15" H 2350 4300 50  0001 C CNN "Index"
 	1    2350 4300
 	1    0    0    -1  
 $EndComp
@@ -401,6 +410,7 @@ F 8 "70V 200mA 1.25V @ 150mA 6ns SOT-23 Switching Diode" H 2350 5100 50  0001 C 
 F 9 "0.0073" H 2350 5100 50  0001 C CNN "PriceEUR"
 F 10 "500" H 2350 5100 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Switching-Diode_BAV99-chip0-23_C181111.html" H 2350 5100 50  0001 C CNN "Weblink"
+F 12 "22" H 2350 5100 50  0001 C CNN "Index"
 	1    2350 5100
 	0    1    1    0   
 $EndComp
@@ -422,6 +432,7 @@ F 8 "70V 200mA 1.25V @ 150mA 6ns SOT-23 Switching Diode" H 2800 5100 50  0001 C 
 F 9 "0.0073" H 2800 5100 50  0001 C CNN "PriceEUR"
 F 10 "500" H 2800 5100 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Switching-Diode_BAV99-chip0-23_C181111.html" H 2800 5100 50  0001 C CNN "Weblink"
+F 12 "22" H 2800 5100 50  0001 C CNN "Index"
 	2    2800 5100
 	0    -1   -1   0   
 $EndComp
@@ -469,6 +480,8 @@ F 8 "100nF ±10% 50V X7R Multilayer Ceramic Capacitors MLCC" H 3300 5100 50  000
 F 9 "0.0093" H 3300 5100 50  0001 C CNN "PriceEUR"
 F 10 "500" H 3300 5100 50  0001 C CNN "PriceForQty"
 F 11 "" H 3300 5100 50  0001 C CNN "Weblink"
+F 12 "40" H 3300 5100 50  0001 C CNN "Index"
+F 13 "" H 3300 5100 50  0001 C CNN "NotesAlt"
 	1    3300 5100
 	1    0    0    -1  
 $EndComp
@@ -520,6 +533,7 @@ F 7 "RTT03101JTP" H 6350 2650 50  0001 C CNN "ManPartNr"
 F 8 "RALEC" H 6350 2650 50  0001 C CNN "Manufacturer"
 F 9 "1kΩ ±5% 0.25W ±100ppm/℃ 1206 Chip Resistor" H 6350 2650 50  0001 C CNN "Notes"
 F 10 "50" H 6350 2650 50  0001 C CNN "PriceForQty"
+F 11 "12" H 6350 2650 50  0001 C CNN "Index"
 	1    6350 2650
 	1    0    0    -1  
 $EndComp
@@ -540,6 +554,7 @@ F 7 "RTT03101JTP" H 6600 2650 50  0001 C CNN "ManPartNr"
 F 8 "RALEC" H 6600 2650 50  0001 C CNN "Manufacturer"
 F 9 "1kΩ ±5% 0.25W ±100ppm/℃ 1206 Chip Resistor" H 6600 2650 50  0001 C CNN "Notes"
 F 10 "50" H 6600 2650 50  0001 C CNN "PriceForQty"
+F 11 "12" H 6600 2650 50  0001 C CNN "Index"
 	1    6600 2650
 	1    0    0    -1  
 $EndComp
@@ -586,6 +601,7 @@ F 6 "0.021" H 6350 3250 50  0001 C CNN "PriceEUR"
 F 7 "200" H 6350 3250 50  0001 C CNN "PriceForQty"
 F 8 "https://lcsc.com/product-detail/Voltage-References_Guangdong-Hottech-TL431_C181103.html" H 6350 3250 50  0001 C CNN "Weblink"
 F 9 "2.5V, +/-0.5%, +/-50ppm/K, SOT-23, Ref-Kath-Ano" H 6350 3250 50  0001 C CNN "Notes"
+F 10 "21" H 6350 3250 50  0001 C CNN "Index"
 	1    6350 3250
 	1    0    0    -1  
 $EndComp
@@ -607,6 +623,7 @@ F 3 "~" H 4300 2700 50  0001 C CNN
 F 4 "0.01" H 4300 2700 50  0001 C CNN "PriceEUR"
 F 5 "C229599" H 4300 2700 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 4300 2700 50  0001 C CNN "Distributor"
+F 7 "26" H 4300 2700 50  0001 C CNN "Index"
 	1    4300 2700
 	1    0    0    -1  
 $EndComp

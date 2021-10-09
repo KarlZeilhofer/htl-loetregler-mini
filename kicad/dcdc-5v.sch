@@ -31,6 +31,7 @@ F 8 "XL7005A" H 5250 3300 50  0001 C CNN "ManPartNr"
 F 9 "XLSEMI" H 5250 3300 50  0001 C CNN "Manufacturer"
 F 10 "80V 400mA SOP-8_EP_150mil DC-DC Converters" H 5250 3300 50  0001 C CNN "Notes"
 F 11 "https://lcsc.com/product-detail/DC-DC-Converters_XLSEMI-XL7005A_C50848.html" H 5250 3300 50  0001 C CNN "Weblink"
+F 12 "9" H 5250 3300 50  0001 C CNN "Index"
 	1    5250 3300
 	1    0    0    -1  
 $EndComp
@@ -52,6 +53,7 @@ F 8 "https://lcsc.com/product-detail/Power-Inductors_Sunltech-Tech-SLH0704S470MT
 F 9 "SLH0704S470MTT" H 6150 3200 50  0001 C CNN "ManPartNr"
 F 10 "Sunltech Tech" H 6150 3200 50  0001 C CNN "Manufacturer"
 F 11 "47uH ±20% 1A 266mΩ SMD,7.3x7.3x4.5mm" H 6150 3200 50  0001 C CNN "Notes"
+F 12 "24" H 6150 3200 50  0001 C CNN "Index"
 	1    6150 3200
 	1    0    0    -1  
 $EndComp
@@ -73,6 +75,7 @@ F 8 "100V 2A 850mV @ 2A SMA(DO-214AC) Schottky Barrier Diodes" H 5800 3900 50  0
 F 9 "0.0155" H 5800 3900 50  0001 C CNN "PriceEUR"
 F 10 "200" H 5800 3900 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_ZHIDE-SS210A-W_C2683692.html" H 5800 3900 50  0001 C CNN "Weblink"
+F 12 "49" H 5800 3900 50  0001 C CNN "Index"
 	1    5800 3900
 	0    1    1    0   
 $EndComp
@@ -90,6 +93,7 @@ F 4 "0.01" H 6500 3400 50  0001 C CNN "PriceEUR"
 F 5 "C118075" H 6500 3400 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 6500 3400 50  0001 C CNN "Distributor"
 F 7 "10kΩ ±5% 0.25W ±100ppm/℃ 3216 Chip Resistor" H 6500 3400 50  0001 C CNN "Notes"
+F 8 "15" H 6500 3400 50  0001 C CNN "Index"
 	1    6500 3400
 	1    0    0    -1  
 $EndComp
@@ -106,6 +110,7 @@ F 3 "~" H 6500 4000 50  0001 C CNN
 F 4 "0.01" H 6500 4000 50  0001 C CNN "PriceEUR"
 F 5 "C229599" H 6500 4000 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 6500 4000 50  0001 C CNN "Distributor"
+F 7 "26" H 6500 4000 50  0001 C CNN "Index"
 	1    6500 4000
 	1    0    0    -1  
 $EndComp
@@ -135,6 +140,7 @@ F 6 "TCC1206X7R333K500DT" H 6850 3400 50  0001 C CNN "ManPartNr"
 F 7 "CCTC" H 6850 3400 50  0001 C CNN "Manufacturer"
 F 8 "0.0144" H 6850 3400 50  0001 C CNN "PriceEUR"
 F 9 "50" H 6850 3400 50  0001 C CNN "PriceForQty"
+F 10 "31" H 6850 3400 50  0001 C CNN "Index"
 	1    6850 3400
 	1    0    0    -1  
 $EndComp
@@ -159,6 +165,7 @@ F 7 "AISHI" H 7200 3950 50  0001 C CNN "Manufacturer"
 F 8 "100uF ±20% 25V 6.3mm 6mm 2000hrs @ 105℃ -55℃~+105℃ SMD,6.3x6mm Solid Polymer Electrolytic Capacitor" H 7200 3950 50  0001 C CNN "Notes"
 F 9 "0.1485" H 7200 3950 50  0001 C CNN "PriceEUR"
 F 10 "30" H 7200 3950 50  0001 C CNN "PriceForQty"
+F 11 "34" H 7200 3950 50  0001 C CNN "Index"
 	1    7200 3950
 	1    0    0    -1  
 $EndComp
@@ -179,6 +186,7 @@ F 7 "Samsung Electro-Mechanics" H 3700 3750 50  0001 C CNN "Manufacturer"
 F 8 "100nF ±10% 100V X7R  Multilayer Ceramic Capacitors MLCC" H 3700 3750 50  0001 C CNN "Notes"
 F 9 "0.014" H 3700 3750 50  0001 C CNN "PriceEUR"
 F 10 "200" H 3700 3750 50  0001 C CNN "PriceForQty"
+F 11 "2" H 3700 3750 50  0001 C CNN "Index"
 	1    3700 3750
 	-1   0    0    -1  
 $EndComp
@@ -271,6 +279,7 @@ F 7 "CR1206F100RP05Z" H 4700 4000 50  0001 C CNN "ManPartNr"
 F 8 "Ever Ohms Tech" H 4700 4000 50  0001 C CNN "Manufacturer"
 F 9 "0.25W ±1% ±100ppm/℃ 100Ω 1206" H 4700 4000 50  0001 C CNN "Notes"
 F 10 "500" H 4700 4000 50  0001 C CNN "PriceForQty"
+F 11 "28" H 4700 4000 50  0001 C CNN "Index"
 	1    4700 4000
 	1    0    0    -1  
 $EndComp
@@ -291,6 +300,7 @@ F 3 "~" H 8050 3550 50  0001 C CNN
 F 4 "0.01" H 8050 3550 50  0001 C CNN "PriceEUR"
 F 5 "C229599" H 8050 3550 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 8050 3550 50  0001 C CNN "Distributor"
+F 7 "26" H 8050 3550 50  0001 C CNN "Index"
 	1    8050 3550
 	1    0    0    -1  
 $EndComp
@@ -311,6 +321,7 @@ F 5 "C965825" H 8050 3900 50  0001 C CNN "DistOrderNr"
 F 6 "https://lcsc.com/product-detail/Pre-ordered-Products_XINGLIGHT-XL-3216UGC_C965825.html" H 8050 3900 50  0001 C CNN "Weblink"
 F 7 "0.0067" H 8050 3900 50  0001 C CNN "PriceEUR"
 F 8 "50" H 8050 3900 50  0001 C CNN "PriceForQty"
+F 9 "47" H 8050 3900 50  0001 C CNN "Index"
 	1    8050 3900
 	0    -1   -1   0   
 $EndComp
@@ -382,6 +393,7 @@ F 7 "AISHI" H 4100 3750 50  0001 C CNN "Manufacturer"
 F 8 "100uF ±20% 25V 6.3mm 6mm 2000hrs @ 105℃ -55℃~+105℃ SMD,6.3x6mm Solid Polymer Electrolytic Capacitor" H 4100 3750 50  0001 C CNN "Notes"
 F 9 "0.1485" H 4100 3750 50  0001 C CNN "PriceEUR"
 F 10 "30" H 4100 3750 50  0001 C CNN "PriceForQty"
+F 11 "34" H 4100 3750 50  0001 C CNN "Index"
 	1    4100 3750
 	1    0    0    -1  
 $EndComp

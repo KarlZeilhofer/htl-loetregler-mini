@@ -28,6 +28,7 @@ F 7 "C116513" H 5500 3200 50  0001 C CNN "DistOrderNr"
 F 8 "0.226" H 5500 3200 50  0001 C CNN "PriceEUR"
 F 9 "100" H 5500 3200 50  0001 C CNN "PriceForQty"
 F 10 "https://lcsc.com/product-detail/MOSFET_KIA-Semicon-Tech-KND3508A_C116513.html" H 5500 3200 50  0001 C CNN "Weblink"
+F 11 "14" H 5500 3200 50  0001 C CNN "Index"
 	1    5500 3200
 	1    0    0    -1  
 $EndComp
@@ -43,6 +44,7 @@ F 4 "0.01" H 5600 3900 50  0001 C CNN "PriceEUR"
 F 5 "C118075" H 5600 3900 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 5600 3900 50  0001 C CNN "Distributor"
 F 7 "10kΩ ±5% 0.25W ±100ppm/℃ 3216 Chip Resistor" H 5600 3900 50  0001 C CNN "Notes"
+F 8 "15" H 5600 3900 50  0001 C CNN "Index"
 	1    5600 3900
 	1    0    0    -1  
 $EndComp
@@ -75,6 +77,7 @@ F 8 "X7R ±10% 100V 1uF 1206 Multilayer Ceramic Capacitors MLCC" H 4500 2900 50 
 F 9 "0.0535 " H 4500 2900 50  0001 C CNN "PriceEUR"
 F 10 "50" H 4500 2900 50  0001 C CNN "PriceForQty"
 F 11 "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_HUI-JU-NC1206B105K101CEPN_C710469.html" H 4500 2900 50  0001 C CNN "Weblink"
+F 12 "10" H 4500 2900 50  0001 C CNN "Index"
 	1    4500 2900
 	1    0    0    -1  
 $EndComp
@@ -112,6 +115,7 @@ F 8 "100V 2A 850mV @ 2A SMA(DO-214AC) Schottky Barrier Diodes" H 4000 2500 50  0
 F 9 "0.0155" H 4000 2500 50  0001 C CNN "PriceEUR"
 F 10 "200" H 4000 2500 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_ZHIDE-SS210A-W_C2683692.html" H 4000 2500 50  0001 C CNN "Weblink"
+F 12 "49" H 4000 2500 50  0001 C CNN "Index"
 	1    4000 2500
 	-1   0    0    1   
 $EndComp
@@ -148,6 +152,7 @@ F 7 "Samsung" H 2650 2900 50  0001 C CNN "Manufacturer"
 F 8 "10uF ±10% 16V X7R Multilayer Ceramic Capacitors MLCC" H 2650 2900 50  0001 C CNN "Notes"
 F 9 "0.0233" H 2650 2900 50  0001 C CNN "PriceEUR"
 F 10 "100" H 2650 2900 50  0001 C CNN "PriceForQty"
+F 11 "7" H 2650 2900 50  0001 C CNN "Index"
 	1    2650 2900
 	1    0    0    -1  
 $EndComp
@@ -186,6 +191,7 @@ F 7 "RTT03101JTP" H 2000 3750 50  0001 C CNN "ManPartNr"
 F 8 "RALEC" H 2000 3750 50  0001 C CNN "Manufacturer"
 F 9 "1kΩ ±5% 0.25W ±100ppm/℃ 1206 Chip Resistor" H 2000 3750 50  0001 C CNN "Notes"
 F 10 "50" H 2000 3750 50  0001 C CNN "PriceForQty"
+F 11 "12" H 2000 3750 50  0001 C CNN "Index"
 	1    2000 3750
 	1    0    0    -1  
 $EndComp
@@ -249,6 +255,8 @@ F 6 "SOP-8 half bridge Driver, 300V, 450mA" H 3750 3300 50  0001 C CNN "Notes"
 F 7 "0.2188" H 3750 3300 50  0001 C CNN "PriceEUR"
 F 8 "100" H 3750 3300 50  0001 C CNN "PriceForQty"
 F 9 "https://lcsc.com/product-detail/Full-bridge-half-bridge-Driver_Wuxi-Chipown-Micro-electronics-PN7006ASEC-R1_C414194.html" H 3750 3300 50  0001 C CNN "Weblink"
+F 10 "38" H 3750 3300 50  0001 C CNN "Index"
+F 11 "https://www.lcsc.com/product-detail/Gate-Drive-ICs_EG-Micro-EG3112_C111908.html" H 3750 3300 50  0001 C CNN "NotesAlt"
 	1    3750 3300
 	1    0    0    -1  
 $EndComp
@@ -271,6 +279,7 @@ F 7 "RTT03101JTP" H 4250 3800 50  0001 C CNN "ManPartNr"
 F 8 "RALEC" H 4250 3800 50  0001 C CNN "Manufacturer"
 F 9 "1kΩ ±5% 0.25W ±100ppm/℃ 1206 Chip Resistor" H 4250 3800 50  0001 C CNN "Notes"
 F 10 "50" H 4250 3800 50  0001 C CNN "PriceForQty"
+F 11 "12" H 4250 3800 50  0001 C CNN "Index"
 	1    4250 3800
 	1    0    0    -1  
 $EndComp
@@ -293,6 +302,7 @@ F 7 "RTT03101JTP" H 3250 3800 50  0001 C CNN "ManPartNr"
 F 8 "RALEC" H 3250 3800 50  0001 C CNN "Manufacturer"
 F 9 "1kΩ ±5% 0.25W ±100ppm/℃ 1206 Chip Resistor" H 3250 3800 50  0001 C CNN "Notes"
 F 10 "50" H 3250 3800 50  0001 C CNN "PriceForQty"
+F 11 "12" H 3250 3800 50  0001 C CNN "Index"
 	1    3250 3800
 	1    0    0    -1  
 $EndComp
@@ -334,6 +344,7 @@ F 4 "LCSC" H 6650 4600 50  0001 C CNN "Distributor"
 F 5 "C481499 " H 6650 4600 50  0001 C CNN "DistOrderNr"
 F 6 "0.2596" H 6650 4600 50  0001 C CNN "PriceEUR"
 F 7 "100" H 6650 4600 50  0001 C CNN "PriceForQty"
+F 8 "42" H 6650 4600 50  0001 C CNN "Index"
 	1    6650 4600
 	1    0    0    -1  
 $EndComp
@@ -396,6 +407,7 @@ F 7 "CR1206F100RP05Z" H 4750 3200 50  0001 C CNN "ManPartNr"
 F 8 "Ever Ohms Tech" H 4750 3200 50  0001 C CNN "Manufacturer"
 F 9 "0.25W ±1% ±100ppm/℃ 100Ω 1206" H 4750 3200 50  0001 C CNN "Notes"
 F 10 "500" H 4750 3200 50  0001 C CNN "PriceForQty"
+F 11 "28" H 4750 3200 50  0001 C CNN "Index"
 	1    4750 3200
 	0    1    1    0   
 $EndComp
@@ -414,7 +426,9 @@ F 1 "56k" H 5170 3355 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 5030 3400 50  0001 C CNN
 F 3 "~" H 5100 3400 50  0001 C CNN
 F 4 "0.01" H 5100 3400 50  0001 C CNN "PriceEUR"
-F 5 "LCSC" H 5100 3400 50  0001 C CNN "Distributor"
+F 5 "AufLager" H 5100 3400 50  0001 C CNN "Distributor"
+F 6 "R3216-56k" H 5100 3400 50  0001 C CNN "DistOrderNr"
+F 7 "58" H 5100 3400 50  0001 C CNN "Index"
 	1    5100 3400
 	1    0    0    -1  
 $EndComp
@@ -444,6 +458,7 @@ F 8 "100V 2A 850mV @ 2A SMA(DO-214AC) Schottky Barrier Diodes" H 6650 3950 50  0
 F 9 "0.0155" H 6650 3950 50  0001 C CNN "PriceEUR"
 F 10 "200" H 6650 3950 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_ZHIDE-SS210A-W_C2683692.html" H 6650 3950 50  0001 C CNN "Weblink"
+F 12 "49" H 6650 3950 50  0001 C CNN "Index"
 	1    6650 3950
 	0    1    1    0   
 $EndComp

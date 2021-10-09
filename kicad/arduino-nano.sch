@@ -44,6 +44,8 @@ F 10 "500" H 4050 5500 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-0603B104K160CT_C80516.html" H 4050 5500 50  0001 C CNN "Weblink"
 F 12 "C464972" H 4050 5500 50  0001 C CNN "DistOrderNr"
 F 13 "FN31X104K500PXG" H 4050 5500 50  0001 C CNN "ManPartNr"
+F 14 "40" H 4050 5500 50  0001 C CNN "Index"
+F 15 "" H 4050 5500 50  0001 C CNN "NotesAlt"
 	1    4050 5500
 	0    1    1    0   
 $EndComp
@@ -99,6 +101,7 @@ F 8 "100" H 3750 6400 50  0001 C CNN "PriceForQty"
 F 9 "https://lcsc.com/product-detail/USB-ICs_WCH-Jiangsu-Qin-Heng-CH340C_C84681.html" H 3750 6400 50  0001 C CNN "Weblink"
 F 10 "CH340C" H 3750 6400 50  0001 C CNN "ManPartNr"
 F 11 "USB-UART with internal clock" H 3750 6400 50  0001 C CNN "Notes"
+F 12 "11" H 3750 6400 50  0001 C CNN "Index"
 	1    3750 6400
 	1    0    0    -1  
 $EndComp
@@ -128,6 +131,7 @@ F 8 "0.25W ±1% ±100ppm/℃ 100Ω 1206" H 3150 6100 50  0001 C CNN "Notes"
 F 9 "0.0030" H 3150 6100 50  0001 C CNN "PriceEUR"
 F 10 "500" H 3150 6100 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 3150 6100 50  0001 C CNN "Weblink"
+F 12 "28" H 3150 6100 50  0001 C CNN "Index"
 	1    3150 6100
 	0    1    1    0   
 $EndComp
@@ -186,6 +190,8 @@ F 10 "500" H 3350 5500 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-0603B104K160CT_C80516.html" H 3350 5500 50  0001 C CNN "Weblink"
 F 12 "C464972" H 3350 5500 50  0001 C CNN "DistOrderNr"
 F 13 "FN31X104K500PXG" H 3350 5500 50  0001 C CNN "ManPartNr"
+F 14 "40" H 3350 5500 50  0001 C CNN "Index"
+F 15 "" H 3350 5500 50  0001 C CNN "NotesAlt"
 	1    3350 5500
 	0    1    1    0   
 $EndComp
@@ -276,6 +282,7 @@ F 7 "RALEC" H 4650 6000 50  0001 C CNN "Manufacturer"
 F 8 "1kΩ ±5% 0.25W ±100ppm/℃ 1206 Chip Resistor" H 4650 6000 50  0001 C CNN "Notes"
 F 9 "0.0042" H 4650 6000 50  0001 C CNN "PriceEUR"
 F 10 "50" H 4650 6000 50  0001 C CNN "PriceForQty"
+F 11 "12" H 4650 6000 50  0001 C CNN "Index"
 	1    4650 6000
 	0    -1   -1   0   
 $EndComp
@@ -296,6 +303,7 @@ F 7 "Ever Ohms Tech" H 4650 6100 50  0001 C CNN "Manufacturer"
 F 8 "0.25W ±1% ±100ppm/℃ 100Ω 1206" H 4650 6100 50  0001 C CNN "Notes"
 F 9 "0.0030" H 4650 6100 50  0001 C CNN "PriceEUR"
 F 10 "500" H 4650 6100 50  0001 C CNN "PriceForQty"
+F 11 "28" H 4650 6100 50  0001 C CNN "Index"
 	1    4650 6100
 	0    1    1    0   
 $EndComp
@@ -352,6 +360,8 @@ F 7 "Microchip (ATMEL)" H 4500 3450 50  0001 C CNN "Manufacturer"
 F 8 "AVR Mikrocontroller, 16MHz, 32kByte Flash, 2kByte RAM, 1kByte EEPROM" H 4500 3450 50  0001 C CNN "Notes"
 F 9 "1.0" H 4500 3450 50  0001 C CNN "PriceEUR"
 F 10 "1" H 4500 3450 50  0001 C CNN "PriceForQty"
+F 11 "1" H 4500 3450 50  0001 C CNN "Index"
+F 12 "https://www.reichelt.at/at/de/8-bit-atmega-avr-mikrocontroller-32kb-20-mhz-tqfp-32-gegurtet-atmega-328p-aur-p269066.html" H 4500 3450 50  0001 C CNN "NotesAlt"
 	1    4500 3450
 	1    0    0    -1  
 $EndComp
@@ -380,6 +390,7 @@ F 8 "1kΩ ±5% 0.25W ±100ppm/℃ 1206 Chip Resistor" H 6300 3500 50  0001 C CNN
 F 9 "0.0042" H 6300 3500 50  0001 C CNN "PriceEUR"
 F 10 "50" H 6300 3500 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 6300 3500 50  0001 C CNN "Weblink"
+F 12 "12" H 6300 3500 50  0001 C CNN "Index"
 	1    6300 3500
 	-1   0    0    1   
 $EndComp
@@ -406,6 +417,7 @@ F 7 "ZHIDE" H 2250 4550 50  0001 C CNN "Manufacturer"
 F 8 "100V 2A 850mV @ 2A SMA(DO-214AC) Schottky Barrier Diodes" H 2250 4550 50  0001 C CNN "Notes"
 F 9 "0.0155" H 2250 4550 50  0001 C CNN "PriceEUR"
 F 10 "200" H 2250 4550 50  0001 C CNN "PriceForQty"
+F 11 "49" H 2250 4550 50  0001 C CNN "Index"
 	1    2250 4550
 	0    1    1    0   
 $EndComp
@@ -430,6 +442,7 @@ F 7 "Jing Extension of the Electronic Co." H 1550 6300 50  0001 C CNN "Manufactu
 F 8 "USB - Type B Female USB 2.0 4 Through Hole USB Connectors" H 1550 6300 50  0001 C CNN "Notes"
 F 9 "0.0777" H 1550 6300 50  0001 C CNN "PriceEUR"
 F 10 "5" H 1550 6300 50  0001 C CNN "PriceForQty"
+F 11 "6" H 1550 6300 50  0001 C CNN "Index"
 	1    1550 6300
 	1    0    0    -1  
 $EndComp
@@ -468,6 +481,8 @@ F 10 "500" H 7200 4550 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-0603B104K160CT_C80516.html" H 7200 4550 50  0001 C CNN "Weblink"
 F 12 "C464972" H 7200 4550 50  0001 C CNN "DistOrderNr"
 F 13 "FN31X104K500PXG" H 7200 4550 50  0001 C CNN "ManPartNr"
+F 14 "40" H 7200 4550 50  0001 C CNN "Index"
+F 15 "" H 7200 4550 50  0001 C CNN "NotesAlt"
 	1    7200 4550
 	-1   0    0    1   
 $EndComp
@@ -565,6 +580,7 @@ F 7 "Guangzhou Jingyou Electronic Tech" H 7950 2900 50  0001 C CNN "Manufacturer
 F 8 "16MHz ±10ppm 12pF 40Ω SMD-3225 SMD Crystal Resonators" H 7950 2900 50  0001 C CNN "Notes"
 F 9 "0.0884" H 7950 2900 50  0001 C CNN "PriceEUR"
 F 10 "50" H 7950 2900 50  0001 C CNN "PriceForQty"
+F 11 "35" H 7950 2900 50  0001 C CNN "Index"
 	1    7950 2900
 	0    -1   -1   0   
 $EndComp
@@ -607,6 +623,7 @@ F 7 "YAGEO" H 8200 3200 50  0001 C CNN "Manufacturer"
 F 8 "12pF NP0 Keramikkonensator" H 8200 3200 50  0001 C CNN "Notes"
 F 9 "0.024" H 8200 3200 50  0001 C CNN "PriceEUR"
 F 10 "20" H 8200 3200 50  0001 C CNN "PriceForQty"
+F 11 "13" H 8200 3200 50  0001 C CNN "Index"
 	1    8200 3200
 	0    -1   -1   0   
 $EndComp
@@ -642,6 +659,7 @@ F 7 "YAGEO" H 8200 2350 50  0001 C CNN "Manufacturer"
 F 8 "12pF NP0 Keramikkonensator" H 8200 2350 50  0001 C CNN "Notes"
 F 9 "0.024" H 8200 2350 50  0001 C CNN "PriceEUR"
 F 10 "20" H 8200 2350 50  0001 C CNN "PriceForQty"
+F 11 "13" H 8200 2350 50  0001 C CNN "Index"
 	1    8200 2350
 	0    -1   -1   0   
 $EndComp
@@ -701,6 +719,7 @@ F 8 "SPST 50mA @ 12VDC Vertical Round Button 160gf SMD Tactile Switches" H 6300 
 F 9 "0.01" H 6300 4550 50  0001 C CNN "PriceEUR"
 F 10 "500" H 6300 4550 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Tactile-Switches_XKB-Connectivity-TS-1187A-B-A-B_C318884.html" H 6300 4550 50  0001 C CNN "Weblink"
+F 12 "33" H 6300 4550 50  0001 C CNN "Index"
 	1    6300 4550
 	0    -1   -1   0   
 $EndComp
@@ -744,6 +763,8 @@ F 10 "500" H 4950 1600 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-0603B104K160CT_C80516.html" H 4950 1600 50  0001 C CNN "Weblink"
 F 12 "C464972" H 4950 1600 50  0001 C CNN "DistOrderNr"
 F 13 "FN31X104K500PXG" H 4950 1600 50  0001 C CNN "ManPartNr"
+F 14 "40" H 4950 1600 50  0001 C CNN "Index"
+F 15 "" H 4950 1600 50  0001 C CNN "NotesAlt"
 	1    4950 1600
 	-1   0    0    1   
 $EndComp
@@ -815,6 +836,7 @@ F 3 "~" H 1550 3150 50  0001 C CNN
 F 4 "0.01" H 1550 3150 50  0001 C CNN "PriceEUR"
 F 5 "C229599" H 1550 3150 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 1550 3150 50  0001 C CNN "Distributor"
+F 7 "26" H 1550 3150 50  0001 C CNN "Index"
 	1    1550 3150
 	1    0    0    -1  
 $EndComp
@@ -834,6 +856,7 @@ F 5 "C965825" H 1550 3550 50  0001 C CNN "DistOrderNr"
 F 6 "https://lcsc.com/product-detail/Pre-ordered-Products_XINGLIGHT-XL-3216UGC_C965825.html" H 1550 3550 50  0001 C CNN "Weblink"
 F 7 "0.0067" H 1550 3550 50  0001 C CNN "PriceEUR"
 F 8 "50" H 1550 3550 50  0001 C CNN "PriceForQty"
+F 9 "47" H 1550 3550 50  0001 C CNN "Index"
 	1    1550 3550
 	0    -1   -1   0   
 $EndComp
@@ -876,6 +899,7 @@ F 7 "RTT03101JTP" H 2050 3450 50  0001 C CNN "ManPartNr"
 F 8 "RALEC" H 2050 3450 50  0001 C CNN "Manufacturer"
 F 9 "1kΩ ±5% 0.25W ±100ppm/℃ 1206 Chip Resistor" H 2050 3450 50  0001 C CNN "Notes"
 F 10 "50" H 2050 3450 50  0001 C CNN "PriceForQty"
+F 11 "12" H 2050 3450 50  0001 C CNN "Index"
 	1    2050 3450
 	1    0    0    -1  
 $EndComp
@@ -930,6 +954,7 @@ F 8 "X7R ±10% 100V 1uF 1206 Multilayer Ceramic Capacitors MLCC" H 2450 5100 50 
 F 9 "0.0535 " H 2450 5100 50  0001 C CNN "PriceEUR"
 F 10 "50" H 2450 5100 50  0001 C CNN "PriceForQty"
 F 11 "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_HUI-JU-NC1206B105K101CEPN_C710469.html" H 2450 5100 50  0001 C CNN "Weblink"
+F 12 "10" H 2450 5100 50  0001 C CNN "Index"
 	1    2450 5100
 	1    0    0    -1  
 $EndComp
@@ -974,6 +999,7 @@ F 8 "X7R ±10% 100V 1uF 1206 Multilayer Ceramic Capacitors MLCC" H 3200 2500 50 
 F 9 "0.0535 " H 3200 2500 50  0001 C CNN "PriceEUR"
 F 10 "50" H 3200 2500 50  0001 C CNN "PriceForQty"
 F 11 "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_HUI-JU-NC1206B105K101CEPN_C710469.html" H 3200 2500 50  0001 C CNN "Weblink"
+F 12 "10" H 3200 2500 50  0001 C CNN "Index"
 	1    3200 2500
 	1    0    0    -1  
 $EndComp
@@ -1000,6 +1026,7 @@ F 8 "X7R ±10% 100V 1uF 1206 Multilayer Ceramic Capacitors MLCC" H 5400 1600 50 
 F 9 "0.0535 " H 5400 1600 50  0001 C CNN "PriceEUR"
 F 10 "50" H 5400 1600 50  0001 C CNN "PriceForQty"
 F 11 "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_HUI-JU-NC1206B105K101CEPN_C710469.html" H 5400 1600 50  0001 C CNN "Weblink"
+F 12 "10" H 5400 1600 50  0001 C CNN "Index"
 	1    5400 1600
 	1    0    0    -1  
 $EndComp
@@ -1091,6 +1118,7 @@ F 5 "LCSC" H 6200 1350 50  0001 C CNN "Distributor"
 F 6 "Wannenstecker 2x3 Pins, 2.54mm Raster, vertikal" H 6200 1350 50  0001 C CNN "Notes"
 F 7 "0.0698" H 6200 1350 50  0001 C CNN "PriceEUR"
 F 8 "50" H 6200 1350 50  0001 C CNN "PriceForQty"
+F 9 "16" H 6200 1350 50  0001 C CNN "Index"
 	1    6200 1350
 	1    0    0    -1  
 $EndComp
@@ -1162,6 +1190,7 @@ F 7 "Ever Ohms Tech" H 5800 1950 50  0001 C CNN "Manufacturer"
 F 8 "0.25W ±1% ±100ppm/℃ 100Ω 1206" H 5800 1950 50  0001 C CNN "Notes"
 F 9 "0.0030" H 5800 1950 50  0001 C CNN "PriceEUR"
 F 10 "500" H 5800 1950 50  0001 C CNN "PriceForQty"
+F 11 "28" H 5800 1950 50  0001 C CNN "Index"
 	1    5800 1950
 	-1   0    0    1   
 $EndComp
@@ -1184,6 +1213,7 @@ F 7 "Ever Ohms Tech" H 5700 1950 50  0001 C CNN "Manufacturer"
 F 8 "0.25W ±1% ±100ppm/℃ 100Ω 1206" H 5700 1950 50  0001 C CNN "Notes"
 F 9 "0.0030" H 5700 1950 50  0001 C CNN "PriceEUR"
 F 10 "500" H 5700 1950 50  0001 C CNN "PriceForQty"
+F 11 "28" H 5700 1950 50  0001 C CNN "Index"
 	1    5700 1950
 	1    0    0    -1  
 $EndComp
@@ -1206,6 +1236,7 @@ F 7 "Ever Ohms Tech" H 6650 1950 50  0001 C CNN "Manufacturer"
 F 8 "0.25W ±1% ±100ppm/℃ 100Ω 1206" H 6650 1950 50  0001 C CNN "Notes"
 F 9 "0.0030" H 6650 1950 50  0001 C CNN "PriceEUR"
 F 10 "500" H 6650 1950 50  0001 C CNN "PriceForQty"
+F 11 "28" H 6650 1950 50  0001 C CNN "Index"
 	1    6650 1950
 	-1   0    0    1   
 $EndComp
@@ -1233,6 +1264,7 @@ F 8 "X7R ±10% 100V 1uF 1206 Multilayer Ceramic Capacitors MLCC" H 3400 1600 50 
 F 9 "0.0535 " H 3400 1600 50  0001 C CNN "PriceEUR"
 F 10 "50" H 3400 1600 50  0001 C CNN "PriceForQty"
 F 11 "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_HUI-JU-NC1206B105K101CEPN_C710469.html" H 3400 1600 50  0001 C CNN "Weblink"
+F 12 "10" H 3400 1600 50  0001 C CNN "Index"
 	1    3400 1600
 	1    0    0    -1  
 $EndComp
@@ -1295,6 +1327,7 @@ F 7 "PSA(Prosperity Dielectrics)" H 6700 4600 50  0001 C CNN "Manufacturer"
 F 8 "10nF ±10% 50V X7R  Multilayer Ceramic Capacitors MLCC" H 6700 4600 50  0001 C CNN "Notes"
 F 9 "0.0106" H 6700 4600 50  0001 C CNN "PriceEUR"
 F 10 "500" H 6700 4600 50  0001 C CNN "PriceForQty"
+F 11 "44" H 6700 4600 50  0001 C CNN "Index"
 	1    6700 4600
 	1    0    0    -1  
 $EndComp

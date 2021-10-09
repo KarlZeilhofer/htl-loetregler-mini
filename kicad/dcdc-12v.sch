@@ -32,6 +32,7 @@ F 8 "XL7005A" H 5350 3550 50  0001 C CNN "ManPartNr"
 F 9 "XLSEMI" H 5350 3550 50  0001 C CNN "Manufacturer"
 F 10 "80V 400mA SOP-8_EP_150mil DC-DC Converters" H 5350 3550 50  0001 C CNN "Notes"
 F 11 "https://lcsc.com/product-detail/DC-DC-Converters_XLSEMI-XL7005A_C50848.html" H 5350 3550 50  0001 C CNN "Weblink"
+F 12 "9" H 5350 3550 50  0001 C CNN "Index"
 	1    5350 3550
 	1    0    0    -1  
 $EndComp
@@ -54,6 +55,7 @@ F 8 "https://lcsc.com/product-detail/Power-Inductors_Sunltech-Tech-SLH0704S470MT
 F 9 "SLH0704S470MTT" H 6250 3450 50  0001 C CNN "ManPartNr"
 F 10 "Sunltech Tech" H 6250 3450 50  0001 C CNN "Manufacturer"
 F 11 "47uH ±20% 1A 266mΩ SMD,7.3x7.3x4.5mm" H 6250 3450 50  0001 C CNN "Notes"
+F 12 "24" H 6250 3450 50  0001 C CNN "Index"
 	1    6250 3450
 	1    0    0    -1  
 $EndComp
@@ -76,6 +78,7 @@ F 8 "100V 2A 850mV @ 2A SMA(DO-214AC) Schottky Barrier Diodes" H 5900 4150 50  0
 F 9 "0.0155" H 5900 4150 50  0001 C CNN "PriceEUR"
 F 10 "200" H 5900 4150 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_ZHIDE-SS210A-W_C2683692.html" H 5900 4150 50  0001 C CNN "Weblink"
+F 12 "49" H 5900 4150 50  0001 C CNN "Index"
 	1    5900 4150
 	0    1    1    0   
 $EndComp
@@ -93,6 +96,7 @@ F 3 "~" H 6600 3650 50  0001 C CNN
 F 4 "0.01" H 6600 3650 50  0001 C CNN "PriceEUR"
 F 5 "C137314" H 6600 3650 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 6600 3650 50  0001 C CNN "Distributor"
+F 7 "17" H 6600 3650 50  0001 C CNN "Index"
 	1    6600 3650
 	1    0    0    -1  
 $EndComp
@@ -110,6 +114,7 @@ F 3 "~" H 6600 4250 50  0001 C CNN
 F 4 "0.01" H 6600 4250 50  0001 C CNN "PriceEUR"
 F 5 "C229599" H 6600 4250 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 6600 4250 50  0001 C CNN "Distributor"
+F 7 "26" H 6600 4250 50  0001 C CNN "Index"
 	1    6600 4250
 	1    0    0    -1  
 $EndComp
@@ -140,6 +145,7 @@ F 6 "TCC1206X7R333K500DT" H 6950 3650 50  0001 C CNN "ManPartNr"
 F 7 "CCTC" H 6950 3650 50  0001 C CNN "Manufacturer"
 F 8 "0.0144" H 6950 3650 50  0001 C CNN "PriceEUR"
 F 9 "50" H 6950 3650 50  0001 C CNN "PriceForQty"
+F 10 "31" H 6950 3650 50  0001 C CNN "Index"
 	1    6950 3650
 	1    0    0    -1  
 $EndComp
@@ -165,6 +171,7 @@ F 7 "Ymin" H 4200 4000 50  0001 C CNN "Manufacturer"
 F 8 "100uF ±20% 63V 8mm 10mm 902mA @ 100kHz 10000hrs @ 105℃ -55℃~+105℃ SMD,8x10mm Aluminum Electrolytic Capacitors" H 4200 4000 50  0001 C CNN "Notes"
 F 9 "0.0698" H 4200 4000 50  0001 C CNN "PriceEUR"
 F 10 "150" H 4200 4000 50  0001 C CNN "PriceForQty"
+F 11 "43" H 4200 4000 50  0001 C CNN "Index"
 	1    4200 4000
 	1    0    0    -1  
 $EndComp
@@ -186,6 +193,7 @@ F 7 "AISHI" H 7300 4200 50  0001 C CNN "Manufacturer"
 F 8 "100uF ±20% 25V 6.3mm 6mm 2000hrs @ 105℃ -55℃~+105℃ SMD,6.3x6mm Solid Polymer Electrolytic Capacitor" H 7300 4200 50  0001 C CNN "Notes"
 F 9 "0.1485" H 7300 4200 50  0001 C CNN "PriceEUR"
 F 10 "30" H 7300 4200 50  0001 C CNN "PriceForQty"
+F 11 "34" H 7300 4200 50  0001 C CNN "Index"
 	1    7300 4200
 	1    0    0    -1  
 $EndComp
@@ -207,6 +215,7 @@ F 7 "Samsung Electro-Mechanics" H 3800 4000 50  0001 C CNN "Manufacturer"
 F 8 "100nF ±10% 100V X7R  Multilayer Ceramic Capacitors MLCC" H 3800 4000 50  0001 C CNN "Notes"
 F 9 "0.014" H 3800 4000 50  0001 C CNN "PriceEUR"
 F 10 "200" H 3800 4000 50  0001 C CNN "PriceForQty"
+F 11 "2" H 3800 4000 50  0001 C CNN "Index"
 	1    3800 4000
 	-1   0    0    -1  
 $EndComp
@@ -289,6 +298,7 @@ F 7 "CR1206F100RP05Z" H 4800 4250 50  0001 C CNN "ManPartNr"
 F 8 "Ever Ohms Tech" H 4800 4250 50  0001 C CNN "Manufacturer"
 F 9 "0.25W ±1% ±100ppm/℃ 100Ω 1206" H 4800 4250 50  0001 C CNN "Notes"
 F 10 "500" H 4800 4250 50  0001 C CNN "PriceForQty"
+F 11 "28" H 4800 4250 50  0001 C CNN "Index"
 	1    4800 4250
 	1    0    0    -1  
 $EndComp
@@ -308,6 +318,7 @@ F 3 "~" H 8150 3800 50  0001 C CNN
 F 4 "0.01" H 8150 3800 50  0001 C CNN "PriceEUR"
 F 5 "C229599" H 8150 3800 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 8150 3800 50  0001 C CNN "Distributor"
+F 7 "26" H 8150 3800 50  0001 C CNN "Index"
 	1    8150 3800
 	1    0    0    -1  
 $EndComp
@@ -329,6 +340,7 @@ F 5 "C965825" H 8150 4150 50  0001 C CNN "DistOrderNr"
 F 6 "https://lcsc.com/product-detail/Pre-ordered-Products_XINGLIGHT-XL-3216UGC_C965825.html" H 8150 4150 50  0001 C CNN "Weblink"
 F 7 "0.0067" H 8150 4150 50  0001 C CNN "PriceEUR"
 F 8 "50" H 8150 4150 50  0001 C CNN "PriceForQty"
+F 9 "47" H 8150 4150 50  0001 C CNN "Index"
 	1    8150 4150
 	0    -1   -1   0   
 $EndComp

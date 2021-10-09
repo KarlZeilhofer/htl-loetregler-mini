@@ -30,6 +30,7 @@ F 7 "Vogt" H 4100 1750 50  0001 C CNN "Manufacturer"
 F 8 "Faston Flachstecker vertikal 6.3mm für Leiterplattenmontage" H 4100 1750 50  0001 C CNN "Notes"
 F 9 "0.042" H 4100 1750 50  0001 C CNN "PriceEUR"
 F 10 "1" H 4100 1750 50  0001 C CNN "PriceForQty"
+F 11 "59" H 4100 1750 50  0001 C CNN "Index"
 	1    4100 1750
 	-1   0    0    1   
 $EndComp
@@ -50,6 +51,7 @@ F 7 "Vogt" H 6250 2500 50  0001 C CNN "Manufacturer"
 F 8 "Faston Flachstecker vertikal 6.3mm für Leiterplattenmontage" H 6250 2500 50  0001 C CNN "Notes"
 F 9 "0.042" H 6250 2500 50  0001 C CNN "PriceEUR"
 F 10 "1" H 6250 2500 50  0001 C CNN "PriceForQty"
+F 11 "59" H 6250 2500 50  0001 C CNN "Index"
 	1    6250 2500
 	1    0    0    -1  
 $EndComp
@@ -72,6 +74,7 @@ F 7 "Vogt" H 5000 3700 50  0001 C CNN "Manufacturer"
 F 8 "Faston Flachstecker vertikal 6.3mm für Leiterplattenmontage" H 5000 3700 50  0001 C CNN "Notes"
 F 9 "0.042" H 5000 3700 50  0001 C CNN "PriceEUR"
 F 10 "1" H 5000 3700 50  0001 C CNN "PriceForQty"
+F 11 "59" H 5000 3700 50  0001 C CNN "Index"
 	1    5000 3700
 	-1   0    0    1   
 $EndComp
@@ -93,6 +96,7 @@ F 7 "Vogt" H 4100 2500 50  0001 C CNN "Manufacturer"
 F 8 "Faston Flachstecker vertikal 6.3mm für Leiterplattenmontage" H 4100 2500 50  0001 C CNN "Notes"
 F 9 "0.042" H 4100 2500 50  0001 C CNN "PriceEUR"
 F 10 "1" H 4100 2500 50  0001 C CNN "PriceForQty"
+F 11 "59" H 4100 2500 50  0001 C CNN "Index"
 	1    4100 2500
 	-1   0    0    1   
 $EndComp
@@ -124,6 +128,7 @@ F 7 "Vogt" H 5550 3700 50  0001 C CNN "Manufacturer"
 F 8 "Faston Flachstecker vertikal 6.3mm für Leiterplattenmontage" H 5550 3700 50  0001 C CNN "Notes"
 F 9 "0.042" H 5550 3700 50  0001 C CNN "PriceEUR"
 F 10 "1" H 5550 3700 50  0001 C CNN "PriceForQty"
+F 11 "59" H 5550 3700 50  0001 C CNN "Index"
 	1    5550 3700
 	1    0    0    -1  
 $EndComp
@@ -139,6 +144,7 @@ F 3 "~" H 4700 2500 50  0001 C CNN
 F 4 "NAP3" H 4700 2500 50  0001 C CNN "DistOrderNr"
 F 5 "NAP" H 4700 2500 50  0001 C CNN "Distributor"
 F 6 "0.00" H 4700 2500 50  0001 C CNN "PriceEUR"
+F 7 "53" H 4700 2500 50  0001 C CNN "Index"
 	1    4700 2500
 	1    0    0    -1  
 $EndComp
@@ -161,6 +167,7 @@ F 7 "Vogt" H 6250 1750 50  0001 C CNN "Manufacturer"
 F 8 "Faston Flachstecker vertikal 6.3mm für Leiterplattenmontage" H 6250 1750 50  0001 C CNN "Notes"
 F 9 "0.042" H 6250 1750 50  0001 C CNN "PriceEUR"
 F 10 "1" H 6250 1750 50  0001 C CNN "PriceForQty"
+F 11 "59" H 6250 1750 50  0001 C CNN "Index"
 	1    6250 1750
 	1    0    0    -1  
 $EndComp
@@ -175,6 +182,7 @@ F 3 "~" H 5800 1750 50  0001 C CNN
 F 4 "NAP3" H 5800 1750 50  0001 C CNN "DistOrderNr"
 F 5 "NAP" H 5800 1750 50  0001 C CNN "Distributor"
 F 6 "0.00" H 5800 1750 50  0001 C CNN "PriceEUR"
+F 7 "53" H 5800 1750 50  0001 C CNN "Index"
 	1    5800 1750
 	1    0    0    -1  
 $EndComp
@@ -204,6 +212,7 @@ F 3 "~" H 5600 2150 50  0001 C CNN
 F 4 "NAP3" H 5600 2150 50  0001 C CNN "DistOrderNr"
 F 5 "NAP" H 5600 2150 50  0001 C CNN "Distributor"
 F 6 "0.00" H 5600 2150 50  0001 C CNN "PriceEUR"
+F 7 "53" H 5600 2150 50  0001 C CNN "Index"
 	1    5600 2150
 	1    0    0    -1  
 $EndComp
@@ -242,6 +251,7 @@ F 7 "Vogt" H 5000 3500 50  0001 C CNN "Manufacturer"
 F 8 "Faston Flachstecker vertikal 6.3mm für Leiterplattenmontage" H 5000 3500 50  0001 C CNN "Notes"
 F 9 "0.042" H 5000 3500 50  0001 C CNN "PriceEUR"
 F 10 "1" H 5000 3500 50  0001 C CNN "PriceForQty"
+F 11 "59" H 5000 3500 50  0001 C CNN "Index"
 	1    5000 3500
 	-1   0    0    1   
 $EndComp
@@ -265,6 +275,7 @@ F 7 "Vogt" H 5550 3500 50  0001 C CNN "Manufacturer"
 F 8 "Faston Flachstecker vertikal 6.3mm für Leiterplattenmontage" H 5550 3500 50  0001 C CNN "Notes"
 F 9 "0.042" H 5550 3500 50  0001 C CNN "PriceEUR"
 F 10 "1" H 5550 3500 50  0001 C CNN "PriceForQty"
+F 11 "59" H 5550 3500 50  0001 C CNN "Index"
 	1    5550 3500
 	1    0    0    -1  
 $EndComp

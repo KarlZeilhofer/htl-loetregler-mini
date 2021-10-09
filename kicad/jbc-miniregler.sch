@@ -83,6 +83,7 @@ F 5 "LCSC" H 8550 1850 50  0001 C CNN "Distributor"
 F 6 "0.1347" H 8550 1850 50  0001 C CNN "PriceEUR"
 F 7 "100" H 8550 1850 50  0001 C CNN "PriceForQty"
 F 8 "3 poles, 5.08mm, 15A 250V AWG14~22 1.5mm² P=5.08mm Spring Clamp System Terminal Block" H 8550 1850 50  0001 C CNN "Notes"
+F 9 "41" H 8550 1850 50  0001 C CNN "Index"
 	1    8550 1850
 	1    0    0    1   
 $EndComp
@@ -115,6 +116,7 @@ F 5 "LCSC" H 1100 3650 50  0001 C CNN "Distributor"
 F 6 "0.1347" H 1100 3650 50  0001 C CNN "PriceEUR"
 F 7 "100" H 1100 3650 50  0001 C CNN "PriceForQty"
 F 8 "3 poles, 5.08mm, 15A 250V AWG14~22 1.5mm² P=5.08mm Spring Clamp System Terminal Block" H 1100 3650 50  0001 C CNN "Notes"
+F 9 "41" H 1100 3650 50  0001 C CNN "Index"
 	1    1100 3650
 	-1   0    0    -1  
 $EndComp
@@ -154,6 +156,7 @@ F 8 "SPST 50mA @ 12VDC Vertical Round Button 160gf SMD Tactile Switches" H 3250 
 F 9 "0.01" H 3250 6000 50  0001 C CNN "PriceEUR"
 F 10 "500" H 3250 6000 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Tactile-Switches_XKB-Connectivity-TS-1187A-B-A-B_C318884.html" H 3250 6000 50  0001 C CNN "Weblink"
+F 12 "33" H 3250 6000 50  0001 C CNN "Index"
 	1    3250 6000
 	0    -1   -1   0   
 $EndComp
@@ -175,6 +178,7 @@ F 8 "SPST 50mA @ 12VDC Vertical Round Button 160gf SMD Tactile Switches" H 4050 
 F 9 "0.01" H 4050 6000 50  0001 C CNN "PriceEUR"
 F 10 "500" H 4050 6000 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Tactile-Switches_XKB-Connectivity-TS-1187A-B-A-B_C318884.html" H 4050 6000 50  0001 C CNN "Weblink"
+F 12 "33" H 4050 6000 50  0001 C CNN "Index"
 	1    4050 6000
 	0    -1   -1   0   
 $EndComp
@@ -192,6 +196,7 @@ F 4 "0.01" H 3250 4800 50  0001 C CNN "PriceEUR"
 F 5 "C118075" H 3250 4800 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 3250 4800 50  0001 C CNN "Distributor"
 F 7 "10kΩ ±5% 0.25W ±100ppm/℃ 3216 Chip Resistor" H 3250 4800 50  0001 C CNN "Notes"
+F 8 "15" H 3250 4800 50  0001 C CNN "Index"
 	1    3250 4800
 	1    0    0    -1  
 $EndComp
@@ -209,6 +214,7 @@ F 4 "0.01" H 4050 4800 50  0001 C CNN "PriceEUR"
 F 5 "C118075" H 4050 4800 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 4050 4800 50  0001 C CNN "Distributor"
 F 7 "10kΩ ±5% 0.25W ±100ppm/℃ 3216 Chip Resistor" H 4050 4800 50  0001 C CNN "Notes"
+F 8 "15" H 4050 4800 50  0001 C CNN "Index"
 	1    4050 4800
 	1    0    0    -1  
 $EndComp
@@ -296,6 +302,7 @@ F 8 "SPST 50mA @ 12VDC Vertical Round Button 160gf SMD Tactile Switches" H 1650 
 F 9 "0.01" H 1650 6000 50  0001 C CNN "PriceEUR"
 F 10 "500" H 1650 6000 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Tactile-Switches_XKB-Connectivity-TS-1187A-B-A-B_C318884.html" H 1650 6000 50  0001 C CNN "Weblink"
+F 12 "33" H 1650 6000 50  0001 C CNN "Index"
 	1    1650 6000
 	0    -1   -1   0   
 $EndComp
@@ -317,6 +324,7 @@ F 8 "SPST 50mA @ 12VDC Vertical Round Button 160gf SMD Tactile Switches" H 2500 
 F 9 "0.01" H 2500 6000 50  0001 C CNN "PriceEUR"
 F 10 "500" H 2500 6000 50  0001 C CNN "PriceForQty"
 F 11 "https://lcsc.com/product-detail/Tactile-Switches_XKB-Connectivity-TS-1187A-B-A-B_C318884.html" H 2500 6000 50  0001 C CNN "Weblink"
+F 12 "33" H 2500 6000 50  0001 C CNN "Index"
 	1    2500 6000
 	0    -1   -1   0   
 $EndComp
@@ -334,6 +342,7 @@ F 4 "0.01" H 1650 4800 50  0001 C CNN "PriceEUR"
 F 5 "C118075" H 1650 4800 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 1650 4800 50  0001 C CNN "Distributor"
 F 7 "10kΩ ±5% 0.25W ±100ppm/℃ 3216 Chip Resistor" H 1650 4800 50  0001 C CNN "Notes"
+F 8 "15" H 1650 4800 50  0001 C CNN "Index"
 	1    1650 4800
 	1    0    0    -1  
 $EndComp
@@ -351,6 +360,7 @@ F 4 "0.01" H 2500 4800 50  0001 C CNN "PriceEUR"
 F 5 "C118075" H 2500 4800 50  0001 C CNN "DistOrderNr"
 F 6 "LCSC" H 2500 4800 50  0001 C CNN "Distributor"
 F 7 "10kΩ ±5% 0.25W ±100ppm/℃ 3216 Chip Resistor" H 2500 4800 50  0001 C CNN "Notes"
+F 8 "15" H 2500 4800 50  0001 C CNN "Index"
 	1    2500 4800
 	1    0    0    -1  
 $EndComp
@@ -411,6 +421,7 @@ F 5 "LCSC" H 6200 2550 50  0001 C CNN "Distributor"
 F 6 "LED, red, SMD3216" H 6200 2550 50  0001 C CNN "Notes"
 F 7 "0.0079" H 6200 2550 50  0001 C CNN "PriceEUR"
 F 8 "50" H 6200 2550 50  0001 C CNN "PriceForQty"
+F 9 "46" H 6200 2550 50  0001 C CNN "Index"
 	1    6200 2550
 	0    -1   -1   0   
 $EndComp
@@ -431,6 +442,7 @@ F 7 "RTT03101JTP" H 6200 2150 50  0001 C CNN "ManPartNr"
 F 8 "RALEC" H 6200 2150 50  0001 C CNN "Manufacturer"
 F 9 "1kΩ ±5% 0.25W ±100ppm/℃ 1206 Chip Resistor" H 6200 2150 50  0001 C CNN "Notes"
 F 10 "50" H 6200 2150 50  0001 C CNN "PriceForQty"
+F 11 "12" H 6200 2150 50  0001 C CNN "Index"
 	1    6200 2150
 	1    0    0    -1  
 $EndComp
@@ -483,6 +495,8 @@ F 8 "100nF ±10% 50V X7R Multilayer Ceramic Capacitors MLCC" H 1800 5700 50  000
 F 9 "0.0093" H 1800 5700 50  0001 C CNN "PriceEUR"
 F 10 "500" H 1800 5700 50  0001 C CNN "PriceForQty"
 F 11 "" H 1800 5700 50  0001 C CNN "Weblink"
+F 12 "40" H 1800 5700 50  0001 C CNN "Index"
+F 13 "" H 1800 5700 50  0001 C CNN "NotesAlt"
 	1    1800 5700
 	0    1    1    0   
 $EndComp
@@ -510,6 +524,8 @@ F 8 "100nF ±10% 50V X7R Multilayer Ceramic Capacitors MLCC" H 2650 5700 50  000
 F 9 "0.0093" H 2650 5700 50  0001 C CNN "PriceEUR"
 F 10 "500" H 2650 5700 50  0001 C CNN "PriceForQty"
 F 11 "" H 2650 5700 50  0001 C CNN "Weblink"
+F 12 "40" H 2650 5700 50  0001 C CNN "Index"
+F 13 "" H 2650 5700 50  0001 C CNN "NotesAlt"
 	1    2650 5700
 	0    1    1    0   
 $EndComp
@@ -537,6 +553,8 @@ F 8 "100nF ±10% 50V X7R Multilayer Ceramic Capacitors MLCC" H 3400 5700 50  000
 F 9 "0.0093" H 3400 5700 50  0001 C CNN "PriceEUR"
 F 10 "500" H 3400 5700 50  0001 C CNN "PriceForQty"
 F 11 "" H 3400 5700 50  0001 C CNN "Weblink"
+F 12 "40" H 3400 5700 50  0001 C CNN "Index"
+F 13 "" H 3400 5700 50  0001 C CNN "NotesAlt"
 	1    3400 5700
 	0    1    1    0   
 $EndComp
@@ -564,6 +582,8 @@ F 8 "100nF ±10% 50V X7R Multilayer Ceramic Capacitors MLCC" H 4200 5700 50  000
 F 9 "0.0093" H 4200 5700 50  0001 C CNN "PriceEUR"
 F 10 "500" H 4200 5700 50  0001 C CNN "PriceForQty"
 F 11 "" H 4200 5700 50  0001 C CNN "Weblink"
+F 12 "40" H 4200 5700 50  0001 C CNN "Index"
+F 13 "" H 4200 5700 50  0001 C CNN "NotesAlt"
 	1    4200 5700
 	0    1    1    0   
 $EndComp
@@ -591,6 +611,7 @@ F 6 "100" H 7450 4500 50  0001 C CNN "PriceForQty"
 F 7 "https://www.aliexpress.com/item/32672229793.html?spm=a2g0s.9042311.0.0.202b4c4d7Uzd2y" H 7450 4500 50  0001 C CNN "Weblink"
 F 8 "OLED, 128x32, 23mm, I2C, 3.3/5V, weiß, SSD1306" H 7450 4500 50  0001 C CNN "Notes"
 F 9 "OLED_128x64_white" H 7450 4500 50  0001 C CNN "DistOrderNr"
+F 10 "55" H 7450 4500 50  0001 C CNN "Index"
 	1    7450 4500
 	1    0    0    -1  
 $EndComp
@@ -634,8 +655,9 @@ F 3 "~" V 9200 6400 50  0001 C CNN
 F 4 "Custom2" H 9200 6400 50  0001 C CNN "DistOrderNr"
 F 5 "Multi-CB" H 9200 6400 50  0001 C CNN "Distributor"
 F 6 "Multi-CB" H 9200 6400 50  0001 C CNN "Manufacturer"
-F 7 "3.71" H 9200 6400 50  0001 C CNN "PriceEUR"
-F 8 "100" H 9200 6400 50  0001 C CNN "PriceForQty"
+F 7 "3.55" H 9200 6400 50  0001 C CNN "PriceEUR"
+F 8 "40" H 9200 6400 50  0001 C CNN "PriceForQty"
+F 9 "51" H 9200 6400 50  0001 C CNN "Index"
 	1    9200 6400
 	1    0    0    -1  
 $EndComp
@@ -650,8 +672,9 @@ F 3 "~" V 9200 6200 50  0001 C CNN
 F 4 "Custom1" H 9200 6200 50  0001 C CNN "DistOrderNr"
 F 5 "Multi-CB" H 9200 6200 50  0001 C CNN "Distributor"
 F 6 "Multi-CB" H 9200 6200 50  0001 C CNN "Manufacturer"
-F 7 "0.1656" H 9200 6200 50  0001 C CNN "PriceEUR"
-F 8 "100" H 9200 6200 50  0001 C CNN "PriceForQty"
+F 7 "0.53" H 9200 6200 50  0001 C CNN "PriceEUR"
+F 8 "40" H 9200 6200 50  0001 C CNN "PriceForQty"
+F 9 "50" H 9200 6200 50  0001 C CNN "Index"
 	1    9200 6200
 	1    0    0    -1  
 $EndComp
@@ -667,6 +690,7 @@ F 4 "NAP1" H 9950 4650 50  0001 C CNN "DistOrderNr"
 F 5 "Not a Part" H 9950 4650 50  0001 C CNN "Manufacturer"
 F 6 "0.00" H 9950 4650 50  0001 C CNN "PriceEUR"
 F 7 "NAP" H 9950 4650 50  0001 C CNN "Distributor"
+F 8 "52" H 9950 4650 50  0001 C CNN "Index"
 	1    9950 4650
 	1    0    0    -1  
 $EndComp
@@ -682,6 +706,7 @@ F 4 "NAP1" H 9950 4450 50  0001 C CNN "DistOrderNr"
 F 5 "Not a Part" H 9950 4450 50  0001 C CNN "Manufacturer"
 F 6 "0.00" H 9950 4450 50  0001 C CNN "PriceEUR"
 F 7 "NAP" H 9950 4450 50  0001 C CNN "Distributor"
+F 8 "52" H 9950 4450 50  0001 C CNN "Index"
 	1    9950 4450
 	1    0    0    -1  
 $EndComp
@@ -698,6 +723,7 @@ F 5 "LCSC" H 1050 2250 50  0001 C CNN "Distributor"
 F 6 "0.1347" H 1050 2250 50  0001 C CNN "PriceEUR"
 F 7 "100" H 1050 2250 50  0001 C CNN "PriceForQty"
 F 8 "3 poles, 5.08mm, 15A 250V AWG14~22 1.5mm² P=5.08mm Spring Clamp System Terminal Block" H 1050 2250 50  0001 C CNN "Notes"
+F 9 "41" H 1050 2250 50  0001 C CNN "Index"
 	1    1050 2250
 	-1   0    0    -1  
 $EndComp
@@ -760,6 +786,7 @@ F 8 "0.0517" H 6950 5200 50  0001 C CNN "PriceEUR"
 F 9 "50" H 6950 5200 50  0001 C CNN "PriceForQty"
 F 10 "https://lcsc.com/product-detail/Pin-Header-Female-Header_CJT-Changjiang-Connectors-A2541HWV-4P_C225501.html" H 6950 5200 50  0001 C CNN "Weblink"
 F 11 "Buchsenleiste, 8.5mm hoch, 2.54mm Raster" H 6950 5200 50  0001 C CNN "Notes"
+F 12 "25" H 6950 5200 50  0001 C CNN "Index"
 	1    6950 5200
 	1    0    0    -1  
 $EndComp
