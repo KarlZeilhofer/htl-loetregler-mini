@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.1.10-88a1d61d58~88~ubuntu20.04.1"
+      "Version":     "5.1.10-88a1d61d58~90~ubuntu20.04.1"
     },
-    "CreationDate":  "2021-06-01T08:53:22+02:00"
+    "CreationDate":  "2021-10-09T22:51:23+02:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "jbc-miniregler",
       "GUID": "6a62632d-6d69-46e6-9972-65676c65722e",
-      "Revision": "rev?"
+      "Revision": "21.0.1"
     },
     "Size":
     {
@@ -32,7 +32,7 @@
       "PadToPad":  0.150,
       "PadToTrack":  0.150,
       "TrackToTrack":  0.150,
-      "MinLineWidth":  0.250,
+      "MinLineWidth":  0.150,
       "TrackToRegion":  0.150,
       "RegionToRegion":  0.150
     }
@@ -47,6 +47,11 @@
     {
       "Path":  "jbc-miniregler-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "jbc-miniregler-F_Paste.gbr",
+      "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
@@ -80,6 +85,10 @@
     {
       "Type":  "Legend",
       "Notes":  "Layer F.SilkS"
+    },
+    {
+      "Type":  "SolderPaste",
+      "Notes":  "Layer F.Paste"
     },
     {
       "Type":  "SolderMask",
