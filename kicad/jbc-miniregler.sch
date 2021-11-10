@@ -790,4 +790,6 @@ F 12 "25" H 6950 5200 50  0001 C CNN "Index"
 	1    6950 5200
 	1    0    0    -1  
 $EndComp
+Text Notes 8750 1950 0    50   ~ 0
+Silikonleitung SIHF 3x0,75\n\nFarbcode:\nbraun: H+\nblau: TC+\ngelb/grün: HTC-
 $EndSCHEMATC
