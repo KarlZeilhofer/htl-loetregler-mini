@@ -31,6 +31,9 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 // A5: SCL (OLED und PCB-Temp-Sensor)
 #define PIN_AIN_Staender    A6
 
+#define SPANNUNG_VOLL 40.0
+#define SPANNUNG_LEER 32.0
+
 char str[20] = {0};
 uint16_t tempSoll = 330;
 uint16_t tempSpitze = 999;
@@ -57,22 +60,23 @@ void setup() {
   }
 
   display.clearDisplay();
-  display.setCursor(0, 0);
+  display.setCursor(10,0);
   display.setTextSize(2);
   display.setTextColor(WHITE);
-  display.print("HTL LOETREGLER MINI");
-  display.setCursor(0, 10);
-  display.print("U_BATT: 00.00 V");
-  display.setCursor(0, 20);
-  display.print("T_LOET: 000/000 'C");
+  display.print("HTL STEYR");
+  display.setCursor(19,31-7);
+  display.setTextSize(1);
+  display.print("LOETREGLER MINI");
   display.display();
+
+  delay(500);
 
   pinMode(PIN_Heizelement, OUTPUT);
   analogWrite(PIN_Heizelement, 3);
 }
 
 void mainScreen() {
-  static const int8_t UpdatePeriod = 10;
+  static const int8_t UpdatePeriod = 3;
   static int8_t updateCounter = UpdatePeriod;
   // paint static objects
 
@@ -153,9 +157,10 @@ void mainScreen() {
     sprintf(str, "%d", uint16_t(power));
     display.print(str);
 
+    // Batteriespannung
     float uBatt = spannungBatterie();
     display.setTextSize(1);
-    sprintf(str, "%d", uint16_t(uBatt * 10));
+    sprintf(str, "%3d", uint16_t(uBatt * 10));
     display.setCursor(96, 18);
     display.print(str[0]);
     display.setCursor(96 + 6, 18);
@@ -174,29 +179,36 @@ void mainScreen() {
   if (updateCounter <= 0) {
     updateCounter = UpdatePeriod;
   }
-
+  display.display();
 }
 
 // 0...100%
 uint8_t batterieZustand() {
-  return map(spannungBatterie(), 32, 40, 0, 100);
+  int32_t ret = constrain(
+                  100.0/(SPANNUNG_VOLL-SPANNUNG_LEER)*(spannungBatterie()-SPANNUNG_LEER), 
+                  0, 100);
+  Serial.println(ret);
+  return ret;
 }
 
-void loop() {
-  mainScreen();
-
+void regler(){
   float stromMesswert;
   tempSpitze = temperaturSpitze();
   if ((!standby && (tempSpitze < tempSoll)) ||
       (standby && (tempSpitze < 150))) {
     analogWrite(PIN_Heizelement, 250); // nicht 100% PWM (=255), damit der Bootstrap-Kondensator nachladen kann!
   }
-  delay(10); // max. 20ms durchgehend Heizen
+  if(tempSpitze+80 < tempSoll){
+    // beschleunigtes Heizen
+    delay(100);
+  }else{
+    delay(10); // max. 10ms durchgehend Heizen
+  }
   stromMesswert = strom();
   analogWrite(PIN_Heizelement, 0);
+}
 
-  // TODO: Strommesswert verwerten/anzeigen
-
+void tasterAuswertung(){
   buttons.readAll();
   if (buttons.up->getEvent() == Button::PressedEvent) {
     tempSoll += 10;
@@ -214,8 +226,12 @@ void loop() {
     abschalten();
   }
   tempSoll = constrain(tempSoll, 50, 450);
+}
 
-  display.display();
+void loop() {
+  mainScreen();
+  regler();
+  tasterAuswertung();
   selbsthaltung();
   zeitabschaltung();
 }
@@ -228,9 +244,10 @@ float spannungMessen(uint8_t pin) {
 
 // muss periodisch aufgerufen werden!
 void selbsthaltung() {
-  if (spannungBatterie() > 32) { // für 40V-Akku: 30V, für 20V-Akku: 15V
+  if (millis() < 10000 || spannungBatterie() > SPANNUNG_LEER) { // für 40V-Akku: 30V, für 20V-Akku: 15V
     digitalWrite(PIN_Selbsthaltung, HIGH);
   } else {
+    Serial.println("Unterspannung");
     abschalten();
   }
 }
@@ -250,11 +267,17 @@ float strom() {
 // muss periodisch aufgerufen werden
 void zeitabschaltung() {
   if (millis() / 1000 / 60 > 10) {
+    Serial.println("Zeitabschaltung");
     abschalten();
   }
 }
 
+// doesn't return any more, except, if powered by USB
 void abschalten() {
+  if(digitalRead(10) == HIGH){
+    digitalWrite(PIN_Selbsthaltung, LOW);
+    return;
+  }
   display.fillRect(0, 0, 128, 32, BLACK);
   display.setTextSize(1);
   display.setCursor(0, 0);
