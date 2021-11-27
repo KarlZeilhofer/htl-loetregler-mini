@@ -412,6 +412,7 @@ F 8 "P-Channel -100V 600mA 4V @ 250uA 1Ω @ 600mA,10V 625mW SOT-23(SOT-23-3) MOS
 F 9 "0.2191" H 5000 3700 50  0001 C CNN "PriceEUR"
 F 10 "100" H 5000 3700 50  0001 C CNN "PriceForQty"
 F 11 "8" H 5000 3700 50  0001 C CNN "Index"
+F 12 "https://lcsc.com/product-detail/MOSFETs_STANSON-Tech-ST1005SRG_C2682898.html" H 5000 3700 50  0001 C CNN "NotesAlt"
 	1    5000 3700
 	1    0    0    1   
 $EndComp
@@ -889,4 +890,6 @@ Text Notes 4200 5900 0    50   ~ 0
 Pulldown\nfür Reset-Zustand
 Text Label 7150 4500 0    50   ~ 0
 12Va
+Text Notes 5200 3550 0    50   ~ 0
+alternate: \nST1005SRG 
 $EndSCHEMATC
