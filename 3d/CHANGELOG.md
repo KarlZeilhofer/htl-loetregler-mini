@@ -27,4 +27,4 @@ Nach dem ersten Testdruck:
 * Endring innen von 11 auf 11.2mm vergrößert --> v2.1
 * Mittenring ebenfalls gleichermaßen um je 0.2mm vergrößert --> v2.1
 
-
+* Loch um 0.1mm versetzt, damit der Isolator sauber gedruckt werden kann: griffstück_isolator_htc-_h+_v2.1.stl
