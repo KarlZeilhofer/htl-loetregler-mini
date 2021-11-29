@@ -31,8 +31,9 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 // A5: SCL (OLED und PCB-Temp-Sensor)
 #define PIN_AIN_Staender    A6
 
-#define SPANNUNG_VOLL 40.0
-#define SPANNUNG_LEER 32.0
+#define SPANNUNG_VOLL (40.0/2)
+#define SPANNUNG_LEER (32.0/2)
+
 
 char str[20] = {0};
 uint16_t tempSoll = 330;
