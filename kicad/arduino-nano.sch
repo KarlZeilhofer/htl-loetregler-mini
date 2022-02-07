@@ -77,7 +77,7 @@ Connection ~ 3750 5500
 Wire Wire Line
 	3750 5500 3750 5800
 $Comp
-L htl_ics:CH340C U?
+L jbc-miniregler-rescue:CH340C-htl_ics U?
 U 1 1 60944AF4
 P 3750 6400
 AR Path="/5F64F622/60944AF4" Ref="U?"  Part="1" 
@@ -89,6 +89,7 @@ AR Path="/5FA85ABF/5F7FB5B8/60944AF4" Ref="U?"  Part="1"
 AR Path="/5F8D661A/60944AF4" Ref="U?"  Part="1" 
 AR Path="/608DBC3C/60930C19/60930D3D/60944AF4" Ref="U?"  Part="1" 
 AR Path="/608DBC3C/60930C19/60944AF4" Ref="U4"  Part="1" 
+AR Path="/60944AF4" Ref="U4"  Part="1" 
 F 0 "U4" H 3350 7000 50  0000 C CNN
 F 1 "CH340C" H 3950 5850 50  0000 C CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 3800 5850 50  0001 L CNN

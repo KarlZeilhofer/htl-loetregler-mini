@@ -66,7 +66,7 @@ F 8 "15" H 2350 5200 50  0001 C CNN "Index"
 	1    0    0    -1  
 $EndComp
 $Comp
-L htl_semiconductors:BZX84Cxx D9
+L jbc-miniregler-rescue:BZX84Cxx-htl_semiconductors D9
 U 1 1 60911C30
 P 2700 5200
 F 0 "D9" V 2654 5279 50  0000 L CNN

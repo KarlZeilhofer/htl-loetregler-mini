@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 10
 Title "HTL Lötregler Mini"
 Date "2021-09-22"
-Rev "21.0.1-dev"
+Rev "21.0.1"
 Comp "HTL Steyr"
 Comment1 "Prof. Karl Zeilhofer et al."
 Comment2 ""

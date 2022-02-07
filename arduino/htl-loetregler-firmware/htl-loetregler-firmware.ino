@@ -31,8 +31,13 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 // A5: SCL (OLED und PCB-Temp-Sensor)
 #define PIN_AIN_Staender    A6
 
-#define SPANNUNG_VOLL (40.0/2)
-#define SPANNUNG_LEER (32.0/2)
+#define DIVISOR 2
+#define SPANNUNG_VOLL (40.0/DIVISOR)
+#define SPANNUNG_LEER (32.0/DIVISOR)
+
+#define MIT_NAMEN
+#define VORNAME "PROF."
+#define NACHNAME "ZEILHOFER"
 
 
 char str[20] = {0};
@@ -70,10 +75,28 @@ void setup() {
   display.print("LOETREGLER MINI");
   display.display();
 
-  delay(500);
+  delay(1000);
+
+#ifdef MIT_NAMEN
+  nameAnzeigen();
+#endif
 
   pinMode(PIN_Heizelement, OUTPUT);
   analogWrite(PIN_Heizelement, 3);
+}
+
+void nameAnzeigen(){
+  display.clearDisplay();
+  display.setCursor(0,0);
+  display.setTextSize(2);
+  display.setTextColor(WHITE);
+  display.print(VORNAME);
+  display.setCursor(0,31-14);
+  display.setTextSize(2);
+  display.print(NACHNAME);
+  display.display();
+
+  delay(1000);
 }
 
 void mainScreen() {
@@ -131,7 +154,8 @@ void mainScreen() {
   // Draw/Print Dynamic Objects:
   {
     // Ist Temperatur
-    tempSpitze = temperaturSpitze();
+    //tempSpitze = temperaturSpitze(); 
+    // tempSpitze wird aus regler() übernommen
     static int32_t sumTemp = 0;
     sumTemp += tempSpitze;
     if (updateCounter <= 0) {
@@ -194,6 +218,7 @@ uint8_t batterieZustand() {
 
 void regler(){
   float stromMesswert;
+
   tempSpitze = temperaturSpitze();
   if ((!standby && (tempSpitze < tempSoll)) ||
       (standby && (tempSpitze < 150))) {
