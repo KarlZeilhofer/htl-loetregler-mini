@@ -7,6 +7,17 @@ V1: erste Version
 V2: korrigierte THT-Aussparungen
 V3: um 1.5mm Versetzte Activ-Energy-Kontakte, ab PCB V21.0.1
 
+## Makita V3: 
+* Ausrichtungsbohrungen für Makita-Schuh V3: d4.4, h1.4
+* Abdeckung für Batteriearretierung um 0.5mm verküzt, damit die Leiterplatte leichter rein passt. 
+
+
+
+# Batterie-Adapter
+## Makita Schuh
+* angepasst auf vorliegenden Makita Akku
+* zusätzlich: Ausrichtungsstutzen, können für alten Gehäuseboden weggefeilt werden: d4, h1
+
 
 # Griffstück
 ## Redesign V2
