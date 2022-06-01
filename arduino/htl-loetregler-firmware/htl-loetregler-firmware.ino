@@ -36,14 +36,15 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 #define SPANNUNG_LEER (32.0/DIVISOR)
 
 #define MIT_NAMEN
-#define VORNAME  "JUSTIN"
-#define NACHNAME "HAUBNER"
+#define VORNAME  "PROF."
+#define NACHNAME "ZEILHOFER"
 
 
 char str[20] = {0};
 uint16_t tempSoll = 330;
 uint16_t tempSpitze = 999;
 bool standby = false;
+uint32_t timeLastTempIncrease = 0;
 
 enum Screen {BootScreen, MainScreen} activeScreen = BootScreen;
 
@@ -70,9 +71,9 @@ void setup() {
   display.setTextSize(2);
   display.setTextColor(WHITE);
   display.print("HTL STEYR");
-  display.setCursor(19,31-7);
+  display.setCursor(0,31-7);
   display.setTextSize(1);
-  display.print("LOETREGLER MINI");
+  display.print("LOETREGLER MINI V0.1");
   display.display();
 
   delay(1000);
@@ -238,6 +239,7 @@ void tasterAuswertung(){
   buttons.readAll();
   if (buttons.up->getEvent() == Button::PressedEvent) {
     tempSoll += 10;
+    timeLastTempIncrease = millis();
   }
   if (buttons.down->getEvent() == Button::PressedEvent) {
     tempSoll -= 10;
@@ -260,6 +262,16 @@ void loop() {
   tasterAuswertung();
   selbsthaltung();
   zeitabschaltung();
+  uebertemperaturwaechter();
+}
+
+// Temperaturen über 330°C werden nur 1 Minute zugelassen
+// Dient dem Schutz des 3D-gedruckten Griffstücks
+void uebertemperaturwaechter()
+{
+  if(millis() > timeLastTempIncrease+60000UL && tempSoll > 330){
+    tempSoll = 330;
+  }
 }
 
 float spannungMessen(uint8_t pin) {
