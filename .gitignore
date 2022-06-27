@@ -27,3 +27,5 @@ fp-info-cache
 *.sch-bak
 
 *.FCStd1
+
+3d/release/
