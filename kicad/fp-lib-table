@@ -1,7 +1,8 @@
 (fp_lib_table
-  (lib (name htl_connectors)(type KiCad)(uri ${HTL_LIB}/footprints/htl_connectors.pretty)(options "")(descr ""))
-  (lib (name htl_mechanical)(type KiCad)(uri ${HTL_LIB}/footprints/htl_mechanical.pretty)(options "")(descr ""))
-  (lib (name htl_modules)(type KiCad)(uri ${HTL_LIB}/footprints/htl_modules.pretty)(options "")(descr ""))
-  (lib (name htl_smd)(type KiCad)(uri ${HTL_LIB}/footprints/htl_smd.pretty)(options "")(descr ""))
-  (lib (name htl_virtual)(type KiCad)(uri ${HTL_LIB}/footprints/htl_virtual.pretty)(options "")(descr ""))
+  (lib (name "htl_connectors")(type "KiCad")(uri "${HTL_LIB}/footprints/htl_connectors.pretty")(options "")(descr ""))
+  (lib (name "htl_mechanical")(type "KiCad")(uri "${HTL_LIB}/footprints/htl_mechanical.pretty")(options "")(descr ""))
+  (lib (name "htl_modules")(type "KiCad")(uri "${HTL_LIB}/footprints/htl_modules.pretty")(options "")(descr ""))
+  (lib (name "htl_smd")(type "KiCad")(uri "${HTL_LIB}/footprints/htl_smd.pretty")(options "")(descr ""))
+  (lib (name "htl_virtual")(type "KiCad")(uri "${HTL_LIB}/footprints/htl_virtual.pretty")(options "")(descr ""))
+  (lib (name "RPi_Pico")(type "KiCad")(uri "${KIPRJMOD}/libs/Rpi Pico/RPi_Pico.pretty")(options "")(descr ""))
 )
