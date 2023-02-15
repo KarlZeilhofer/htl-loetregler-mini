@@ -29,3 +29,5 @@ fp-info-cache
 *.FCStd1
 
 3d/release/
+
+kicad/jbc-miniregler-backups/
