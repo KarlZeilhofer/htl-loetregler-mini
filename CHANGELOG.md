@@ -21,6 +21,15 @@ HTL Lötregler Mini - Changelog
 * 1k zu Referenzspannung hinzugefügt
 * ISP durch SWD ersetzt
 * R9 und R10 durch einen 2k7 Widerstand ersetzt
+* Gatetreiber PN7006A durch TF2101M-TAH ersetzt (Lierferengpass)
+  Minimale Gatespannung ist nun 10V statt bisher 7V. Sonst gleichwertig. 
+* Neue Bestellnummer des Sicherungshalter-Clips
+* Neue Federklemmen: 10A statt 15A, selber Footprint
+* Neue Bestellnummer für Buchsenleiste, OLED
+* Neue Bestellnummer für 2N7002 N-MOS
+* Spannungsreferenz von LM342 2,51 auf LM4040 mit 3,0 V geändert. Das ist die Analogversorgung des ADCs, 
+  der nur optimal bis 3.0V arbeitet, darunter nicht mehr so gut. 
+
 
 ## V21.0.1
 * Überdeckende Footprints noch auseinander gerückt

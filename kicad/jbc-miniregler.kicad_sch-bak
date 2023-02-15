@@ -2641,7 +2641,7 @@
       (reference "D14") (unit 2) (value "BAV99") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-0000608dbc3c/b6d96194-4a41-475d-bb19-023173917b39"
-      (reference "D15") (unit 1) (value "SS210") (footprint "htl_smd:D_SMA_wide")
+      (reference "D?") (unit 1) (value "SS210") (footprint "htl_smd:D_SMA_wide")
     )
     (path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-00006095e63f"
       (reference "F1") (unit 1) (value "Clip 20x5") (footprint "htl_mechanical:fuse-clip_20x5mm")
@@ -2952,9 +2952,6 @@
     (path "/00000000-0000-0000-0000-0000608dbc3c/bc07a1c5-7834-4ea2-acdd-02bb2b4695f2"
       (reference "U6") (unit 1) (value "Pico") (footprint "RPi_Pico:RPi_Pico_SMD")
     )
-    (path "/00000000-0000-0000-0000-0000608dbc3c/7684c68e-18cf-45dc-9229-91b8f89e81aa"
-      (reference "U7") (unit 1) (value "LM4040CIM3-3.0/NOPB") (footprint "Package_TO_SOT_SMD:SOT-23")
-    )
     (path "/00000000-0000-0000-0000-0000608dbc6e/00000000-0000-0000-0000-0000609fa816"
       (reference "U8") (unit 1) (value "TF2101M-TAH") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
@@ -2966,6 +2963,9 @@
     )
     (path "/00000000-0000-0000-0000-0000608dbc55/00000000-0000-0000-0000-000060b56081"
       (reference "U9") (unit 3) (value "GS8332-SR") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/00000000-0000-0000-0000-0000608dbc3c/7684c68e-18cf-45dc-9229-91b8f89e81aa"
+      (reference "U?") (unit 1) (value "LM4040CIM3-3.0/NOPB") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-000060b4da3d"
       (reference "X1") (unit 1) (value "POWER") (footprint "htl_connectors:Federklemme_KF142_3P_P5.08mm_C475145")

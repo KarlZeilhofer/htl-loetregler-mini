@@ -1091,7 +1091,7 @@
     (property "PriceEUR" "0.0029" (id 4) (at 204.47 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DistOrderNr" "C140005" (id 5) (at 204.47 90.17 0)
+    (property "DistOrderNr" "C25392" (id 5) (at 204.47 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Distributor" "LCSC" (id 6) (at 204.47 90.17 0)
