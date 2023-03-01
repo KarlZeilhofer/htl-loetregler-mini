@@ -6,8 +6,8 @@
 
   (title_block
     (title "HTL Lötregler Mini")
-    (date "2021-09-22")
-    (rev "22.0.0-dev")
+    (date "2023-03-01")
+    (rev "22.0.0")
     (company "HTL Steyr")
     (comment 1 "Prof. Karl Zeilhofer et al.")
   )
@@ -2501,6 +2501,9 @@
     )
     (path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060a427ae/ef24c03a-d9df-4b5c-a497-0d7e9323ad39"
       (reference "#PWR0104") (unit 1) (value "GNDPWR") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000608dbc3c/c7a0bfad-bd84-49d8-a2cc-4db087c23b4f"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060b19969"
       (reference "C1") (unit 1) (value "100n/50V") (footprint "Capacitor_SMD:C_1206_3216Metric")

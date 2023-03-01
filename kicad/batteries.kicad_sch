@@ -6,8 +6,8 @@
 
   (title_block
     (title "HTL Lötregler Mini")
-    (date "2021-09-22")
-    (rev "22.0.0-dev")
+    (date "2023-03-01")
+    (rev "22.0.0")
     (company "HTL Steyr")
     (comment 1 "Prof. Karl Zeilhofer et al.")
   )
