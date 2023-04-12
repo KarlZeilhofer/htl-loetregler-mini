@@ -1,5 +1,3 @@
-
-
 #include <stdlib.h>
 #include <time.h>
 #include <SPI.h>
@@ -53,11 +51,20 @@ void setup() {
   selbsthaltung();
 
   // put your setup code here, to run once:
+  
+#if defined(__AVR__)
   analogReference(EXTERNAL); // 2.51V
+  // RPi Pico uses external 3.0V reference
+#endif
 
   Serial.begin(115200);
   delay(100);
   Serial.println("HTL LOETREGLER MINI");
+
+#if !defined(__AVR__)
+  Wire.setSDA(20);
+  Wire.setSCL(21);
+#endif
   Wire.begin();
 
   // SSD1306_SWITCHCAPVCC = generate display voltage from 3.3V internally
@@ -276,7 +283,11 @@ void uebertemperaturwaechter()
 
 float spannungMessen(uint8_t pin) {
   float u = analogRead(pin);
+#if defined(__AVR__)
   u = u * 2.51 / 1024;
+#else
+  u = u * 3.00 / 1024;  
+#endif
   return u;
 }
 
