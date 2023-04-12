@@ -19,6 +19,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 // Taster, siehe button.cpp
 #define PIN_ComTreiber_Enable   9
 
+#ifdef __AVR__
 
 // Externe Referenzspannung 2.51V +/-0.5%
 #define PIN_AIN_UBatt       A0
@@ -29,6 +30,20 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 // A5: SCL (OLED und PCB-Temp-Sensor)
 #define PIN_AIN_Staender    A6
 
+#else
+
+// Externe Referenzspannung 3.00V +/-0.5%
+#define PIN_AIN_UBatt       A0
+#define PIN_AIN_TempSensor  A1
+#define PIN_AIN_Strom       A2
+// TODO
+// A3: unused
+// A4: SDA (OLED und PCB-Temp-Sensor)
+// A5: SCL (OLED und PCB-Temp-Sensor)
+//#define PIN_AIN_Staender    A6
+
+#endif
+
 #define DIVISOR 2
 #define SPANNUNG_VOLL (40.0/DIVISOR)
 #define SPANNUNG_LEER (32.0/DIVISOR)
@@ -36,22 +51,28 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 #define MIT_NAMEN
 #define VORNAME  "PROF."
 #define NACHNAME "ZEILHOFER"
+#define VERSION "0.2" // max. 3 characters!
 
+#define STROMWERTE 100
 
 char str[20] = {0};
 uint16_t tempSoll = 330;
 uint16_t tempSpitze = 999;
 bool standby = false;
+bool forcedShutdown = false;
 uint32_t timeLastTempIncrease = 0;
+float power = 0;
+float uBatt = 0;
 
-enum Screen {BootScreen, MainScreen} activeScreen = BootScreen;
+
+enum Screen {BootScreen, MainScreen, ShutdownScreen} activeScreen = BootScreen;
 
 void setup() {
   pinMode(PIN_Selbsthaltung, OUTPUT);
   selbsthaltung();
 
   // put your setup code here, to run once:
-  
+
 #if defined(__AVR__)
   analogReference(EXTERNAL); // 2.51V
   // RPi Pico uses external 3.0V reference
@@ -74,32 +95,52 @@ void setup() {
   }
 
   display.clearDisplay();
-  display.setCursor(10,0);
   display.setTextSize(2);
   display.setTextColor(WHITE);
-  display.print("HTL STEYR");
-  display.setCursor(0,31-7);
-  display.setTextSize(1);
-  display.print("LOETREGLER MINI V0.1");
   display.display();
-
-  delay(1000);
-
-#ifdef MIT_NAMEN
-  nameAnzeigen();
-#endif
+  delay(500);
 
   pinMode(PIN_Heizelement, OUTPUT);
   analogWrite(PIN_Heizelement, 3);
 }
 
-void nameAnzeigen(){
+void showBanner() {
   display.clearDisplay();
-  display.setCursor(0,0);
+  display.setCursor(10, 0);
+  display.setTextSize(2);
+  display.setTextColor(WHITE);
+  display.print("HTL STEYR");
+#if defined(__AVR__)
+  display.setCursor(0, 31 - 7 - 8);
+  display.setTextSize(1);
+  display.print("LOETREGLER MINI V" VERSION);
+  display.setCursor(0, 31 - 7);
+  display.setTextSize(1);
+  display.print(" ARDUINO NANO");
+#else
+  display.setCursor(0, 31 - 7 - 8);
+  display.setTextSize(1);
+  display.print("LOETREGLER MINI V" VERSION);
+  display.setCursor(0, 31 - 7);
+  display.setTextSize(1);
+  display.print(" RASPBERRY PI PICO");
+#endif
+  display.display();
+
+  delay(2000);
+
+#ifdef MIT_NAMEN
+  nameAnzeigen();
+#endif
+}
+
+void nameAnzeigen() {
+  display.clearDisplay();
+  display.setCursor(0, 0);
   display.setTextSize(2);
   display.setTextColor(WHITE);
   display.print(VORNAME);
-  display.setCursor(0,31-14);
+  display.setCursor(0, 31 - 14);
   display.setTextSize(2);
   display.print(NACHNAME);
   display.display();
@@ -162,7 +203,7 @@ void mainScreen() {
   // Draw/Print Dynamic Objects:
   {
     // Ist Temperatur
-    //tempSpitze = temperaturSpitze(); 
+    //tempSpitze = temperaturSpitze();
     // tempSpitze wird aus regler() übernommen
     static int32_t sumTemp = 0;
     sumTemp += tempSpitze;
@@ -175,23 +216,13 @@ void mainScreen() {
     }
 
     // Soll Temperatur
-
-
     display.setCursor(36, 24);
     display.setTextSize(1);
     sprintf(str, "%d", uint16_t(tempSoll));
     display.print(str);
 
-
-    // Leistung
-    float power = 125;
-    display.setCursor(2, 24);
-    display.setTextSize(1);
-    sprintf(str, "%d", uint16_t(power));
-    display.print(str);
-
     // Batteriespannung
-    float uBatt = spannungBatterie();
+    uBatt = spannungBatterie();
     display.setTextSize(1);
     sprintf(str, "%3d", uint16_t(uBatt * 10));
     display.setCursor(96, 18);
@@ -207,6 +238,12 @@ void mainScreen() {
     for (int x = 0; x < z; x++) {
       display.drawLine(x * 2 + 98, 5, x * 2 + 98, 11, WHITE);
     }
+
+    // Leistung
+    display.setCursor(2, 24);
+    display.setTextSize(1);
+    sprintf(str, "%d", uint16_t(power));
+    display.print(str);
   }
 
   if (updateCounter <= 0) {
@@ -218,31 +255,61 @@ void mainScreen() {
 // 0...100%
 uint8_t batterieZustand() {
   int32_t ret = constrain(
-                  100.0/(SPANNUNG_VOLL-SPANNUNG_LEER)*(spannungBatterie()-SPANNUNG_LEER), 
+                  100.0 / (SPANNUNG_VOLL - SPANNUNG_LEER) * (spannungBatterie() - SPANNUNG_LEER),
                   0, 100);
   Serial.println(ret);
   return ret;
 }
 
-void regler(){
-  float stromMesswert;
+void regler() {
+  static float stromMesswerte[STROMWERTE] = {0};
+  static float strommittel;
+  float stromsumme = 0;
+  static uint8_t dutycycle = 250;
+  static uint8_t cnt = 0;
+  static bool full = false;
 
   tempSpitze = temperaturSpitze();
-  if ((!standby && (tempSpitze < tempSoll)) ||
-      (standby && (tempSpitze < 150))) {
-    analogWrite(PIN_Heizelement, 250); // nicht 100% PWM (=255), damit der Bootstrap-Kondensator nachladen kann!
+  if ((!standby && (tempSpitze < tempSoll)) || (standby && (tempSpitze < 150))) {
+    dutycycle = 250;
+    analogWrite(PIN_Heizelement, dutycycle); // nicht 100% PWM (=255), damit der Bootstrap-Kondensator nachladen kann!
+  } else {
+    dutycycle = 250;
   }
-  if(tempSpitze+80 < tempSoll){
+
+  if (tempSpitze + 80 < tempSoll) {
     // beschleunigtes Heizen
-    delay(100);
-  }else{
+    delay(50);
+  } else {
     delay(10); // max. 10ms durchgehend Heizen
   }
-  stromMesswert = strom();
+
+  stromMesswerte[cnt] = strom();
+
+  if (cnt > STROMWERTE - 1) {
+    if (!full) {
+      full = true;
+    }
+    cnt = 0;
+  } else {
+    cnt++;
+  }
+
+  for (int i = 0; i < STROMWERTE; i++) {
+    stromsumme = stromsumme + stromMesswerte[i];
+  }
+  if (full) {
+    strommittel = stromsumme / STROMWERTE;
+  } else {
+    strommittel = stromsumme / (cnt + 1);
+  }
+
+  power = ((uBatt * dutycycle) / 255) * strommittel;
+
   analogWrite(PIN_Heizelement, 0);
 }
 
-void tasterAuswertung(){
+void tasterAuswertung() {
   buttons.readAll();
   if (buttons.up->getEvent() == Button::PressedEvent) {
     tempSoll += 10;
@@ -276,7 +343,7 @@ void loop() {
 // Dient dem Schutz des 3D-gedruckten Griffstücks
 void uebertemperaturwaechter()
 {
-  if(millis() > timeLastTempIncrease+60000UL && tempSoll > 330){
+  if (millis() > timeLastTempIncrease + 60000UL && tempSoll > 330) {
     tempSoll = 330;
   }
 }
@@ -286,7 +353,7 @@ float spannungMessen(uint8_t pin) {
 #if defined(__AVR__)
   u = u * 2.51 / 1024;
 #else
-  u = u * 3.00 / 1024;  
+  u = u * 3.00 / 1024;
 #endif
   return u;
 }
@@ -297,6 +364,7 @@ void selbsthaltung() {
     digitalWrite(PIN_Selbsthaltung, HIGH);
   } else {
     Serial.println("Unterspannung");
+    forcedShutdown = true;
     abschalten();
   }
 }
@@ -323,10 +391,13 @@ void zeitabschaltung() {
 
 // doesn't return any more, except, if powered by USB
 void abschalten() {
-  if(digitalRead(10) == HIGH){
+  if (digitalRead(10) == HIGH) {
     digitalWrite(PIN_Selbsthaltung, LOW);
     return;
   }
+
+  showBanner();
+
   display.fillRect(0, 0, 128, 32, BLACK);
   display.setTextSize(1);
   display.setCursor(0, 0);
@@ -334,16 +405,30 @@ void abschalten() {
   display.setCursor(0, 10);
   display.print("AUSKUEHLEN...");
   display.display();
-  
-  while (temperaturSpitze() > 60 && temperaturSpitze() < 490){
-    display.fillRect(0,20,128,10, BLACK);
-    display.setCursor(0,20);
+
+  bool reActivate = false;
+  activeScreen = ShutdownScreen;
+  while (!(temperaturSpitze() < 60 || temperaturSpitze() > 490 || (reActivate && !forcedShutdown))) {
+    display.fillRect(0, 20, 128, 10, BLACK);
+    display.setCursor(0, 20);
     sprintf(str, "%d", uint16_t(temperaturSpitze()));
     display.print(str);
     display.display();
-    delay(1000);
+    uint32_t currentTime = millis();
+    while (millis() < currentTime + 1000) {
+      buttons.readAll();
+      if ((buttons.power->getEvent() == Button::PressedEvent)) {
+        reActivate = true;
+      }
+      if (temperaturSpitze() >= 490) {
+        forcedShutdown = true;
+      }
+    }
   }
-  
-  digitalWrite(PIN_Selbsthaltung, LOW);
-  while(1);
+  display.clearDisplay();
+  if (!reActivate) {
+    digitalWrite(PIN_Selbsthaltung, LOW);
+    while (1);
+  }
+
 }
